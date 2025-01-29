@@ -1,0 +1,12 @@
+o comando "git pull" pega as alterações do repositório remotopega as alterações do repositório remoto e as mescla (ou aplica) no seu repositório local.
+Isso é útil quando você quer garantir que está trabalhando com a versão mais recente do código do repositório compartilhado.
+
+o comando "git status" é usado para mostrar o estado atual do seu repositório local
+
+o comando "git add ." é usado para adicionar todas as alterações no diretório de trabalho (inclusive novos arquivos, modificações e exclusões) ao stage do Git.
+Isso significa que, ao executar esse comando, você prepara esses arquivos para serem incluídos no próximo commit.
+
+o comando "git commit -m "Atualizacao""é usado para registrar as alterações que foram adicionadas ao stage (com git add) no histórico do repositório, criando um novo commit.
+
+o comando "git push" é usado para enviar (ou "empurrar") as suas alterações locais para um repositório remoto.
+Ou seja, ele envia os commits que você fez no seu repositório local para o repositório no servidor, para que outros colaboradores possam acessá-los.

@@ -13,3 +13,7 @@ COMANDOS DO GIT (LINUX)
 git config --list = listar alterações feitas
 git config --global user.name "nomedogit" = alterar/adicionar o nome do GIT
 git config --global user.email emaildogithub = alterar/adicionar o email do GIT
+git status = exibe tudo o que foi alterado no git
+git add . = adicionar alterações
+git commit -m "Atualizacao" = comitar atualizações no github
+git pull OU git push = atualizar o diretorio do github

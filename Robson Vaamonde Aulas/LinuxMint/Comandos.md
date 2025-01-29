@@ -16,4 +16,5 @@ git config --global user.email emaildogithub = alterar/adicionar o email do GIT
 git status = exibe tudo o que foi alterado no git
 git add . = adicionar alterações
 git commit -m "Atualizacao" = comitar atualizações no github
-git pull OU git push = atualizar o diretorio do github
+git pull = atualizar o diretorio local
+git push = atualizar o diretorio do github

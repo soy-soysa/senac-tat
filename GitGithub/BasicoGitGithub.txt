@@ -1,0 +1,52 @@
+    1  exit
+    2  help
+    3  cls
+    4  poweroff
+    5  sudo
+    6  sudo apt update
+    7  sudo apt update 
+    8  sudo apt upgrade
+    9  sudo apt upgrade --fix-missing
+   10  sudo apt autoremove
+   11  sudo apt autoclean
+   12  sudo reboot
+   13  curl -fsS https://dl.brave.com/install.sh | sh
+   14  brave-browser
+   15  sudo apt update
+   16  sudo apt install chromium-browser
+   17  sudo apt update
+   18  sudo apt install chromium-browser
+   19  sudo apt-get --fix-broken install
+   20  sudo apt clean
+   21  sudo apt install -f
+   22  sudo dpkg --configure -a
+   23  sudo apt install chromium-browser
+   24  sudo apt-get install -f
+   25  sudo apt install chromium-browser
+   26  sudo apt install chromium
+   27  terminal
+   28  sudo apt update
+   29  sudo apt install git vim vim
+   30  sudo apt install kilourpaint notepadqq vlc audacity kdenlive kazam
+   31  sudo apt install KolourPaint NotepadQQ VLKC Audacity Kdenlive Kazam
+   32  sudo apt install KolourPaint NotepadQQ VLC Audacity Kazam
+   33  sudo apt install kolourpaint notepadqq vlc audacity kazam
+   34  sudo apt install linux-oem-24.04b
+   35  sudo reboot
+   36  uname -a
+   37  history
+   38  sudo apt install linux-oem-24.04b
+   39  sudo reboot
+   40  git
+   41  git config --glocal user.name "Rodrigo Sousa"
+   42  git config --global user.name "Rodrigo Sousa"
+   43  git config --global user.email 
+   44  history
+   45  git config --list
+   46  gi clone https://github.com/s-soys44/senac-tat
+   47  git clone https://github.com/s-soys44/senac-tat 
+   48  exit
+   49  sudo apt get upgrade
+   50  sudo apt-get upgrade
+   51  sudo apt upgrade
+   52  history

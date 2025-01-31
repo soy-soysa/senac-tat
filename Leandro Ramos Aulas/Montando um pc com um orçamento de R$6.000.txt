@@ -1,0 +1,43 @@
+PC 5500 AMD e NVIDIA
+
+Gabinete Mid Tower Rise Mode Glass 06X Frost (ATX, MATX, ITX) 199,99
+Processador AMD Ryzen 7 5700X 1239,00
+Placa Mãe ASUS ROG Strix B550-F 1659,99
+Placa de Vídeo GTX 1660 Super PCYes 1249,00
+SSD Kingston NVME2 1TB 499,99
+2x Memória RAM Kingston Fury Beast 8gb 309,98
+Fonte Cooler Master G500 500w 408,91
+TOTAL: 5566,86
+
+
+PC 5500 AMD E RX
+Gabinete Mid Tower Rise Mode Glass 06X Frost (ATX, MATX, ITX) 199,99
+Processador AMD Ryzen 7 5700X 1239,00
+Placa Mãe ASUS ROG Strix B550-F 1659,99
+Placa de Vídeo RX 6600 CLD 8G ASRock 1479,90
+SSD Kingston NVME2 1TB 499,99
+2x Memória RAM Kingston Fury Beast 8gb 309,98
+Fonte Cooler Master G500 500w 408,91
+TOTAL: 5797,76
+
+
+PC 5500 INTEL E NVIDIA
+Gabinete Mid Tower Rise Mode Glass 06X Frost (ATX, MATX, ITX) 199,99
+Processador Intel Core I5 - 12400F 799,00
+Placa-Mãe Gigabyte Z690M A Elite 2018,79
+Placa de Vídeo GTX 1660 Super PCYes 1249,00
+SSD Kingston NVME2 1TB 499,99
+2x Memória RAM Kingston Fury Beast 8gb 309,98
+Fonte Cooler Master G500 500w 408,91
+TOTAL: 5485,66
+
+
+PC 5500 INTEL E RX
+Gabinete Mid Tower Rise Mode Glass 06X Frost (ATX, MATX, ITX) 199,99
+Processador Intel Core I5 - 12400F 799,00
+Placa-Mãe Gigabyte Z690M A Elite 2018,79
+Placa de Vídeo RX 6600 CLD 8G ASRock 1479,90
+SSD Kingston NVME2 1TB 499,99
+2x Memória RAM Kingston Fury Beast 8gb 309,98
+Fonte Cooler Master G500 500w 408,91
+TOTAL: 5716,56

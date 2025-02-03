@@ -18,6 +18,39 @@ sudo apt install nome-completo-do-aplicativo = instalar um aplicativo
 
 history = histórico de comandos
 
+ls -l = listar os diretorios e arquivos no diretorio atual
+
+ls -lh = transformar o tamanho dos arquivos em bytes em vez de bits
+
+ls -lha = listar TODOS os diretorios e arquivos no diretorio atual (incluindo ocultos)
+(palavra em azul = diretorio) (palavra em branco/cinza = Arquivo) (.palavra com ponto = arquivo/diretorio oculto)
+
+cd = navegar entre os diretorios
+
+pwd = exibe o diretorio atual
+
+cd .. = ir para o diretorio anterior ao atual
+
+mkdir <nome do arquivo>= criar um diretorio
+
+echo <escricao do arquivo> > <tipo do arquivo> = cria um arquivo com algo escrito nele
+
+touch <tipo_do_arquivo> = Cria um arquivo vazio
+
+cat <tipo_do_arquivo> = Abre um arquivo em modo leitura
+
+cat -n <tipo_do_arquivo> = Abre um arquivo em modo leitura e numera as linhas
+
+head -n<00> <tipo_do_arquivo> = lista as <00> primeiras linhas do arquivo
+
+tail -n<00> <tipo_do_arquivo> = lista as <00> ultimas linhas do arquivo
+
+mv <nome do diretorio OU tipo_do_arquivo> <nome do diretorio OU tipo_do_arquivo> = mover um diretorio ou arquivo para outro lugar
+
+nano <tipo_do_arquivo> = editar um arquivo de texto (CTRL + O e ENTER para salvar, CTRL + X para sair)
+
+|(piper) = Separar o comando atual para inserir outro na mesma linha
+
 ---------------------------------------------
 
 COMANDOS DO GIT (LINUX)

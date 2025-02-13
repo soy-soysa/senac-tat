@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Portuguese>
+<General>
+	<General_titleProgram>Gerenciador BXP</General_titleProgram>
+	<General_VersionProgram>Versão</General_VersionProgram>
+	<General_msgErrLoad>O registro do BXP no seu computador não foi encontrado. Para executar o BXP Manager é necessário que o BXP esteja previamente instalado. Por favor, verifique se o BXP foi devidamente instalado.</General_msgErrLoad>
+	<General_statusLockDisk>Bloqueado</General_statusLockDisk>
+	<General_statusUnLockDisk>Desbloqueado</General_statusUnLockDisk>
+</General>
+<FormInit>
+	<FormInit_instructionViewGroups>
+Utilizando essa opção você consegue visualizar os Grupos, os Computadores pertencentes aos Grupos e os Discos associados aos computadores.
+
+INSTRUÇÕES:
+  -> Clique com o botão esquerdo do mouse sobre um grupo para visualizar os computadores pertencentes a este grupo.
+  -> Clique com o botão esquerdo do mouse sobre um computador para visualizar os discos associados a este computador.
+  -> Clique com o botão direito do mouse sobre um computador e escolha a opção *Configurar Computador* para alterar as propriedades deste computador.
+  -> Clique com o botão direito do mouse sobre um disco e escolha a opção *Configurar Disco* para alterar as propriedades deste disco. 
+	</FormInit_instructionViewGroups>
+	<FormInit_instructionAssociateDisks>
+Utilizando essa opção você consegue associar Discos aos Grupos e aos Computadores.
+
+INSTRUÇÕES:
+  -> Clique com o botão direito do mouse sobre um grupo e escolha a opção *Associar Discos ao Grupo* para poder associar Discos a todos os computadores deste grupo de uma só vez. Clique com o botão esquerdo sobre um grupo para visualizar os computadores pertencentes a este grupo.
+  -> Clique com o botão direito do mouse sobre um computador e escolha a opção *Configurar Computador* para associar discos somente a este computador. Clique com o botão esquerdo sobre um computador para visualizar os discos associados a este computador.
+	</FormInit_instructionAssociateDisks>
+	<FormInit_instructionBlockDisks>
+Utilizando essa opção você consegue alterar o status de um disco para bloqueado ou para desbloqueado.
+
+INSTRUÇÕES:
+  -> Clique sobre o campo status de um disco para bloqueá-lo ou desbloqueá-lo.
+  
+  IMPORTANTE: Quando um disco está desbloqueado, é possível instalar novos programas nesse disco e alterar suas configurações, ou seja, qualquer modificação realizada no disco estará sendo gravada.
+	</FormInit_instructionBlockDisks>
+	<FormInit_instructionViewDisks>
+Utilizando essa opção você consegue visualizar os Discos e os Computadores que estão utilizando este disco.
+
+INSTRUÇÕES:
+  -> Clique com o botão esquerdo do mouse sobre um disco para visualizar os computadores que estão utilizando este disco.
+  -> Clique com o botão direito do mouse sobre um disco e escolha a opção *Configurar Disco* para alterar as propriedades deste disco.
+  -> Clique com o botão direito do mouse sobre um computador e escolha a opção *Configurar Computador* para alterar as propriedades deste computador.
+	</FormInit_instructionViewDisks>
+	<FormInit_menu_Actions>Ações</FormInit_menu_Actions>
+	<FormInit_menu_Actions_AssociateDisks>Associar Discos a Grupos / Computadores</FormInit_menu_Actions_AssociateDisks>
+	<FormInit_menu_Actions_BlockDisks>Bloquear / Desbloquear Discos</FormInit_menu_Actions_BlockDisks>
+	<FormInit_menu_View>Visualização</FormInit_menu_View>
+	<FormInit_menu_View_ViewGroups>Grupo->Computador->Disco</FormInit_menu_View_ViewGroups>
+	<FormInit_menu_View_ViewDisks>Disco->Computador</FormInit_menu_View_ViewDisks>
+	<FormInit_menuView_Refresh>Atualizar</FormInit_menuView_Refresh>
+	<FormInit_menu_Languages>Idiomas</FormInit_menu_Languages>
+	<FormInit_menu_Help>Ajuda</FormInit_menu_Help>
+	<FormInit_menu_About>Sobre o Gerenciador BXP</FormInit_menu_About>
+	<FormInit_bar_AssociateDisks>Associar Discos</FormInit_bar_AssociateDisks>
+	<FormInit_bar_AssociateDisks_ToolTip>Associar Discos a Grupos e Computadores</FormInit_bar_AssociateDisks_ToolTip>
+	<FormInit_bar_BlockDisks>Bloquear Discos</FormInit_bar_BlockDisks>
+	<FormInit_bar_BlockDisks_ToolTip>Bloquear / Desbloquear Discos</FormInit_bar_BlockDisks_ToolTip>
+	<FormInit_bar_ViewDisks>Visualizar Discos</FormInit_bar_ViewDisks>
+	<FormInit_bar_ViewDisks_ToolTip>Visualizar Discos->Computadores</FormInit_bar_ViewDisks_ToolTip>
+	<FormInit_bar_ViewGroups>Visualizar Grupos</FormInit_bar_ViewGroups>
+	<FormInit_bar_ViewGroups_ToolTip>Visualizar Grupos->Computadores->Discos</FormInit_bar_ViewGroups_ToolTip>
+</FormInit>
+<FormConfigLanguage>
+	<FormConfigLanguage_title>Idiomas Disponíveis</FormConfigLanguage_title>
+	<FormConfigLanguage_lblMsgExplainSelectLanguage>Selecione um dos idiomas abaixo e clique em *OK* para o Gerenciador BXP utilizá-lo:</FormConfigLanguage_lblMsgExplainSelectLanguage>
+	<FormConfigLanguage_btnClose>Fechar</FormConfigLanguage_btnClose>
+	<FormConfigLanguage_msgErr>Não foi possível configurar o idioma.</FormConfigLanguage_msgErr>
+	<FormConfigLanguage_msgSuccess>Idioma configurado com sucesso!</FormConfigLanguage_msgSuccess>
+</FormConfigLanguage>
+<FormBlockDisk>
+	<FormBlockDisk_title>Bloquear / Desbloquear Discos</FormBlockDisk_title>
+	<FormBlockDisk_TableColumnDisk>Disco</FormBlockDisk_TableColumnDisk>
+	<FormBlockDisk_TableColumnDescription>Descrição</FormBlockDisk_TableColumnDescription>
+	<FormBlockDisk_TableColumnStatus>Status</FormBlockDisk_TableColumnStatus>
+	<FormBlockDisk_msgErr>Não foi possível realizar essa operação.</FormBlockDisk_msgErr>
+	<FormBlockDisk_msgBlockSuccess>Disco Bloqueado com Sucesso.</FormBlockDisk_msgBlockSuccess>
+	<FormBlockDisk_msgUnBlockSuccess>Disco Desbloqueado com Sucesso.</FormBlockDisk_msgUnBlockSuccess>
+	<FormBlockDisk_msgConfirmUnBlock>Essa ação irá desbloquear o disco. Você poderá modificar suas configurações e instalar programas nele, por exemplo. Porém, qualquer modificação realizada no disco afetará todos os computadores que utilizam esse disco. Confirma o desbloqueamento do disco?</FormBlockDisk_msgConfirmUnBlock>
+</FormBlockDisk>
+<FormAssociateDisksToGroup>
+	<FormAssociateDisksToGroup_title>Associar Discos a Grupos</FormAssociateDisksToGroup_title>
+	<FormAssociateDisksToGroup_tabPageDisk>Discos</FormAssociateDisksToGroup_tabPageDisk>
+	<FormAssociateDisksToGroup_lblGroupSelected>Disco Selecionado:</FormAssociateDisksToGroup_lblGroupSelected>
+	<FormAssociateDisksToGroup_lblDisksAvailable>Discos Disponíveis</FormAssociateDisksToGroup_lblDisksAvailable>
+	<FormAssociateDisksToGroup_lblDisksAssociatedToGroup>Discos associados ao Grupo:</FormAssociateDisksToGroup_lblDisksAssociatedToGroup>
+	<FormAssociateDisksToGroup_btnAdd>Adicionar</FormAssociateDisksToGroup_btnAdd>
+	<FormAssociateDisksToGroup_btnRemove>Retirar</FormAssociateDisksToGroup_btnRemove>
+	<FormAssociateDisksToGroup_lblImportant>Importante:</FormAssociateDisksToGroup_lblImportant>
+	<FormAssociateDisksToGroup_lblImportantText>Os discos associados ao grupo valerão para todos os computadores desse grupo. Se, por exemplo,  nenhum disco for associado ao grupo e a opção "Atualizar Discos dos Computadores" for acionada, todos os computadores desse grupo ficarão sem discos associados.</FormAssociateDisksToGroup_lblImportantText>
+	<FormAssociateDisksToGroup_btnUpdateDisks>Atualizar Discos do Grupo</FormAssociateDisksToGroup_btnUpdateDisks>
+	<FormAssociateDisksToGroup_btnCancel>Cancelar</FormAssociateDisksToGroup_btnCancel>
+	<FormAssociateDisksToGroup_TableColumnDisk>Disco</FormAssociateDisksToGroup_TableColumnDisk>
+	<FormAssociateDisksToGroup_TableColumnDescription>Descrição</FormAssociateDisksToGroup_TableColumnDescription>
+	<FormAssociateDisksToGroup_msgErr>Não foi possível realizar essa operação.</FormAssociateDisksToGroup_msgErr>
+	<FormAssociateDisksToGroup_Success>Discos salvos no grupo com sucesso.</FormAssociateDisksToGroup_Success>
+	<FormAssociateDisksToGroup_msgConfirmNoDiskToComputers>Nenhum disco foi associado ao Grupo, confirma essa atualização para todos os computadores do grupo?</FormAssociateDisksToGroup_msgConfirmNoDiskToComputers>
+</FormAssociateDisksToGroup>
+<FormListGroups>
+	<FormListGroups_title>Lista de Grupos</FormListGroups_title>
+	<FormListGroups_gBoxGroupsAvailable>Grupos Disponíveis:</FormListGroups_gBoxGroupsAvailable>
+	<FormListGroups_lblMsgSelectGroup>Selecione um grupo abaixo e clique em OK:</FormListGroups_lblMsgSelectGroup>
+	<FormListGroups_btnCancel>Cancelar</FormListGroups_btnCancel>
+</FormListGroups>
+<FormClientProperty>
+	<FormClientProperty_title>Propriedades do Computador</FormClientProperty_title>
+	<FormClientProperty_lblComputer_Selected>Novo Computador:</FormClientProperty_lblComputer_Selected>
+	<FormClientProperty_lblComputer_New>Computador Selecionado:</FormClientProperty_lblComputer_New>
+	<FormClientProperty_tabPageComputerProperties>Propriedades do Computador</FormClientProperty_tabPageComputerProperties>
+	<FormClientProperty_gBoxComputer>Computador</FormClientProperty_gBoxComputer>
+	<FormClientProperty_gBoxComputerDisks>Discos do Computador</FormClientProperty_gBoxComputerDisks>
+	<FormClientProperty_lblName>Nome:</FormClientProperty_lblName>
+	<FormClientProperty_lblGroup>Grupo:</FormClientProperty_lblGroup>
+	<FormClientProperty_lblDescription>Descrição:</FormClientProperty_lblDescription>
+	<FormClientProperty_lblDisksAvailable>Discos Disponíveis:</FormClientProperty_lblDisksAvailable>
+	<FormClientProperty_lblDisksAssociated>Discos Associados aos Computador:</FormClientProperty_lblDisksAssociated>
+	<FormClientProperty_btnAdd>Adicionar</FormClientProperty_btnAdd>
+	<FormClientProperty_btnRemove>Retirar</FormClientProperty_btnRemove>
+	<FormClientProperty_btnCancel>Cancelar</FormClientProperty_btnCancel>
+	<FormClientProperty_btnApply>Aplicar</FormClientProperty_btnApply>
+	<FormClientProperty_btnDelete>Excluir</FormClientProperty_btnDelete>
+	<FormClientProperty_msgErrSave>Erro ao salvar computador</FormClientProperty_msgErrSave>
+	<FormClientProperty_msgNameBlank>O campo NOME é obrigatório.</FormClientProperty_msgNameBlank>
+	<FormClientProperty_msgSuccessSave>Computador salvo com sucesso.</FormClientProperty_msgSuccessSave>
+	<FormClientProperty_msgConfirmDelete>O Computador será excluído. Deseja continuar?</FormClientProperty_msgConfirmDelete>
+	<FormClientProperty_msgErrDelete>Erro ao excluir Computador</FormClientProperty_msgErrDelete>
+	<FormClientProperty_msgSuccessDelete>Computador excluído com sucesso.</FormClientProperty_msgSuccessDelete>
+	<FormClientProperty_TableColumnDisk>Disco</FormClientProperty_TableColumnDisk>
+	<FormClientProperty_TableColumnDescription>Descrição</FormClientProperty_TableColumnDescription>
+</FormClientProperty>
+<FormDiskProperty>
+	<FormDiskProperty_title>Propriedades do Disco</FormDiskProperty_title>
+	<FormDiskProperty_lblDisco_Selected>Disco Selecionado:</FormDiskProperty_lblDisco_Selected>
+	<FormDiskProperty_lblDisco_New>Novo Disco:</FormDiskProperty_lblDisco_New>
+	<FormDiskProperty_tabPageDiskProperties>Propriedades do Disco</FormDiskProperty_tabPageDiskProperties>
+	<FormDiskProperty_lblDiskName>Disco:</FormDiskProperty_lblDiskName>
+	<FormDiskProperty_lblDescription>Descrição:</FormDiskProperty_lblDescription>
+	<FormDiskProperty_btnCancel>Cancelar</FormDiskProperty_btnCancel>
+	<FormDiskProperty_msgDescriptionBlank>O campo DESCRIÇÃO é obrigatório.</FormDiskProperty_msgDescriptionBlank>
+	<FormDiskProperty_msgErrSave>Não foi possível salvar as alterações do disco.</FormDiskProperty_msgErrSave>
+	<FormDiskProperty_msgSuccessSave>Disco salvo com sucesso.</FormDiskProperty_msgSuccessSave>
+</FormDiskProperty>
+<FormHelpAbout>
+	<FormHelpAbout_title>Sobre o Gerenciador BXP</FormHelpAbout_title>
+	<FormHelpAbout_lblmstech>O BXP é um produto desenvolvido pela Venturcom.
+	
+	A mstech, representante do produto BXP no Brasil, desenvolveu este Gerenciador.
+	
+	Maiores informações: http://www.mstech.com.br
+	</FormHelpAbout_lblmstech>
+	<FormHelpAbout_gBoxWarning>Aviso</FormHelpAbout_gBoxWarning>
+	<FormHelpAbout_lblWarningCopyright>Este programa de computador é protegido por leis de copyright e tratados internacionais. A duplicação ou distribuição desautorizada deste programa, ou parte dele, podem resultar em severas penalidades civis e criminais, e será aplicada a máxima extensão permitida pela lei.</FormHelpAbout_lblWarningCopyright>
+</FormHelpAbout>
+<FormViewGroups>
+	<FormViewGroups_title>Visualização Grupo->Computador->Disco</FormViewGroups_title>
+	<FormViewGroups_itemClientWithoutDisk>Computadores sem Grupo</FormViewGroups_itemClientWithoutDisk>
+	<FormViewGroups_MenuClasse_AssociateDisk>Associar Discos ao Grupo</FormViewGroups_MenuClasse_AssociateDisk>
+	<FormViewGroups_MenuDisk_ConfigDisk>Configurar Disco</FormViewGroups_MenuDisk_ConfigDisk>
+	<FormViewGroups_MenuCliente_ConfigClient>Configurar Computador</FormViewGroups_MenuCliente_ConfigClient>
+	<FormViewGroups_TableColumnGroup>Grupo</FormViewGroups_TableColumnGroup>
+	<FormViewGroups_TableColumnClient>Computador</FormViewGroups_TableColumnClient>
+	<FormViewGroups_TableColumnClientDescription>Descrição</FormViewGroups_TableColumnClientDescription>
+	<FormViewGroups_TableColumnDisk>Disco</FormViewGroups_TableColumnDisk>
+	<FormViewGroups_TableColumnDiskDescription>Descrição</FormViewGroups_TableColumnDiskDescription>
+</FormViewGroups>
+<FormViewDisks>
+	<FormViewDisks_title>Visualização Computador->Disco</FormViewDisks_title>
+	<FormViewDisks_itemComputerWithoutDisk>Computadores sem Discos</FormViewDisks_itemComputerWithoutDisk>
+	<FormViewDisks_MenuDisk_ConfigDisk>Configurar Disco</FormViewDisks_MenuDisk_ConfigDisk>
+	<FormViewDisks_MenuClient_ConfigClient>Configurar Computador</FormViewDisks_MenuClient_ConfigClient>
+	<FormViewDisks_TableColumnClient>Computador</FormViewDisks_TableColumnClient>
+	<FormViewDisks_TableColumnClientDescription>Descrição</FormViewDisks_TableColumnClientDescription>
+	<FormViewDisks_TableColumnDisk>Disco</FormViewDisks_TableColumnDisk>
+	<FormViewDisks_TableColumnDiskDescription>Descrição</FormViewDisks_TableColumnDiskDescription>
+</FormViewDisks>
+<FormConfigIP>
+	<FormConfigIP_title>Configurações - Boot Linux</FormConfigIP_title>
+	<FormConfigIP_tabConfigLinux_IPServidor>IP Servidor</FormConfigIP_tabConfigLinux_IPServidor>
+	<FormConfigIP_tabConfigLinux_Swap>Swap Linux</FormConfigIP_tabConfigLinux_Swap>
+	<FormConfigIP_lbltitleSwap>Arquivo de Swap do Cliente de Boot Remoto Linux</FormConfigIP_lbltitleSwap>
+	<FormConfigIP_lblmsgUpdateSwap>Selecione o tamanho de Swap para os clientes de boot remoto Linux:</FormConfigIP_lblmsgUpdateSwap>
+	<FormConfigIP_Column_Size>Tamanho (MB)</FormConfigIP_Column_Size>
+	<FormConfigIP_btnChangeSwapLinux>Alterar Swap</FormConfigIP_btnChangeSwapLinux>
+	<FormConfigIP_msgFileBlank>É necessário selecionar algum arquivo.</FormConfigIP_msgFileBlank>
+	<FormConfigIP_msgUnzipSuccess>Arquivo de Swap Alterado com sucesso!</FormConfigIP_msgUnzipSuccess>
+	<FormConfigIP_msgUnzipFailed>Falha na alteração do arquivo!</FormConfigIP_msgUnzipFailed>
+	
+	<FormConfigIP_lblChangeIP>Alterando IP do Servidor</FormConfigIP_lblChangeIP>
+	<FormConfigIP_lblmsgExplainChangeIP>Para modificar o IP atualmente utilizado no servidor, digite o novo IP e clique em *Alterar IP*</FormConfigIP_lblmsgExplainChangeIP>
+	<FormConfigIP_lblActualIP>IP atual:</FormConfigIP_lblActualIP>
+	<FormConfigIP_lblNewIP>Novo IP:</FormConfigIP_lblNewIP>
+	<FormConfigIP_Example>Exemplo:</FormConfigIP_Example>
+	<FormConfigIP_btnUpdateIP>Alterar IP</FormConfigIP_btnUpdateIP>
+	<FormConfigIP_btnClose>Fechar</FormConfigIP_btnClose>
+	<FormConfigIP_msgSuccess>Operação realizada com Sucesso.</FormConfigIP_msgSuccess>
+</FormConfigIP>
+<FormNewDisk>
+	<FormNewDisk_title>Novo Disco</FormNewDisk_title>
+	<FormNewDisk_tabPageNewDisk>Novo Disco</FormNewDisk_tabPageNewDisk>
+	<FormNewDisk_lblDiskName>Nome:</FormNewDisk_lblDiskName>
+	<FormNewDisk_lblDescription>Descrição:</FormNewDisk_lblDescription>
+	<FormNewDisk_lblBaseDisk>Disco Base:</FormNewDisk_lblBaseDisk>
+	<FormNewDisk_btnInsert>Inserir</FormNewDisk_btnInsert>
+	<FormNewDisk_btnClose>Fechar</FormNewDisk_btnClose>
+	<FormNewDisk_msgNoBaseDiskAvailable>Nenhum disco base está disponível.</FormNewDisk_msgNoBaseDiskAvailable>
+	<FormNewDisk_msgNameBlank>O campo NOME é obrigatório</FormNewDisk_msgNameBlank>
+	<FormNewDisk_msgNoBaseDiskSelected>É necessário selecionar um disco base para inserir um novo disco.</FormNewDisk_msgNoBaseDiskSelected>
+	<FormNewDisk_msgDescriptionBlank>O campo DESCRIÇÃO é obrigatório.</FormNewDisk_msgDescriptionBlank>
+	<FormNewDisk_msgErrSave>Não foi possível inserir o disco! Verifique se já existe um disco com o mesmo nome.</FormNewDisk_msgErrSave>
+	<FormNewDisk_msgSuccessSave>Disco inserido com sucesso!</FormNewDisk_msgSuccessSave>
+</FormNewDisk>
+
+
+<FormCopyLinuxService>
+	<FormCopyLinuxService_title>Serviços - Boot Remoto Linux</FormCopyLinuxService_title>
+	<FormCopyLinuxService_lblMsgCopy>Você deseja copiar e instalar agora os serviços necessários para o funcionamento do Boot Remoto Linux?</FormCopyLinuxService_lblMsgCopy>
+	<FormCopyLinuxService_cboxLinux_Yes>Sim</FormCopyLinuxService_cboxLinux_Yes>
+	<FormCopyLinuxService_cboxLinux_No>Não</FormCopyLinuxService_cboxLinux_No>
+	<FormCopyLinuxService_btnContinua>Continuar>></FormCopyLinuxService_btnContinua>
+	<FormCopyLinuxService_msgOK>Instalação dos Serviços Realizada com Sucesso!</FormCopyLinuxService_msgOK>
+	<FormCopyLinuxService_msgFailed>Instalação dos Serviços Falhou! Verifique se os serviços já foram instalados anteriormente.</FormCopyLinuxService_msgFailed>
+</FormCopyLinuxService>
+
+</Portuguese>

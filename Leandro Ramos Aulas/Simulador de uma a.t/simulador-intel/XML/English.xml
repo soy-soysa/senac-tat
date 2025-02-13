@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<English>
+	<!--//////////////////////////////////////////////////-->
+	<config>
+		<conf_inicial_score>10000</conf_inicial_score>
+		<conf_loss_score_standard_proc>40</conf_loss_score_standard_proc>
+		<conf_acquired_score_getright_proc>100</conf_acquired_score_getright_proc>
+	</config>
+	<!--//////////////////////////////////////////////////-->
+	<procedures>
+		<procedure_1>
+			<proc_id>H1</proc_id>
+		    <proc_is_hardware>true</proc_is_hardware>
+			<proc_image_path>processor_big.jpg</proc_image_path>
+			<proc_small_image_path>processor_small.jpg</proc_small_image_path>
+		 </procedure_1>
+		 <procedure_2>
+			<proc_id>H2</proc_id>
+		    <proc_is_hardware>true</proc_is_hardware>
+			<proc_image_path>mother_board_big.jpg</proc_image_path>
+			<proc_small_image_path>mother_board_small.jpg</proc_small_image_path>
+		 </procedure_2>
+		 <procedure_3>
+			<proc_id>H3</proc_id>
+		    <proc_is_hardware>true</proc_is_hardware>
+			<proc_image_path>cooler_big.jpg</proc_image_path>
+			<proc_small_image_path>cooler_small.jpg</proc_small_image_path>
+		 </procedure_3>
+		 <procedure_4>
+			<proc_id>H4</proc_id>
+		    <proc_is_hardware>true</proc_is_hardware>
+			<proc_image_path>memory_big.jpg</proc_image_path>
+			<proc_small_image_path>memory_small.jpg</proc_small_image_path>
+		 </procedure_4>
+		  <procedure_5>
+			<proc_id>H5</proc_id>
+		    <proc_is_hardware>true</proc_is_hardware>
+			<proc_image_path>video_board_big.jpg</proc_image_path>
+			<proc_small_image_path>video_board_small.jpg</proc_small_image_path>
+		 </procedure_5>
+		  <procedure_6>
+			<proc_id>H6</proc_id>
+		    <proc_is_hardware>true</proc_is_hardware>
+			<proc_image_path>monitor_big.jpg</proc_image_path>
+			<proc_small_image_path>monitor_small.jpg</proc_small_image_path>
+		 </procedure_6>
+		  <procedure_7>
+			<proc_id>H7</proc_id>
+		    <proc_is_hardware>true</proc_is_hardware>
+			<proc_image_path>fonte_big.jpg</proc_image_path>
+			<proc_small_image_path>fonte_small.jpg</proc_small_image_path>
+		 </procedure_7>
+		  <procedure_8>
+			<proc_id>H8</proc_id>
+		    <proc_is_hardware>true</proc_is_hardware>
+			<proc_image_path>brush_big.jpg</proc_image_path>
+			<proc_small_image_path>brush_small.jpg</proc_small_image_path>
+		 </procedure_8>
+		  <procedure_9>
+			<proc_id>H9</proc_id>
+		    <proc_is_hardware>true</proc_is_hardware>
+			<proc_image_path>hard_disk_big.jpg</proc_image_path>
+			<proc_small_image_path>hard_disk_small.jpg</proc_small_image_path>
+		 </procedure_9>
+		  <procedure_10>
+			<proc_id>H10</proc_id>
+		    <proc_is_hardware>true</proc_is_hardware>
+			<proc_image_path>cd_rom_big.jpg</proc_image_path>
+			<proc_small_image_path>cd_rom_small.jpg</proc_small_image_path>
+		 </procedure_10>
+		  <procedure_11>
+			<proc_id>H11</proc_id>
+		    <proc_is_hardware>true</proc_is_hardware>
+			<proc_image_path>drive_diskette_big.jpg</proc_image_path>
+			<proc_small_image_path>drive_diskette_small.jpg</proc_small_image_path>
+		 </procedure_11>
+		 <procedure_12>
+			<proc_id>S1</proc_id>
+		    <proc_is_hardware>false</proc_is_hardware>
+			<proc_image_path>soft_os_small.jpg</proc_image_path>
+			<proc_small_image_path>soft_os_small.jpg</proc_small_image_path>
+		 </procedure_12>
+		  <procedure_13>
+			<proc_id>S2</proc_id>
+		    <proc_is_hardware>false</proc_is_hardware>
+			<proc_image_path>monitor.jpg</proc_image_path>
+			<proc_small_image_path>monitor.jpg</proc_small_image_path>
+		 </procedure_13>
+		 <procedure_14>
+			<proc_id>S3</proc_id>
+		    <proc_is_hardware>false</proc_is_hardware>
+			<proc_image_path>soft_antivirus_small.jpg</proc_image_path>
+			<proc_small_image_path>soft_antivirus_small.jpg</proc_small_image_path>
+		 </procedure_14>
+		 <procedure_15>
+			<proc_id>S4</proc_id>
+		    <proc_is_hardware>false</proc_is_hardware>
+			<proc_image_path>soft_setup_small.jpg</proc_image_path>
+			<proc_small_image_path>soft_setup_small.jpg</proc_small_image_path>
+		 </procedure_15>
+		 <procedure_16>
+			<proc_id>S5</proc_id>
+		    <proc_is_hardware>false</proc_is_hardware>
+			<proc_image_path>soft_aplly_small.jpg</proc_image_path>
+			<proc_small_image_path>soft_aplly_small.jpg</proc_small_image_path>
+		 </procedure_16>
+		 <!-- até o procecimento 16 -->
+	</procedures>
+	<!--//////////////////////////////////////////////////-->
+	<image_questions>
+		 <image_monitor>
+			<image>
+				<image_id>img1</image_id>
+				<image_path>monitor.jpg</image_path>
+			</image>
+			<image>
+				<image_id>img2</image_id>
+				<image_path>monitor.jpg</image_path>
+			</image>
+		</image_monitor>
+		<!--//////////////-->
+		<image_cabinet>
+			<image>
+				<image_id>img3</image_id>
+				<image_path>pc.jpg</image_path>
+			</image>
+			<image>
+				<image_id>img4</image_id>
+				<image_path>pc.jpg</image_path>
+			</image>
+		</image_cabinet>
+	</image_questions>
+	<!--//////////////////////////////////////////////////-->
+	
+	<defects>
+		<defect1>
+			<right_procedure_id>H7</right_procedure_id>
+			<symptoms>- Ao apertar o botão liga/desliga do gabinete nada acontece. 
+- O computador não liga
+- Nenhum LED do gabinete acende</symptoms>
+			<aditional_information>- Energia fornecida na tomada está normal</aditional_information>
+			<def_apparent_problem_monitor>Nada aparece no monitor, pois o computador não está ligando.</def_apparent_problem_monitor>
+			<id_image_monitor>img1</id_image_monitor>
+			<def_apparent_problem_cabinet>Apesar da fonte de alinentação estar conectada à energia e conectada à placa-mãe, o LED que fica na placa-mãe e indica se há energia está apagado.</def_apparent_problem_cabinet>
+			<id_image_cabinet>img3</id_image_cabinet>
+			<!--/////////-->
+			<procedure>
+			    <proc_id>H1</proc_id>
+				<proc_label>Processador</proc_label>
+				<proc_text>Substituir o Processador por outro compatível.</proc_text>
+				<proc_feedback>Realmente o processador poderia estar queimado, impossibilitando o computador de ligar, mas geralmente, quando isso acontece, a ventoinha da fonte não para de girar e os LEDs do gabinete e da placa-mãe acendem, o que não é o caso.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H2</proc_id>
+				<proc_label>Placa-Mãe</proc_label>
+				<proc_text>Substituir a placa-mãe por outra compatível.</proc_text>
+				<proc_feedback>Realmente a placa-mãe poderia estar queimada, impossibilitando o computador de ligar, mas geralmente, quando isso acontece, a ventoinha da fonte não para de girar e os LEDs do gabinete acendem, o que não é o caso.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H3</proc_id>
+				<proc_label>Cooler do Processado</proc_label>
+				<proc_text>Substituir o Cooler do Processador.</proc_text>
+				<proc_feedback>Muito dificilmente um cooler de processador queimado poderia impossibilitar o computador de ligar normalmente.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H4</proc_id>
+				<proc_label>Memória Ram</proc_label>
+				<proc_text>Substituir pentes de memória RAM por outros compatíveis.</proc_text>
+				<proc_feedback>Muito dificilmente uma memória RAM queimada poderia impossibilitar o computador de ligar, os LEDS do gabinete acenderem e a ventoinha da fonte girar.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H5</proc_id>
+				<proc_label>Placa de Vídeo</proc_label>
+				<proc_text>Substituir a Placa de vídeo por outra off-board compatível.</proc_text>
+				<proc_feedback>Dificilmente uma placa de vídeo queimada poderia impossibilitar o computador de ligar, os LEDS do gabinete acenderem e a ventoinha da fonte girar.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H6</proc_id>
+				<proc_label>Monitor</proc_label>
+				<proc_text>Substituir o monitor de vídeo por outro.</proc_text>
+				<proc_feedback>É quase impossível um periférico como o monitor de vídeo interferir no funcionamento do computador.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H7</proc_id>
+				<proc_label>Fonte de Alimentação</proc_label>
+				<proc_text>Substituir a fonte de alimentação por outra compatível.</proc_text>
+				<proc_feedback>Muito Bem! Você encontrou o defeito. A fonte de alimentação estava queimada e como é ela que fornece energia para todos os componentes internos do computador, quando ela não funciona, nem mesmo um pequeno led do gabinete poderia acender.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H8</proc_id>
+				<proc_label>Pincel</proc_label>
+				<proc_text>Fazer uma limpeza em todos os componentes internos para eliminar mau-contatos.</proc_text>
+				<proc_feedback>Realmente, um mau contato no conector da fonte que é ligado à placa-mãe poderia causar um defeito com os mesmos sintomas. Mas você limpou os contatos e encaixou novamente os conectores e o defeito continua. </proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H9</proc_id>
+				<proc_label>Disco Rídigo</proc_label>
+				<proc_text>Susbstituir o Disco Rígido por outro.</proc_text>
+				<proc_feedback>Realmente o Disco Rígido poderia estar queimado, impossibilitando o computador de ligar, mas geralmente, quando isso acontece, a ventoinha da fonte não para de girar e os LEDs do gabinete e da placa-mãe acendem, o que não é o caso.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H10</proc_id>
+				<proc_label>Drive de CD-Rom</proc_label>
+				<proc_text>Susbstituir o Drive de CD-ROM por outro.</proc_text>
+				<proc_feedback>Realmente o Drive de CD-ROM poderia estar queimado, impossibilitando o computador de ligar, mas geralmente, quando isso acontece, a ventoinha da fonte não para de girar e os LEDs do gabinete e da placa-mãe acendem, o que não é o caso.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H11</proc_id>
+				<proc_label>Drive de Disquete</proc_label>
+				<proc_text>Susbstituir o Drive de Disquete por outro.</proc_text>
+				<proc_feedback>Realmente o Drive de disquete poderia estar queimado, impossibilitando o computador de ligar, mas geralmente, quando isso acontece, a ventoinha da fonte não para de girar e os LEDs do gabinete e da placa-mãe acendem, o que não é o caso.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S1</proc_id>
+				<proc_label>Reinstalação do Sistema Operacional</proc_label>
+				<proc_text>Reinstalar o Sistema Operacional.</proc_text>
+				<proc_feedback>É impossível um problema no Sistema Operacional impedir o computador de ligar, pois o SO só começa a funcionar depois que o computador é ligado.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S2</proc_id>
+				<proc_label>Reinstalação dos drivers dos dispositivos</proc_label>
+				<proc_text>Reinstalar drivers dos dispositivos.</proc_text>
+				<proc_feedback>É impossível um problema em algum driver de qualquer dispositivo impedir o computador de ligar.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S3</proc_id>
+				<proc_label>Verificação de Vírus</proc_label>
+				<proc_text>Verificar e remover vírus de computador.</proc_text>
+				<proc_feedback>É impossível um vírus de computador impedir o computador de ligar, pois o vírus só começa a agir depois que o Sistema Operacional é carregado.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S4</proc_id>
+				<proc_label>Configuração do SETUP</proc_label>
+				<proc_text>Configurar opcões do Setup.</proc_text>
+				<proc_feedback>É impossível uma configuração do Setup impedir o computador de ligar.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S5</proc_id>
+				<proc_label>Reinstalação do Programa Aplicativo</proc_label>
+				<proc_text>Reinstalar Programas Aplicativos.</proc_text>
+				<proc_feedback>É impossível um programa de computador impedir o computador de ligar, pois os programas só começam a funcionar depois que o Sistema Operacional é carregado.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			 <!-- até o procecimento 16 -->
+		</defect1>
+		<!--/////////-->
+		<defect2>
+			<right_procedure_id>H5</right_procedure_id>
+			<symptoms>- Durante a utilização do computador, as imagens perdem a definição. 
+- Às vezes aparecem barras verticais na tela e cores estranhas.</symptoms>
+			<aditional_information></aditional_information>
+			<def_apparent_problem_monitor>O defeito acontece com mais frequência quando o usuário utiliza programas que utilizam mais os recursos de vídeo, como jogos e programas de edição de imagens</def_apparent_problem_monitor>
+			<id_image_monitor>img2</id_image_monitor>
+			<def_apparent_problem_cabinet>Apesar da fonte de alimentação estar conectada à energia e conectada à placa-mãe, o LED que fica na placa-mãe e indica se há energia está apagado</def_apparent_problem_cabinet>
+			<id_image_cabinet>img4</id_image_cabinet>
+			<procedure>
+			    <proc_id>H1</proc_id>
+				<proc_label>Processador</proc_label>
+				<proc_text>Substituir o Processador por outro compatível.</proc_text>
+				<proc_feedback>Muito dificilmente um  processador com problemas ocasionaria problemas na exbição de imagens.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H2</proc_id>
+				<proc_label>Placa-Mãe</proc_label>
+				<proc_text>Substituir a placa-mãe por outra compatível.</proc_text>
+				<proc_feedback>O problema não está na placa-mãe. Porém, apesar de ser muito difícil, um problema na placa-mãe pode até provocar problemas na exibição de imagens.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H3</proc_id>
+				<proc_label>Cooler do Processado</proc_label>
+				<proc_text>Substituir o Cooler do Processador.</proc_text>
+				<proc_feedback>Muito dificilmente um cooler de processador queimado poderia causar problemas na exibição de imagens.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H4</proc_id>
+				<proc_label>Memória Ram</proc_label>
+				<proc_text>Substituir pentes de memória RAM por outros compatíveis.</proc_text>
+				<proc_feedback>O problema não está na memória RAM. Porém, apesar de ser difícil, um problema na memória pode até provocar problemas na exibição de imagens.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H5</proc_id>
+				<proc_label>Placa de Vídeo</proc_label>
+				<proc_text>Substituir a Placa de vídeo por outra off-board compatível.</proc_text>
+				<proc_feedback>Parabéns! Você encontrou o defeito. A placa de vídeo está com problemas ocasionando distorções na geração de imagens. Ela não está totalmente defeituosa, por isso, apesar das distorções o usuário conseguia enxergar as telas dos programas.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H6</proc_id>
+				<proc_label>Monitor</proc_label>
+				<proc_text>Substituir o monitor de vídeo por outro.</proc_text>
+				<proc_feedback>Realmente, um problema no monitor, ou no cabo de dados do monitor poderia causar distorções na imagem. Mas neste caso, você trocou o monitor e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H7</proc_id>
+				<proc_label>Fonte de Alimentação</proc_label>
+				<proc_text>Substituir a fonte de alimentação por outra compatível.</proc_text>
+				<proc_feedback>É quase impossível a fonte de alimentação causar um problema de distorção na imagem, pois sua função não está relacionada diretamente à geração de imagens.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H8</proc_id>
+				<proc_label>Pincel</proc_label>
+				<proc_text>Fazer uma limpeza em todos os componentes internos para eliminar mau-contatos.</proc_text>
+				<proc_feedback>Realmente, é muito comum um mau contato e acúmulo de poeria nos contatos da placa de vídeo off-board causarem um defeito com os mesmos sintomas. Mas você limpou os contatos e encaixou novamente os conectores e placas e o defeito continua.  </proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H9</proc_id>
+				<proc_label>Disco Rídigo</proc_label>
+				<proc_text>Susbstituir o Disco Rígido por outro.</proc_text>
+				<proc_feedback>É quase impossível um problema no HD causar defeito nas imagens, pois sua função não está relacionada diretamente à geração de imagens.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H10</proc_id>
+				<proc_label>Drive de CD-Rom</proc_label>
+				<proc_text>Susbstituir o Drive de CD-ROM por outro.</proc_text>
+				<proc_feedback>É quase impossível um problema no drive de CD-ROM causar defeito nas imagens, pois sua função não está relacionada diretamente à geração de imagens.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H11</proc_id>
+				<proc_label>Drive de Disquete</proc_label>
+				<proc_text>Susbstituir o Drive de Disquete por outro.</proc_text>
+				<proc_feedback>É quase impossível um problema no drive de disquete causar defeito nas imagens, pois sua função não está relacionada diretamente à geração de imagens.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S1</proc_id>
+				<proc_label>Reinstalação do Sistema Operacional</proc_label>
+				<proc_text>Reinstalar o Sistema Operacional.</proc_text>
+				<proc_feedback>Uma configuração errada na resolução ou frequencia de vídeo pode causar problemas na exibição de imagens, mas geralmente quando isso acontece a imagem fica totalmente distorcida e não com algumas falhas como é o caso. Além disso, quando há um erro na configuração de vídeo, basta configurar na resolução correta para o monitor e não reinstalar o Sistema Operacional</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S2</proc_id>
+				<proc_label>Reinstalação dos drivers dos dispositivos</proc_label>
+				<proc_text>Reinstalar drivers dos dispositivos.</proc_text>
+				<proc_feedback>Um driver errado da placa de vídeo ou um problema no driver da placa de vídeo podem até causar um problemas na exibição da imagem, mas muito dificilmente causar um problema de distorção de imagem.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S3</proc_id>
+				<proc_label>Verificação de Vírus</proc_label>
+				<proc_text>Verificar e remover vírus de computador.</proc_text>
+				<proc_feedback>Realmente, um vírus de computador poderia causar um problema de distorção das imagens. Mas neste caso, não existe nenhum vírus em seu computador.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S4</proc_id>
+				<proc_label>Configuração do SETUP</proc_label>
+				<proc_text>Configurar opcões do Setup.</proc_text>
+				<proc_feedback>É quase impossível uma configuração errada do Setup relacionada a placa de vídeo causar um problema de distorção na imagem.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S5</proc_id>
+				<proc_label>Reinstalação do Programa Aplicativo</proc_label>
+				<proc_text>Reinstalar Programas Aplicativos.</proc_text>
+				<proc_feedback>É quase impossível um programa de computador causar problemas de distorção de imagens. Além disso, o problema está acontecendo durante a utilização de vários programas e não em um programa específico.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			 <!-- até o procecimento 16 -->
+		</defect2>
+		<!--/////////-->
+		<defect3>
+			<right_procedure_id>S1</right_procedure_id>
+			<symptoms>Ao tentar carregar o sistema operacional o computador apresenta a mensagem "Disco sem sistema ou defeituoso".</symptoms>
+			<aditional_information>O computador estava funcionando normalmente quando de repente parou de carregar o SO e começou a apresentar a mensagem de erro.</aditional_information>
+			<def_apparent_problem_monitor>Nenhum problema aparente além da mensagem de erro já descrita.</def_apparent_problem_monitor>
+			<id_image_monitor>img2</id_image_monitor>
+			<def_apparent_problem_cabinet>Nenhum problema aparente encontrado nos componentes internos do gabinete.  Todos os cabos e conexões estão perfeitas.</def_apparent_problem_cabinet>
+			<id_image_cabinet>img4</id_image_cabinet>
+			<procedure>
+			    <proc_id>H1</proc_id>
+				<proc_label>Processador</proc_label>
+				<proc_text>Substituir o Processador por outro compatível.</proc_text>
+				<proc_feedback>É quase impossível um processador com problemas causar um erro no carregamento do sistema operacional.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H2</proc_id>
+				<proc_label>Placa-Mãe</proc_label>
+				<proc_text>Substituir a placa-mãe por outra compatível.</proc_text>
+				<proc_feedback>Boa tentativa. Um problema na interface IDE da placa-mãe (aquela onde vai conectado o cabo de dados que sai dos HDs e Drives de CD) poderia causar uma falha na leitura do HD e consequentemente um erro ao carregar o SO. Mas se esse fosse o problema, provavelmente o computador acusaria a falta do HD no autoteste (POST) como se o HD estivesse desconectado.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H3</proc_id>
+				<proc_label>Cooler do Processado</proc_label>
+				<proc_text>Substituir o Cooler do Processador.</proc_text>
+				<proc_feedback>É quase impossível um cooler de processador queimado causar problemas no carregamento do SO.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H4</proc_id>
+				<proc_label>Memória Ram</proc_label>
+				<proc_text>Substituir pentes de memória RAM por outros compatíveis.</proc_text>
+				<proc_feedback>O problema não está na memória RAM. Porém, apesar de ser difícil, um problema na memória pode até provocar problemas na exibição de imagens.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H5</proc_id>
+				<proc_label>Placa de Vídeo</proc_label>
+				<proc_text>Substituir a Placa de vídeo por outra off-board compatível.</proc_text>
+				<proc_feedback>É praticamente impossível um defeito na placa de vídeo causar um erro no carregamento do SO.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H6</proc_id>
+				<proc_label>Monitor</proc_label>
+				<proc_text>Substituir o monitor de vídeo por outro.</proc_text>
+				<proc_feedback>É impossível um defeito no monitor de vídeo causar problemas de carregamento do SO.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H7</proc_id>
+				<proc_label>Fonte de Alimentação</proc_label>
+				<proc_text>Substituir a fonte de alimentação por outra compatível.</proc_text>
+				<proc_feedback>É muito difícil um problema na fonte de alimentação causar problemas de carregamento do SO. Apesar de ser muito difícil, se ela não estiver alimentando corretamente o HD, o SO pode não ser carregado e apresentar a mensagem de erro. Mas neste caso, a fonte não é o problema.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H8</proc_id>
+				<proc_label>Pincel</proc_label>
+				<proc_text>Fazer uma limpeza em todos os componentes internos para eliminar mau-contatos.</proc_text>
+				<proc_feedback>Boa tentativa. Um mau contato causado por acúmulo de poeria nos contatos entre o HD e a placa-mãe poderia causar um erro de leitura no HD, impedindo o carregamento do SO. Mas se esse fosse o problema, provavelmente o computador acusaria a falta do HD no autoteste (POST) como se o HD estivesse desconectado.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H9</proc_id>
+				<proc_label>Disco Rídigo</proc_label>
+				<proc_text>Susbstituir o Disco Rígido por outro.</proc_text>
+				<proc_feedback>Realmente o HD poderia estar com algum problema no setor 0 (setor de boot) ocasionando a falha no carregamento do SO. Mas neste caso, o problema não está no HD. Além disso, existe um outros procedimento que você deve tentar antes de trocar o HD.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H10</proc_id>
+				<proc_label>Drive de CD-Rom</proc_label>
+				<proc_text>Susbstituir o Drive de CD-ROM por outro.</proc_text>
+				<proc_feedback>É quase impossível um problema no drive de CD-ROM causar defeito no carregamento do SO.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H11</proc_id>
+				<proc_label>Drive de Disquete</proc_label>
+				<proc_text>Susbstituir o Drive de Disquete por outro.</proc_text>
+				<proc_feedback>É quase impossível um problema no drive de disquete causar defeito no carregamento do SO. </proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S1</proc_id>
+				<proc_label>Reinstalação do Sistema Operacional</proc_label>
+				<proc_text>Reinstalar o Sistema Operacional.</proc_text>
+				<proc_feedback>Muito Bem! Você descobriu o defeito. Algum arquivo do SO necessário ao carregamento do sistema foi apagado ou danificado por mau uso ou até mesmo um vírus. Ao reinstalar o SO foram gravados no HD novo arquivos necessários ao boot e o problema foi resolvido </proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S2</proc_id>
+				<proc_label>Reinstalação dos drivers dos dispositivos</proc_label>
+				<proc_text>Reinstalar drivers dos dispositivos.</proc_text>
+				<proc_feedback>Neste caso seria impossível um driver de algum dispositivo causar o problema, pois os drives começam a funcionar depois que o Sistema Operacional é carregado e o defeito está acontecendo antes do carregamento do SO.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S3</proc_id>
+				<proc_label>Verificação de Vírus</proc_label>
+				<proc_text>Verificar e remover vírus de computador.</proc_text>
+				<proc_feedback>Realmente, um vírus de computador pode danificar ou até mesmo apagar os arquivos do SO responsáveis pelo carregamento do sistema. Mas, neste caso, você nem conseguiria utilizar o programa antivirus porque o SO nem está sendo carregado.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S4</proc_id>
+				<proc_label>Configuração do SETUP</proc_label>
+				<proc_text>Configurar opcões do Setup.</proc_text>
+				<proc_feedback>Realmente, uma configuração errada do HD no setup poderia causar erro no carregamento do SO, mas neste caso não há nada de errado no setup.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S5</proc_id>
+				<proc_label>Reinstalação do Programa Aplicativo</proc_label>
+				<proc_text>Reinstalar Programas Aplicativos.</proc_text>
+				<proc_feedback>É impossível um programa de computador causar um problema no carregamento do SO, pois os programas aplicativos só começam a funcionar depois que o SO já está totalmente carregado.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			 <!-- até o procecimento 16 -->
+		</defect3>
+	</defects>
+	<!--//////////////////////////////////////////////////-->
+	<global_texts>
+		<text1>SYMPTOMS</text1>
+		<text2>ADDITIONAL INFORMATION</text2>
+		<text3>LANGUAGES</text3>
+		<text4>FEEDBACK</text4>
+		<text5>DESCRIPTION</text5>
+		<texto6>PROCEDURE</texto6>
+		<texto7>APPARENT PROBLEM</texto7>
+		<text8>SCORE</text8>
+		<text9>DEFECT</text9>
+		<text10>ON</text10>
+		<text11>OFF</text11>
+		<text12>Você não pode executar um processo de hardware com o computador ligado.</text12>
+		<text13>Você não pode executar um processo de software com o computador desligado.</text13>
+		<text14>ABOUT</text14>
+		<text15>EXIT</text15>
+		<text16>Parabéns, por ter consertado esse defeito, você acaba de ganhar uma peça de seu computador virtual.</text16>
+		<text17>Você recebeu a placa mãe.</text17>
+		<text18>HARDWARE</text18>
+		<text19>SOFTWARE</text19>
+		<text20>INSTRUCTIONS</text20>
+		<text21>Clique sobre o monitor ou o gabinetedo computador para visualizar o que está acontecendo com eles e poder iniciar a sua busca pelo defeito.</text21>
+		<text22>INSTALANDO O SISTEMA OPERACIONAL</text22>
+		<text23>SISTEMA OPERACIONAL INSTALADO</text23>
+		<texto24>O JOGO TERMINOU, VOCÊ MARCOU</texto24>
+		<texto25>PONTOS</texto25>
+	</global_texts>
+	<!--///////////////////////////////////-->
+	<computer>
+		<piece>um disco rígido</piece>
+		<piece>uma memória</piece>
+		<piece>um mouse</piece>
+		<piece>um teclado</piece>
+		<piece>caixas de som</piece>
+		<piece>um monitor</piece>
+		<piece>um gabinete</piece>
+		<piece>um estabilizador</piece>
+		<piece>uma placa mãe</piece>
+		<piece>um processador com cooler</piece>
+		<piece>um sistema operacional</piece>
+		<piece>uma placa de rede</piece>
+		<piece>um drive de disquete</piece>
+		<piece>um drive de CD</piece>
+		<piece>uma fonte de alimentação</piece>
+	</computer>
+	<!--//////////////////////////////////////////////////-->
+</English>

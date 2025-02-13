@@ -1,0 +1,2700 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Portuguese>
+	<!--//////////////////////////////////////////////////-->
+	<config>
+		<conf_inicial_score>10000</conf_inicial_score>
+		<conf_loss_score_standard_proc>40</conf_loss_score_standard_proc>
+		<conf_acquired_score_getright_proc>100</conf_acquired_score_getright_proc>
+		<!--/////-->
+		<level_1>9000</level_1>
+		<level_2>10300</level_2>
+		<warning_1>SUA PONTUAÇÃO PODERIA TER SIDO MELHOR, REVEJA O CONTEÚDO DO CURSO E NÃO DESANIME. AFINAL, VOCÊ AINDA ESTÁ APRENDENDO.</warning_1>
+		<warning_2>MUITO BEM, MAS VOCÊ AINDA PODE MELHORAR. ESTUDE MAIS PARA SER UM ÓTIMO ALUNO TÉCNICO.</warning_2>
+		<warning_3>PARABÉNS, ÓTIMA PONTUAÇÃO. CONTINUE ESTUDANDO E VOCÊ SERÁ UM ÓTIMO ALUNO TÉCNICO.</warning_3>
+	</config>
+	<!--//////////////////////////////////////////////////-->
+	<procedures>
+		<procedure_1>
+			<proc_id>H1</proc_id>
+		    <proc_is_hardware>true</proc_is_hardware>
+			<proc_image_path>processor_big.jpg</proc_image_path>
+			<proc_small_image_path>processor_small.jpg</proc_small_image_path>
+		 </procedure_1>
+		 <procedure_2>
+			<proc_id>H2</proc_id>
+		    <proc_is_hardware>true</proc_is_hardware>
+			<proc_image_path>mother_board_big.jpg</proc_image_path>
+			<proc_small_image_path>mother_board_small.jpg</proc_small_image_path>
+		 </procedure_2>
+		 <procedure_3>
+			<proc_id>H3</proc_id>
+		    <proc_is_hardware>true</proc_is_hardware>
+			<proc_image_path>cooler_big.jpg</proc_image_path>
+			<proc_small_image_path>cooler_small.jpg</proc_small_image_path>
+		 </procedure_3>
+		 <procedure_4>
+			<proc_id>H4</proc_id>
+		    <proc_is_hardware>true</proc_is_hardware>
+			<proc_image_path>memory_big.jpg</proc_image_path>
+			<proc_small_image_path>memory_small.jpg</proc_small_image_path>
+		 </procedure_4>
+		  <procedure_5>
+			<proc_id>H5</proc_id>
+		    <proc_is_hardware>true</proc_is_hardware>
+			<proc_image_path>video_board_big.jpg</proc_image_path>
+			<proc_small_image_path>video_board_small.jpg</proc_small_image_path>
+		 </procedure_5>
+		  <procedure_6>
+			<proc_id>H6</proc_id>
+		    <proc_is_hardware>true</proc_is_hardware>
+			<proc_image_path>monitor_big.jpg</proc_image_path>
+			<proc_small_image_path>monitor_small.jpg</proc_small_image_path>
+		 </procedure_6>
+		  <procedure_7>
+			<proc_id>H7</proc_id>
+		    <proc_is_hardware>true</proc_is_hardware>
+			<proc_image_path>fonte_big.jpg</proc_image_path>
+			<proc_small_image_path>fonte_small.jpg</proc_small_image_path>
+		 </procedure_7>
+		  <procedure_8>
+			<proc_id>H8</proc_id>
+		    <proc_is_hardware>true</proc_is_hardware>
+			<proc_image_path>brush_big.jpg</proc_image_path>
+			<proc_small_image_path>brush_small.jpg</proc_small_image_path>
+		 </procedure_8>
+		  <procedure_9>
+			<proc_id>H9</proc_id>
+		    <proc_is_hardware>true</proc_is_hardware>
+			<proc_image_path>hard_disk_big.jpg</proc_image_path>
+			<proc_small_image_path>hard_disk_small.jpg</proc_small_image_path>
+		 </procedure_9>
+		  <procedure_10>
+			<proc_id>H10</proc_id>
+		    <proc_is_hardware>true</proc_is_hardware>
+			<proc_image_path>cd_rom_big.jpg</proc_image_path>
+			<proc_small_image_path>cd_rom_small.jpg</proc_small_image_path>
+		 </procedure_10>
+		  <procedure_11>
+			<proc_id>H11</proc_id>
+		    <proc_is_hardware>true</proc_is_hardware>
+			<proc_image_path>drive_diskette_big.jpg</proc_image_path>
+			<proc_small_image_path>drive_diskette_small.jpg</proc_small_image_path>
+		 </procedure_11>
+		  <procedure_12>
+			<proc_id>S1</proc_id>
+		    <proc_is_hardware>false</proc_is_hardware>
+			<proc_small_image_path>soft_os_small.jpg</proc_small_image_path>
+		 </procedure_12>
+		  <procedure_13>
+			<proc_id>S2</proc_id>
+		    <proc_is_hardware>false</proc_is_hardware>
+			<proc_small_image_path>soft_drivers_small.jpg</proc_small_image_path>
+		 </procedure_13>
+		 <procedure_14>
+			<proc_id>S3</proc_id>
+		    <proc_is_hardware>false</proc_is_hardware>
+			<proc_small_image_path>soft_antivirus_small.jpg</proc_small_image_path>
+		 </procedure_14>
+		 <procedure_15>
+			<proc_id>S4</proc_id>
+		    <proc_is_hardware>false</proc_is_hardware>
+			<proc_small_image_path>soft_setup_small.jpg</proc_small_image_path>
+		 </procedure_15>
+		 <procedure_16>
+			<proc_id>S5</proc_id>
+		    <proc_is_hardware>false</proc_is_hardware>
+			<proc_small_image_path>soft_aplly_small.jpg</proc_small_image_path>
+		 </procedure_16>
+	</procedures>
+	<!--//////////////////////////////////////////////////-->
+	<!-- estas imagens estão na pasta "images"-->
+	<!-- nos defeitos, referencie a partir do campo image_id-->
+	<image_questions>
+		 <image_monitor>
+		 	<image>
+				<image_id>monitor1</image_id>
+				<image_path>error_so.jpg</image_path>
+			</image>
+			<image>
+				<image_id>monitor2</image_id>
+				<image_path>teste_defeito_monitor.swf</image_path>
+			</image>
+			<image>
+				<image_id>monitor3</image_id>
+				<image_path>erro_acesso_disquete.jpg</image_path>
+			</image>
+			<image>
+				<image_id>monitor4</image_id>
+				<image_path>erro_cdrom.jpg</image_path>
+			</image>
+			<image>
+				<image_id>monitor5</image_id>
+				<image_path>erro_HD.jpg</image_path>
+			</image>
+			<image>
+				<image_id>monitor6</image_id>
+				<image_path>Pau_HD.jpg</image_path>
+			</image>
+			<image>
+				<image_id>monitor7</image_id>
+				<image_path>sem_disquete.jpg</image_path>
+			</image>
+			<image>
+				<image_id>monitor8</image_id>
+				<image_path>16bits.jpg</image_path>
+			</image>
+			<image>
+				<image_id>monitor9</image_id>
+				<image_path>defeito monitor_Trava.swf</image_path>
+			</image>
+			<image>
+				<image_id>monitor10</image_id>
+				<image_path>defeito monitor_aplicativo.swf</image_path>
+			</image>
+			<image>
+				<image_id>monitor11</image_id>
+				<image_path>monitor_off.jpg</image_path>
+			</image>
+		</image_monitor>
+		<!--//////////////-->
+		<image_cabinet>
+			<image>
+				<image_id>cabinet1</image_id>
+				<image_path>cabinet_1.jpg</image_path>
+			</image>
+			<image>
+				<image_id>cabinet2</image_id>
+				<image_path>cabinet_2.jpg</image_path>
+			</image>
+		</image_cabinet>
+	</image_questions>
+	<!--//////////////////////////////////////////////////-->
+	<!--//////////////////////////////////////////////////-->
+	<!--GLOBAL TEXTS-->
+	<global_texts>
+		<text1>SINTOMAS</text1>
+		<text2>INFORMAÇÕES ADICIONAIS</text2>
+		<text3>IDIOMAS</text3>
+		<text4>FEEDBACK</text4>
+		<text5>DESCRIÇÃO</text5>
+		<texto6>PROCEDIMENTO</texto6>
+		<texto7>PROBLEMA APARENTE</texto7>
+		<text8>PONTOS</text8>
+		<text9>DEFEITO</text9>
+		<text10>LIGADO</text10>
+		<text11>DESLIGADO</text11>
+		<text12>Você não pode executar um processo de hardware com o computador ligado.
+		Clique no botão ligar/desligar.</text12>
+		<text13>Você não pode executar um processo de software com o computador desligado.
+		Clique no botão ligar/desligar.</text13>
+		<text14>SOBRE</text14>
+		<text15>SAIR</text15>
+		<text16>Parabéns, por ter consertado esse defeito, você acaba de ganhar um componente de seu computador virtual.</text16>
+		<text17>Você ganhou</text17>
+		<text18>HARDWARE</text18>
+		<text19>SOFTWARE</text19>
+		<text20>INSTRUÇÕES</text20>
+		<text21>Clique sobre o monitor ou o gabinetedo computador para visualizar o que está acontecendo com eles e poder iniciar a sua busca pelo defeito.</text21>
+		<text22>INSTALANDO O SISTEMA OPERACIONAL</text22>
+		<text23>SISTEMA OPERACIONAL INSTALADO</text23>
+		<text24>O JOGO TERMINOU, VOCÊ MARCOU</text24>
+		<text25>PONTOS</text25>
+		<text26>Programa Aluno Técnico</text26>
+		<text27>FIM DO JOGO</text27>
+		<text28>SIMULADOR DE DEFEITOS</text28>
+		<text29>INÍCIO DO JOGO</text29>
+		<text30>PULAR INTRODUÇÃO</text30>
+		<text31>IR PARA O FIM DO JOGO</text31>
+	</global_texts>
+	<!--PIECES OF COMPUTER-->
+	<computer>
+		<piece>um disco rígido</piece>
+		<piece>um pente memória RAM</piece>
+		<piece>um mouse</piece>
+		<piece>um teclado</piece>
+		<piece>caixas de som</piece>
+		<piece>um monitor</piece>
+		<piece>um gabinete</piece>
+		<piece>um estabilizador</piece>
+		<piece>uma placa mãe</piece>
+		<piece>um processador com cooler</piece>
+		<piece>um sistema operacional</piece>
+		<piece>uma placa de rede</piece>
+		<piece>um drive de disquete</piece>
+		<piece>um drive de CD-ROM</piece>
+		<piece>uma fonte de alimentação</piece>
+	</computer>
+	<!--//////////////////////////////////////////////////-->
+	<!--DEFECTS-->
+	<defects>
+		<defect1>
+			<right_procedure_id>H7</right_procedure_id>
+			<symptoms>- Ao apertar o botão liga/desliga do gabinete nada acontece. 
+- O computador não liga
+- Nenhum LED do gabinete acende</symptoms>
+			<aditional_information>- Energia fornecida na tomada está normal.</aditional_information>
+			<def_apparent_problem_monitor>Nada aparece no monitor, pois o computador não está ligando.</def_apparent_problem_monitor>
+			<id_image_monitor>monitor11</id_image_monitor>
+			<def_apparent_problem_cabinet>Apesar da fonte de alimentação estar conectada à energia e conectada à placa-mãe, o LED que fica na placa-mãe e indica se há energia está apagado.</def_apparent_problem_cabinet>
+			<id_image_cabinet>cabinet1</id_image_cabinet>
+			<!--/////////-->
+			<procedure>
+			    <proc_id>H1</proc_id>
+				<proc_label>Processador</proc_label>
+				<proc_text>Substituir o Processador por outro compatível.</proc_text>
+				<proc_feedback>Realmente o processador poderia estar queimado, impossibilitando o computador de ligar, mas geralmente, quando isso acontece, a ventoinha da fonte não para de girar e os LEDs do gabinete e da placa-mãe acendem, o que não é o caso.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H2</proc_id>
+				<proc_label>Placa-Mãe</proc_label>
+				<proc_text>Substituir a placa-mãe por outra compatível</proc_text>
+				<proc_feedback>Realmente a placa-mãe poderia estar queimada, impossibilitando o computador de ligar, mas geralmente, quando isso acontece, a ventoinha da fonte não para de girar e os LEDs do gabinete acendem, o que não é o caso.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H3</proc_id>
+				<proc_label>Cooler do Processador</proc_label>
+				<proc_text>Substituir o Cooler do Processador.</proc_text>
+				<proc_feedback>Muito dificilmente um cooler de processador queimado poderia impossibilitar o computador de ligar normalmente.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H4</proc_id>
+				<proc_label>Memória Ram</proc_label>
+				<proc_text>Substituir pentes de memória RAM por outros compatíveis.</proc_text>
+				<proc_feedback>Muito dificilmente uma memória RAM queimada poderia impossibilitar o computador de ligar, os LEDS do gabinete acenderem e a ventoinha da fonte girar.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H5</proc_id>
+				<proc_label>Placa de Vídeo</proc_label>
+				<proc_text>Substituir a Placa de vídeo por outra off-board compatível.</proc_text>
+				<proc_feedback>Dificilmente uma placa de vídeo queimada poderia impossibilitar o computador de ligar, os LEDS do gabinete acenderem e a ventoinha da fonte girar.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H6</proc_id>
+				<proc_label>Monitor</proc_label>
+				<proc_text>Substituir o monitor de vídeo por outro.</proc_text>
+				<proc_feedback>É quase impossível um periférico como o monitor de vídeo interferir no funcionamento do computador.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H7</proc_id>
+				<proc_label>Fonte de Alimentação</proc_label>
+				<proc_text>Substituir a fonte de alimentação por outra compatível.</proc_text>
+				<proc_feedback>Muito Bem! Você encontrou o defeito. A fonte de alimentação estava queimada e como é ela que fornece energia para todos os componentes internos do computador, quando ela não funciona, nem mesmo um pequeno led do gabinete pode acender.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H8</proc_id>
+				<proc_label>Pincel</proc_label>
+				<proc_text>Fazer uma limpeza em todos os componentes internos para eliminar mau-contatos.</proc_text>
+				<proc_feedback>Realmente, um mau contato no conector da fonte que é ligado à placa-mãe poderia causar um defeito com os mesmos sintomas. Mas você limpou os contatos e encaixou novamente os conectores e o defeito continua. </proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H9</proc_id>
+				<proc_label>Disco Rídigo</proc_label>
+				<proc_text>Susbstituir o Disco Rígido por outro.</proc_text>
+				<proc_feedback>Realmente o Disco Rígido poderia estar queimado, impossibilitando o computador de ligar, mas geralmente, quando isso acontece, a ventoinha da fonte não para de girar e os LEDs do gabinete e da placa-mãe acendem, o que não é o caso.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H10</proc_id>
+				<proc_label>Drive de CD-Rom</proc_label>
+				<proc_text>Susbstituir o Drive de CD-ROM por outro.</proc_text>
+				<proc_feedback>Realmente o Drive de CD-ROM poderia estar queimado, impossibilitando o computador de ligar, mas geralmente, quando isso acontece, a ventoinha da fonte não para de girar e os LEDs do gabinete e da placa-mãe acendem, o que não é o caso.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H11</proc_id>
+				<proc_label>Drive de Disquete</proc_label>
+				<proc_text>Susbstituir o Drive de Disquete por outro.</proc_text>
+				<proc_feedback>Realmente o Drive de disquete poderia estar queimado, impossibilitando o computador de ligar, mas geralmente, quando isso acontece, a ventoinha da fonte não para de girar e os LEDs do gabinete e da placa-mãe acendem, o que não é o caso.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S1</proc_id>
+				<proc_label>Reinstalação do Sistema Operacional</proc_label>
+				<proc_text>Reinstalar o Sistema Operacional.</proc_text>
+				<proc_feedback>É impossível um problema no Sistema Operacional impedir o computador de ligar, pois o SO só começa a funcionar depois que o computador é ligado.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S2</proc_id>
+				<proc_label>Reinstalação dos drivers dos dispositivos</proc_label>
+				<proc_text>Reinstalar drivers dos dispositivos.</proc_text>
+				<proc_feedback>É impossível um problema em algum driver de qualquer dispositivo impedir o computador de ligar.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S3</proc_id>
+				<proc_label>Verificação de Vírus</proc_label>
+				<proc_text>Verificar e remover vírus de computador.</proc_text>
+				<proc_feedback>É impossível um vírus de computador impedir o computador de ligar, pois o vírus só começa a agir depois que o Sistema Operacional é carregado.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S4</proc_id>
+				<proc_label>Configuração do SETUP</proc_label>
+				<proc_text>Configurar opcões do Setup.</proc_text>
+				<proc_feedback>É impossível uma configuração do Setup impedir o computador de ligar.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S5</proc_id>
+				<proc_label>Reinstalação do Programa Aplicativo</proc_label>
+				<proc_text>Reinstalar Programas Aplicativos.</proc_text>
+				<proc_feedback>É impossível um programa de computador impedir o computador de ligar, pois os programas só começam a funcionar depois que o Sistema Operacional é carregado.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			
+		</defect1>
+		<!--/////////-->
+		<!--/////////-->
+		<defect2>
+			<right_procedure_id>H5</right_procedure_id>
+			<symptoms>- Durante a utilização do computador, as imagens perdem a definição. 
+- Às vezes aparecem barras verticais na tela e cores estranhas.</symptoms>
+			<aditional_information></aditional_information>
+			<def_apparent_problem_monitor>- O defeito acontece com mais frequência quando o usuário utiliza programas que utilizam mais os recursos de vídeo, como jogos e programas de edição de imagens.</def_apparent_problem_monitor>
+			<id_image_monitor>monitor2</id_image_monitor>
+			<def_apparent_problem_cabinet>Nenhum problema aparente encontrado nos componentes internos do gabinete.  Aparentemente todos os cabos e conexões estão perfeitas.</def_apparent_problem_cabinet>
+			<id_image_cabinet>cabinet1</id_image_cabinet>
+			<procedure>
+			    <proc_id>H1</proc_id>
+				<proc_label>Processador</proc_label>
+				<proc_text>Substituir o Processador por outro compatível.</proc_text>
+				<proc_feedback>Muito dificilmente um  processador com problemas ocasionaria problemas na exbição de imagens.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H2</proc_id>
+				<proc_label>Placa-Mãe</proc_label>
+				<proc_text>Substituir a placa-mãe por outra compatível.</proc_text>
+				<proc_feedback>O problema não está na placa-mãe. Porém, apesar de ser muito difícil, um problema na placa-mãe pode até provocar problemas na exibição de imagens.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H3</proc_id>
+				<proc_label>Cooler do Processador</proc_label>
+				<proc_text>Substituir o Cooler do Processador.</proc_text>
+				<proc_feedback>Muito dificilmente um cooler de processador queimado poderia causar problemas na exibição de imagens.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H4</proc_id>
+				<proc_label>Memória Ram</proc_label>
+				<proc_text>Substituir pentes de memória RAM por outros compatíveis.</proc_text>
+				<proc_feedback>O problema não está na memória RAM. Porém, apesar de ser difícil, um problema na memória pode até provocar problemas na exibição de imagens.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H5</proc_id>
+				<proc_label>Placa de Vídeo</proc_label>
+				<proc_text>Substituir a Placa de vídeo por outra off-board compatível.</proc_text>
+				<proc_feedback>Parabéns! Você encontrou o defeito. A placa de vídeo está com problemas ocasionando distorções na geração de imagens. Ela não está totalmente defeituosa, por isso, apesar das distorções o usuário conseguia enxergar as telas dos programas.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H6</proc_id>
+				<proc_label>Monitor</proc_label>
+				<proc_text>Substituir o monitor de vídeo por outro.</proc_text>
+				<proc_feedback>Realmente, um problema no monitor, ou no cabo de dados do monitor poderia causar distorções na imagem. Mas neste caso, você trocou o monitor e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H7</proc_id>
+				<proc_label>Fonte de Alimentação</proc_label>
+				<proc_text>Substituir a fonte de alimentação por outra compatível.</proc_text>
+				<proc_feedback>É quase impossível a fonte de alimentação causar um problema de distorção na imagem, pois sua função não está relacionada diretamente à geração de imagens.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H8</proc_id>
+				<proc_label>Pincel</proc_label>
+				<proc_text>Fazer uma limpeza em todos os componentes internos para eliminar mau-contatos.</proc_text>
+				<proc_feedback>Realmente, é muito comum um mau contato e acúmulo de poeria nos contatos da placa de vídeo off-board causarem um defeito com os mesmos sintomas. Mas você limpou os contatos e encaixou novamente os conectores e placas e o defeito continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H9</proc_id>
+				<proc_label>Disco Rídigo</proc_label>
+				<proc_text>Susbstituir o Disco Rígido por outro.</proc_text>
+				<proc_feedback>É  impossível um problema no HD causar defeito na geração de imagens, pois sua função não está relacionada diretamente à geração de imagens.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H10</proc_id>
+				<proc_label>Drive de CD-Rom</proc_label>
+				<proc_text>Susbstituir o Drive de CD-ROM por outro.</proc_text>
+				<proc_feedback>É  impossível um problema no drive de CD-ROM causar defeito na geração de imagens, pois sua função não está relacionada diretamente à geração de imagens.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H11</proc_id>
+				<proc_label>Drive de Disquete</proc_label>
+				<proc_text>Susbstituir o Drive de Disquete por outro.</proc_text>
+				<proc_feedback>É  impossível um problema no drive de disquete causar defeito na geração de imagens, pois sua função não está relacionada diretamente à geração de imagens.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S1</proc_id>
+				<proc_label>Reinstalação do Sistema Operacional</proc_label>
+				<proc_text>Reinstalar o Sistema Operacional.</proc_text>
+				<proc_feedback>Um problema no SO como uma configuração errada na resolução ou frequencia de vídeo pode causar problemas na exibição de imagens, mas geralmente quando isso acontece a imagem fica totalmente distorcida e não com algumas falhas como é o caso. Além disso, quando há um erro na configuração de vídeo, basta configurar na resolução correta para o monitor e não reinstalar o Sistema Operacional.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S2</proc_id>
+				<proc_label>Reinstalação dos drivers dos dispositivos</proc_label>
+				<proc_text>Reinstalar drivers da placa de vídeo.</proc_text>
+				<proc_feedback>Um driver errado da placa de vídeo ou um problema no driver da placa de vídeo podem até causar um problemas na exibição da imagem, mas muito dificilmente causar um problema de distorção de imagem.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S3</proc_id>
+				<proc_label>Verificação de Vírus</proc_label>
+				<proc_text>Verificar e remover vírus de computador.</proc_text>
+				<proc_feedback>Realmente, um vírus de computador poderia causar um problema de distorção das imagens. Mas neste caso, não existe nenhum vírus em seu computador.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S4</proc_id>
+				<proc_label>Configuração do SETUP</proc_label>
+				<proc_text>Configurar opcões do Setup.</proc_text>
+				<proc_feedback>É quase impossível uma configuração errada do Setup relacionada a placa de vídeo causar um problema de distorção na imagem.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S5</proc_id>
+				<proc_label>Reinstalação do Programa Aplicativo</proc_label>
+				<proc_text>Reinstalar Programas Aplicativos.</proc_text>
+				<proc_feedback>É quase impossível um programa de computador causar problemas de distorção de imagens. Além disso, o problema está acontecendo durante a utilização de vários programas e não em um programa específico.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			 <!-- até o procecimento 16 -->
+		</defect2>
+		<!--/////////-->
+		<defect3>
+			<right_procedure_id>S1</right_procedure_id>
+			<symptoms>Ao tentar carregar o sistema operacional o computador apresenta a mensagem "Disco sem sistema ou defeituoso".</symptoms>
+			<aditional_information>O computador estava funcionando normalmente quando de repente parou de carregar o SO e começou a apresentar a mensagem de erro.</aditional_information>
+			<def_apparent_problem_monitor>Mensagem de erro: "Disco sem Sistema ou defeituoso"</def_apparent_problem_monitor>
+			<id_image_monitor>monitor1</id_image_monitor>
+			<def_apparent_problem_cabinet>Nenhum problema aparente encontrado nos componentes internos do gabinete.  Aparentemente todos os cabos e conexões estão perfeitas.</def_apparent_problem_cabinet>
+			<id_image_cabinet>cabinet1</id_image_cabinet>
+			<procedure>
+			    <proc_id>H1</proc_id>
+				<proc_label>Processador</proc_label>
+				<proc_text>Substituir o Processador por outro compatível.</proc_text>
+				<proc_feedback>É quase impossível um processador com problemas causar um erro no carregamento do sistema operacional.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H2</proc_id>
+				<proc_label>Placa-Mãe</proc_label>
+				<proc_text>Substituir a placa-mãe por outra compatível.</proc_text>
+				<proc_feedback>Boa tentativa. Um problema na interface IDE da placa-mãe (aquela onde vai conectado o cabo de dados que sai dos HDs e Drives de CD) poderia causar uma falha na leitura do HD e consequentemente um erro ao carregar o SO. Mas se esse fosse o problema, provavelmente o computador acusaria a falta do HD no autoteste (POST) como se o HD estivesse desconectado.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H3</proc_id>
+				<proc_label>Cooler do Processador</proc_label>
+				<proc_text>Substituir o Cooler do Processador.</proc_text>
+				<proc_feedback>É quase impossível um cooler de processador queimado causar problemas no carregamento do SO.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H4</proc_id>
+				<proc_label>Memória Ram</proc_label>
+				<proc_text>Substituir pentes de memória RAM por outros compatíveis.</proc_text>
+				<proc_feedback>É quase impossível um defeito na memória RAM causar um erro no carregamento do SO.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H5</proc_id>
+				<proc_label>Placa de Vídeo</proc_label>
+				<proc_text>Substituir a Placa de vídeo por outra off-board compatível.</proc_text>
+				<proc_feedback>É praticamente impossível um defeito na placa de vídeo causar um erro no carregamento do SO.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H6</proc_id>
+				<proc_label>Monitor</proc_label>
+				<proc_text>Substituir o monitor de vídeo por outro.</proc_text>
+				<proc_feedback>É impossível um defeito no monitor de vídeo causar problemas de carregamento do SO.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H7</proc_id>
+				<proc_label>Fonte de Alimentação</proc_label>
+				<proc_text>Substituir a fonte de alimentação por outra compatível.</proc_text>
+				<proc_feedback>É muito difícil um problema na fonte de alimentação causar problemas de carregamento do SO. Apesar de ser muito difícil, se ela não estiver alimentando corretamente o HD, o SO pode não ser carregado e apresentar a mensagem de erro. Mas neste caso, a fonte não é o problema.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H8</proc_id>
+				<proc_label>Pincel</proc_label>
+				<proc_text>Fazer uma limpeza em todos os componentes internos para eliminar mau-contatos.</proc_text>
+				<proc_feedback>Boa tentativa. Um mau contato causado por acúmulo de poeria nos contatos entre o HD e a placa-mãe poderia causar um erro de leitura no HD, impedindo o carregamento do SO. Mas se esse fosse o problema, provavelmente o computador acusaria a falta do HD no autoteste (POST) como se o HD estivesse desconectado.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H9</proc_id>
+				<proc_label>Disco Rídigo</proc_label>
+				<proc_text>Susbstituir o Disco Rígido por outro.</proc_text>
+				<proc_feedback>Realmente o HD poderia estar com algum problema no setor 0 (setor de boot) ocasionando a falha no carregamento do SO. Mas neste caso, o problema não está no HD. Além disso, existe um outros procedimento que você deve tentar antes de trocar o HD.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H10</proc_id>
+				<proc_label>Drive de CD-Rom</proc_label>
+				<proc_text>Susbstituir o Drive de CD-ROM por outro.</proc_text>
+				<proc_feedback>É quase impossível um problema no drive de CD-ROM causar defeito no carregamento do SO.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H11</proc_id>
+				<proc_label>Drive de Disquete</proc_label>
+				<proc_text>Susbstituir o Drive de Disquete por outro.</proc_text>
+				<proc_feedback>É quase impossível um problema no drive de disquete causar defeito no carregamento do SO.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S1</proc_id>
+				<proc_label>Reinstalação do Sistema Operacional</proc_label>
+				<proc_text>Reinstalar o Sistema Operacional.</proc_text>
+				<proc_feedback>Muito Bem! Você descobriu o defeito. Algum arquivo do SO necessário ao carregamento do sistema foi apagado ou danificado por mau uso ou até mesmo um vírus. Ao reinstalar o SO foram gravados no HD novo arquivos necessários ao boot e o problema foi resolvido.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S2</proc_id>
+				<proc_label>Reinstalação dos drivers dos dispositivos</proc_label>
+				<proc_text>Reinstalar drivers dos dispositivos.</proc_text>
+				<proc_feedback>Neste caso seria impossível um driver de algum dispositivo causar o problema, pois os drives começam a funcionar depois que o Sistema Operacional é carregado e o defeito está acontecendo antes do carregamento do SO.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S3</proc_id>
+				<proc_label>Verificação de Vírus</proc_label>
+				<proc_text>Verificar e remover vírus de computador.</proc_text>
+				<proc_feedback>Realmente, um vírus de computador pode danificar ou até mesmo apagar os arquivos do SO responsáveis pelo carregamento do sistema. Mas, neste caso, você nem conseguiria utilizar o programa antivirus porque o SO nem está sendo carregado.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S4</proc_id>
+				<proc_label>Configuração do SETUP</proc_label>
+				<proc_text>Configurar opcões do Setup.</proc_text>
+				<proc_feedback>Realmente, uma configuração errada do HD no setup poderia causar erro no carregamento do SO, mas neste caso não há nada de errado no setup.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S5</proc_id>
+				<proc_label>Reinstalação do Programa Aplicativo</proc_label>
+				<proc_text>Reinstalar Programas Aplicativos.</proc_text>
+				<proc_feedback>É impossível um programa de computador causar um problema no carregamento do SO, pois os programas aplicativos só começam a funcionar depois que o SO já está totalmente carregado.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			 <!-- até o procecimento 16 -->
+		</defect3>
+		<!--//////////////////////////////////-->
+		<!--//////////////////////////////////-->
+		<defect4>
+			<right_procedure_id>H9</right_procedure_id>
+			<symptoms>- Durante a utilização do computador, ao acessar alguns arquivos no HD o computador trava durante alguns segundos e volta a funcionar. Às vezes, ao tentar acessar alguns arquivos no HD o Windows avisa que eles estão corrompidos e não permite o acesso.</symptoms>
+			<aditional_information>Às vezes pode se ouvir uns estalos bem altos que vem de dentro do computador.</aditional_information>
+			<def_apparent_problem_monitor>Mensagem de erro: "O arquivo que você está tentando acessar pode estar corrompido".</def_apparent_problem_monitor>
+			<id_image_monitor>monitor5</id_image_monitor>
+			<def_apparent_problem_cabinet>Nenhum problema aparente encontrado nos componentes internos do gabinete.  Aparentemente todos os cabos e conexões estão perfeitas.</def_apparent_problem_cabinet>
+			<id_image_cabinet></id_image_cabinet>
+			<procedure>
+			    <proc_id>H1</proc_id>
+				<proc_label>Processador</proc_label>
+				<proc_text>Substituir o Processador por outro compatível.</proc_text>
+				<proc_feedback>É quase impossível um processador com problemas causar travamentos por alguns segundos e corromper arquivos. Quando o processador provoca travamentos, não é por alguns segundos e é preciso desligar o computador e ligar de novo para voltar a funcionar.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H2</proc_id>
+				<proc_label>Placa-Mãe</proc_label>
+				<proc_text>Substituir a placa-mãe por outra compatível.</proc_text>
+				<proc_feedback>Muito dificilmente um problema na placa-mãe poderia corromper arquivos. Quando a placa-mãe provoca travamentos, não é por alguns segundos e é preciso desligar o computador e ligar de novo para voltar a funcionar. Além do mais, uma placa-mãe com defeito não provoca estalos fortes.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H3</proc_id>
+				<proc_label>Cooler do Processador</proc_label>
+				<proc_text>Substituir o Cooler do Processador.</proc_text>
+				<proc_feedback>É quase impossível um cooler de processador queimado causar travamentos por alguns segundos e corromper arquivos. Quando um cooler queimado provoca travamentos, não é por alguns segundos e é preciso desligar o computador e ligar de novo para voltar a funcionar.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H4</proc_id>
+				<proc_label>Memória Ram</proc_label>
+				<proc_text>Substituir pentes de memória RAM por outros compatíveis.</proc_text>
+				<proc_feedback>É quase impossível um defeito na memória RAM causar travamentos por alguns segundos e corromper arquivos. Pentes de memória RAM com problemas não provocam estalos.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H5</proc_id>
+				<proc_label>Placa de Vídeo</proc_label>
+				<proc_text>Substituir a Placa de vídeo por outra off-board compatível.</proc_text>
+				<proc_feedback>É impossível um defeito na placa de vídeo corromper arquivos e provocar estalos.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H6</proc_id>
+				<proc_label>Monitor</proc_label>
+				<proc_text>Substituir o monitor de vídeo por outro.</proc_text>
+				<proc_feedback>É impossível um defeito no monitor de vídeo causar problemas de carregamento do SO.
+</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H7</proc_id>
+				<proc_label>Fonte de Alimentação</proc_label>
+				<proc_text>Substituir a fonte de alimentação por outra compatível.</proc_text>
+				<proc_feedback>É quase imposível uma fonte de alimentação com defeito corromper arquivos e causar travamentos por alguns segundos.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H8</proc_id>
+				<proc_label>Pincel</proc_label>
+				<proc_text>Fazer uma limpeza e conectar novamente os cabos de dados e de energia do HD e da placa-mãe.</proc_text>
+				<proc_feedback>Boa tentativa. Um mau contato causado por acúmulo de poeria nos contatos entre o HD e a placa-mãe poderia causar um erro de leitura no HD. Mas se esse fosse o problema, provavelmente o computador acusaria a falta do HD no autoteste (POST) como se o HD estivesse desconectado e nem conseguiria carregar o SO.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H9</proc_id>
+				<proc_label>Disco Rídigo</proc_label>
+				<proc_text>Susbstituir o Disco Rígido por outro.</proc_text>
+				<proc_feedback>Parabéns! Você descobriu o defeito. Um HD com setores defeituosos pode corromper arquivos e ocasionar travamentos curtos, ou até travamentos em que é preciso desligar o computador e ligar novamente. Também é muito comum HDs com defeito provocarem um barulho forte, como se fossem estalos dentro do computador. </proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H10</proc_id>
+				<proc_label>Drive de CD-Rom</proc_label>
+				<proc_text>Susbstituir o Drive de CD-ROM por outro.</proc_text>
+				<proc_feedback>É quase impossível um defeito no drive de CD-ROM corromper arquivos no HD e provocar travamentos no computador. Porém, alguns drives de CD-ROM com problemas podem causar barulhos fortes e estalos.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H11</proc_id>
+				<proc_label>Drive de Disquete</proc_label>
+				<proc_text>Susbstituir o Drive de Disquete por outro.</proc_text>
+				<proc_feedback>É quase impossível um defeito no drive de disquete corromper arquivos no HD e provocar travamentos no computador. Porém, alguns drives de disquete com problemas podem causar barulhos fortes e estalos.
+</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S1</proc_id>
+				<proc_label>Reinstalação do Sistema Operacional</proc_label>
+				<proc_text>Reinstalar o Sistema Operacional.</proc_text>
+				<proc_feedback>Muito dificilmente um problema no SO causaria problemas de arquivos corrompidos. Além disso, um SO com problemas não causaria nunca estalos no computador.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S2</proc_id>
+				<proc_label>Reinstalação dos drivers dos dispositivos</proc_label>
+				<proc_text>Reinstalar drivers do drive de HD.</proc_text>
+				<proc_feedback>Muito dificilmente um problema no driver do HD causaria problemas de arquivos corrompidos. Além disso, um driver errado ou defeituodo não causaria nunca estalos no computador.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S3</proc_id>
+				<proc_label>Verificação de Vírus</proc_label>
+				<proc_text>Verificar e remover vírus de computador.</proc_text>
+				<proc_feedback>Realmente, um vírus de computador pode danificar ou até mesmo apagar arquivos e até travar o computador por alguns segundos. Mas um vírus nunca causaria estalos no computador.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S4</proc_id>
+				<proc_label>Configuração do SETUP</proc_label>
+				<proc_text>Verificar configurações do HD no Setup.</proc_text>
+				<proc_feedback>Boa tentativa! Uma configuração errada do HD no setup poderia causar problemas de escrita e leitura corrompendo arquivos. Mas neste caso não há nada de errado no setup. Além disso, uma configuração errada do HD no setup não causaria estalos no computador.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S5</proc_id>
+				<proc_label>Reinstalação do Programa Aplicativo</proc_label>
+				<proc_text>Reinstalar Programas Aplicativos.</proc_text>
+				<proc_feedback>É muito difícil um problema em algum programa corromper arquivos. Porém se os arquivos que estão sendo corrompidos fazem parte ou são utilizados por um mesmo programa, isso pode ser um indício de que o programa não está funcionando muito bem. Mas neste caso, vários arquivos de diversos programas diferentes estão sendo corrompidos. Além disso, um problema em um programa não causaria estalos no computador.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			 <!-- até o procecimento 16 -->
+		</defect4>
+		<!--////////////////////////////////////////////////////////-->
+		<defect5>
+			<right_procedure_id>H11</right_procedure_id>
+			<symptoms>Ao tentar ler ou gravar arquivos em disquetes o Windows exibe uma mensagem de erro de acesso ao disco.</symptoms>
+			<aditional_information>Já foram utilizados vários disquetes diferentes, inclusive disquetes novos, mas para todos ocorre o mesmo erro.</aditional_information>
+			<def_apparent_problem_monitor>Mensagem de erro: "Erro de acesso ao   disquete"</def_apparent_problem_monitor>
+			<id_image_monitor>monitor3</id_image_monitor>
+			<def_apparent_problem_cabinet>Nenhum problema aparente encontrado nos componentes internos do gabinete.  Aparentemente todos os cabos e conexões estão perfeitas.</def_apparent_problem_cabinet>
+			<id_image_cabinet></id_image_cabinet>
+			<!--/////////-->
+			<procedure>
+			    <proc_id>H1</proc_id>
+				<proc_label>Processador</proc_label>
+				<proc_text>Substituir o Processador por outro compatível.</proc_text>
+				<proc_feedback>É quase impossível um processador com defeito causar problemas de escrita/leitura em disquetes.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H2</proc_id>
+				<proc_label>Placa-Mãe</proc_label>
+				<proc_text>Substituir a placa-mãe por outra compatível</proc_text>
+				<proc_feedback>Boa tentativa. Um problema na interface IDE da placa-mãe (aquela onde vai conectado o cabo de dados que sai do drive de disquete) poderia causar uma falha na leitura/escrita em disquetes. Mas se esse fosse o problema, provavelmente o computador acusaria a falta do drive de disquete durante a verificação do POST como se o drive estivesse desconectado.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H3</proc_id>
+				<proc_label>Cooler do Processador</proc_label>
+				<proc_text>Substituir o Cooler do Processador.</proc_text>
+				<proc_feedback>É quase impossível um cooler de processador queimado causar problemas de escrita/leitura em disquetes.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H4</proc_id>
+				<proc_label>Memória Ram</proc_label>
+				<proc_text>Substituir pentes de memória RAM por outros compatíveis.</proc_text>
+				<proc_feedback>É quase impossível um defeito na memória RAM causar  problemas de escrita/leitura em disquetes.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H5</proc_id>
+				<proc_label>Placa de Vídeo</proc_label>
+				<proc_text>Substituir a Placa de vídeo por outra off-board compatível.</proc_text>
+				<proc_feedback>É impossível um defeito na placa de vídeo causar problemas de escrita/leitura em disquetes.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H6</proc_id>
+				<proc_label>Monitor</proc_label>
+				<proc_text>Substituir o monitor de vídeo por outro.</proc_text>
+				<proc_feedback>É impossível um defeito no monitor de vídeo causar problemas  problemas de escrita/leitura em disquetes.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H7</proc_id>
+				<proc_label>Fonte de Alimentação</proc_label>
+				<proc_text>Substituir a fonte de alimentação por outra compatível.</proc_text>
+				<proc_feedback>É quase imposível uma fonte de alimentação com defeito causar problemas de escrita/leitura em disquetes.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H8</proc_id>
+				<proc_label>Pincel</proc_label>
+				<proc_text>Fazer uma limpeza e conectar novamente os cabos de dados e de energia do drive de disquete e da placa-mãe.</proc_text>
+				<proc_feedback>Boa tentativa. Um mau contato causado por acúmulo de poeria nos contatos entre o drive de disquete e a placa-mãe poderia causar um erro de leitura no disquete. Mas se esse fosse o problema, provavelmente o computador acusaria a falta do drive no autoteste (POST) como se o drive estivesse desconectado.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H9</proc_id>
+				<proc_label>Disco Rídigo</proc_label>
+				<proc_text>Susbstituir o Disco Rígido por outro.</proc_text>
+				<proc_feedback>É  impossível um defeito no HD causar problemas de escrita/leitura em disquetes.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H10</proc_id>
+				<proc_label>Drive de CD-Rom</proc_label>
+				<proc_text>Susbstituir o Drive de CD-ROM por outro.</proc_text>
+				<proc_feedback>É impossível um problema no drive de CD-ROM  causar problemas de escrita/leitura em disquetes.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H11</proc_id>
+				<proc_label>Drive de Disquete</proc_label>
+				<proc_text>Susbstituir o Drive de Disquete por outro.</proc_text>
+				<proc_feedback>Parabéns! Você descbriu o defeito. Um drive de disquete com defeito ou excesso de sujeira na cabeça de leitura causa problemas de escrita/leitura em disquetes.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S1</proc_id>
+				<proc_label>Reinstalação do Sistema Operacional</proc_label>
+				<proc_text>Reinstalar o Sistema Operacional.</proc_text>
+				<proc_feedback>Muito dificilmente um problema no SO causaria problemas de escrita/leitura em disquetes.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S2</proc_id>
+				<proc_label>Reinstalação dos drivers dos dispositivos</proc_label>
+				<proc_text>Reinstalar drivers do drive de disquete</proc_text>
+				<proc_feedback>Muito dificilmente um problema no driver do disquete causaria problemas de escrita/leitura em disquetes.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S3</proc_id>
+				<proc_label>Verificação de Vírus</proc_label>
+				<proc_text>Verificar e remover vírus de computador.</proc_text>
+				<proc_feedback>Realmente, um vírus de computador pode causar problemas de escrita e leitura não só em disquetes como em HDs também. Mas neste caso, não existe nenhum vírus em seu computador.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S4</proc_id>
+				<proc_label>Configuração do SETUP</proc_label>
+				<proc_text>Verificar configurações do drive de disquete no Setup</proc_text>
+				<proc_feedback>Boa tentativa! Uma configuração errada do drive de disquete no setup, como por exemplo uma configuração errada da capacidade do drive, poderia causar problemas de escrita e leitura em disquetes disco. Mas neste caso não há nada de errado no setup.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S5</proc_id>
+				<proc_label>Reinstalação do Programa Aplicativo</proc_label>
+				<proc_text>Reinstalar Programas Aplicativos.</proc_text>
+				<proc_feedback>É quase impossível um problema em algum programa causar erros de leitura/escrita em disquete.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>			
+		</defect5>
+		<!--///////////////////////////////////////////////-->
+		<defect6>
+			<right_procedure_id>H10</right_procedure_id>
+			<symptoms>Ao tentar ler arquivos em CD-ROMs o Windows exibe uma mensagem de erro de leitura em alguns arquivos e às vezes erro de acesso total ao CD-ROM.</symptoms>
+			<aditional_information>- Já foram utilizados vários CD-ROMs diferentes, inclusive CD-ROMs novos, mas para todos ocorre o mesmo erro.</aditional_information>
+			<def_apparent_problem_monitor>Mensagem de erro: "Erro de acesso ao CD-ROM"</def_apparent_problem_monitor>
+			<id_image_monitor>monitor4</id_image_monitor>
+			<def_apparent_problem_cabinet>Nenhum problema aparente encontrado nos componentes internos do gabinete.  Aparentemente todos os cabos e conexões estão perfeitas.</def_apparent_problem_cabinet>
+			<id_image_cabinet>cabinet1</id_image_cabinet>
+			<!--/////////-->
+			<procedure>
+			    <proc_id>H1</proc_id>
+				<proc_label>Processador</proc_label>
+				<proc_text>Substituir o Processador por outro compatível.</proc_text>
+				<proc_feedback>É quase impossível um processador com defeito causar problemas de leitura em CD-ROMs.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H2</proc_id>
+				<proc_label>Placa-Mãe</proc_label>
+				<proc_text>Substituir a placa-mãe por outra compatível</proc_text>
+				<proc_feedback>Boa tentativa. Um problema na interface IDE da placa-mãe (aquela onde vai conectado o cabo de dados que sai do drive de CD-ROM) poderia causar uma falha na leitura/escrita em CD-ROMs. Mas se esse fosse o problema, provavelmente o computador acusaria a falta do drive de CD-ROM durante a verificação do POST como se o drive estivesse desconectado.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H3</proc_id>
+				<proc_label>Cooler do Processador</proc_label>
+				<proc_text>Substituir o Cooler do Processador.</proc_text>
+				<proc_feedback>É quase impossível um cooler de processador queimado causar problemas de leitura em CD-ROMs.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H4</proc_id>
+				<proc_label>Memória Ram</proc_label>
+				<proc_text>Substituir pentes de memória RAM por outros compatíveis.</proc_text>
+				<proc_feedback>É quase impossível um defeito na memória RAM causar  problemas de leitura em CD-ROMs.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H5</proc_id>
+				<proc_label>Placa de Vídeo</proc_label>
+				<proc_text>Substituir a Placa de vídeo por outra off-board compatível.</proc_text>
+				<proc_feedback>É impossível um defeito na placa de vídeo causar problemas de leitura em CD-ROMs.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H6</proc_id>
+				<proc_label>Monitor</proc_label>
+				<proc_text>Substituir o monitor de vídeo por outro.</proc_text>
+				<proc_feedback>É impossível um defeito no monitor de vídeo causar problemas  problemas de leitura em CD-ROMs.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H7</proc_id>
+				<proc_label>Fonte de Alimentação</proc_label>
+				<proc_text>Substituir a fonte de alimentação por outra compatível.</proc_text>
+				<proc_feedback>É quase imposível uma fonte de alimentação com defeito causar problemas de leitura em CD-ROMs.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H8</proc_id>
+				<proc_label>Pincel</proc_label>
+				<proc_text>Fazer uma limpeza e conectar novamente os cabos de dados e de energia do drive de CD-ROM e da placa-mãe</proc_text>
+				<proc_feedback>Boa tentativa. Um mau contato causado por acúmulo de poeria nos contatos entre o drive de disquete e a placa-mãe poderia causar um erro de leitura no CD-ROM. Mas se esse fosse o problema, provavelmente o computador acusaria a falta do drive no autoteste (POST) como se o drive estivesse desconectado.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H9</proc_id>
+				<proc_label>Disco Rídigo</proc_label>
+				<proc_text>Susbstituir o Disco Rígido por outro.</proc_text>
+				<proc_feedback>É  impossível um defeito no HD causar problemas de leitura em CD-ROMs.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H10</proc_id>
+				<proc_label>Drive de CD-Rom</proc_label>
+				<proc_text>Susbstituir o Drive de CD-ROM por outro.</proc_text>
+				<proc_feedback>Parabéns! Você descobriu o defeito. Um drive de CD-ROM com defeito ou excesso de sujeira na cabeça de leitura causa problemas de leitura em CD-ROMs.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H11</proc_id>
+				<proc_label>Drive de Disquete</proc_label>
+				<proc_text>Susbstituir o Drive de Disquete por outro.</proc_text>
+				<proc_feedback>É impossível um defeito no drive de disquete causar problemas de leitura em CD-ROMs.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S1</proc_id>
+				<proc_label>Reinstalação do Sistema Operacional</proc_label>
+				<proc_text>Reinstalar o Sistema Operacional.</proc_text>
+				<proc_feedback>Muito dificilmente um problema no SO causaria problemas de leitura em CD-ROMs.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S2</proc_id>
+				<proc_label>Reinstalação dos drivers dos dispositivos</proc_label>
+				<proc_text>Reinstalar drivers do drive de CD-ROM.</proc_text>
+				<proc_feedback>Muito dificilmente um problema no driver do CD-ROM causaria problemas de leitura em CDs.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S3</proc_id>
+				<proc_label>Verificação de Vírus</proc_label>
+				<proc_text>Verificar e remover vírus de computador.</proc_text>
+				<proc_feedback>Realmente, um vírus de computador pode causar problemas de leitura não só em disquetes como em HDs e disquetes também. Mas neste caso, não existe nenhum vírus em seu computador.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S4</proc_id>
+				<proc_label>Configuração do SETUP</proc_label>
+				<proc_text>Verificar configurações do drive de CD-ROM  no Setup</proc_text>
+				<proc_feedback>Boa tentativa! Uma configuração errada do drive de CD-ROM no setup, como por exemplo uma configuração errada do modo de transferência (PIO MODE) suportado pelo drive poderia causar problemas de leitura em CD-ROMs. Mas neste caso não há nada de errado no setup.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S5</proc_id>
+				<proc_label>Reinstalação do Programa Aplicativo</proc_label>
+				<proc_text>Reinstalar Programas Aplicativos.</proc_text>
+				<proc_feedback>É quase impossível um problema em algum programa causar erros de leitura em CD-ROMs.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+		</defect6>
+		<!--////////////////////////////////////////////////-->
+		<defect7>
+			<right_procedure_id>H4</right_procedure_id>
+			<symptoms>O computador trava ou reinicia sozinho em qualquer momento, durante a utilização de qualquer programa e às vezes trava mesmo antes do boot.</symptoms>
+			<aditional_information></aditional_information>
+			<def_apparent_problem_monitor>Nenhum problema aparente. Nenhuma mensagem de erro é exibida.</def_apparent_problem_monitor>
+			<id_image_monitor>monitor9</id_image_monitor>
+			<def_apparent_problem_cabinet>Nenhum problema aparente encontrado nos componentes internos do gabinete.  Aparentemente todos os cabos e conexões estão perfeitas.</def_apparent_problem_cabinet>
+			<id_image_cabinet>cabinet1</id_image_cabinet>
+			<!--/////////-->
+			<procedure>
+			    <proc_id>H1</proc_id>
+				<proc_label>Processador</proc_label>
+				<proc_text>Substituir o Processador por outro compatível.</proc_text>
+				<proc_feedback>Boa tentativa! Um processador defeituoso poderia realmente causar esse tipo de problema. Mas você trocou o processador e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H2</proc_id>
+				<proc_label>Placa-Mãe</proc_label>
+				<proc_text>Substituir a placa-mãe por outra compatível</proc_text>
+				<proc_feedback>Boa tentativa! Uma placa-mãe defeituosa poderia realmente causar esse tipo de problema. Mas você trocou a placa-mãe e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H3</proc_id>
+				<proc_label>Cooler do Processador</proc_label>
+				<proc_text>Substituir o Cooler do Processador.</proc_text>
+				<proc_feedback>Boa tentativa! Um cooler de processador queimado poderia estar causando super aquecimento no processador e ocasinando travamentos. Mas o cooler está funcionando perfeitamente.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H4</proc_id>
+				<proc_label>Memória Ram</proc_label>
+				<proc_text>Substituir pentes de memória RAM por outros compatíveis.</proc_text>
+				<proc_feedback>Muito bem! O defeito estava mesmo em um dos pentes de memória RAM.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H5</proc_id>
+				<proc_label>Placa de Vídeo</proc_label>
+				<proc_text>Substituir a Placa de vídeo por outra off-board compatível.</proc_text>
+				<proc_feedback>É muito difícil um problema na placa de vídeo causar travamentos, mas às vezes pode acontecer. Neste caso, você trocou a placa de vídeo, mas o problema continua.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H6</proc_id>
+				<proc_label>Monitor</proc_label>
+				<proc_text>Substituir o monitor de vídeo por outro.</proc_text>
+				<proc_feedback>É impossível um problema no monitor causar qualquer tipo de travamento ou atrapalhar o funcionamento correto do computador. Afinal, o monitor é um dispositivo que apenas recebe dados do computador.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H7</proc_id>
+				<proc_label>Fonte de Alimentação</proc_label>
+				<proc_text>Substituir a fonte de alimentação por outra compatível.</proc_text>
+				<proc_feedback>É muito difícil um problema na fonte causar travamentos, mas às vezes pode acontecer. Neste caso, você trocou a fonte, mas o problema continua.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H8</proc_id>
+				<proc_label>Pincel</proc_label>
+				<proc_text>Fazer uma limpeza em todos os componentes internos para eliminar mau-contatos.</proc_text>
+				<proc_feedback>Boa tentativa. É muito comum mau contatos em processadores e pentes de memória causarem travamentos. No entanto, você limpou os contatos e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H9</proc_id>
+				<proc_label>Disco Rídigo</proc_label>
+				<proc_text>Susbstituir o Disco Rígido por outro.</proc_text>
+				<proc_feedback>Não é muito comum um problema no HD causar travamentos e reiniciar o computador, mas pode acontecer. Neste caso, você trocou o HD, mas o problema continua.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H10</proc_id>
+				<proc_label>Drive de CD-Rom</proc_label>
+				<proc_text>Susbstituir o Drive de CD-ROM por outro.</proc_text>
+				<proc_feedback>É quase impossível um problema no drive de CD-ROM causar travamentos e reiniciar o computador, principalmente se esses travamentos ocorrem quando você não está acessando o drive, como neste caso.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H11</proc_id>
+				<proc_label>Drive de Disquete</proc_label>
+				<proc_text>Susbstituir o Drive de Disquete por outro.</proc_text>
+				<proc_feedback>É quase impossível um problema no drive de disquetes causar travamentos e reiniciar o computador, principalmente se esses travamentos ocorrem quando você não está acessando o drive, como neste caso.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S1</proc_id>
+				<proc_label>Reinstalação do Sistema Operacional</proc_label>
+				<proc_text>Reinstalar o Sistema Operacional.</proc_text>
+				<proc_feedback>Um problema no SO pode realmente causar travamentos no computador, mas neste caso o computador também está travando antes do boot. E é impossível o SO causar qualquer problema antes do boot.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S2</proc_id>
+				<proc_label>Reinstalação dos drivers dos dispositivos</proc_label>
+				<proc_text>Reinstalar drivers dos dispositivos.</proc_text>
+				<proc_feedback>Um problema em algum driver de algum dispositivo pode realmente causar travamentos no computador, mas neste caso o computador também está travando antes do boot. E é impossível um driver causar qualquer problema antes do boot.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S3</proc_id>
+				<proc_label>Verificação de Vírus</proc_label>
+				<proc_text>Verificar e remover vírus de computador.</proc_text>
+				<proc_feedback>Realmente, um vírus de computador pode causar problemas de travamento. Mas o computador também está travando antes do boot e um vírus nunca começa a agir antes do boot.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S4</proc_id>
+				<proc_label>Configuração do SETUP</proc_label>
+				<proc_text>Verificar configurações no Setup</proc_text>
+				<proc_feedback>Boa tentativa. Uma configuração errada no Setup, como a frequência de operação do processador ou das memórias pode realmente causar travamentos no computador. Mas neste caso está tudo correto no Setup.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S5</proc_id>
+				<proc_label>Reinstalação do Programa Aplicativo</proc_label>
+				<proc_text>Reinstalar Programas Aplicativos.</proc_text>
+				<proc_feedback>Um defeito em algum programa pode realmente travar ou reiniciar o computador. Mas neste caso, o computador trava em qualquer programa e até mesmo antes do boot. E é impossível um programa aplicativo causar algum problema antes do boot.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>			
+		</defect7>
+		<!--//////////////////////////////////////////////-->
+		<defect8>
+			<right_procedure_id>H3</right_procedure_id>
+			<symptoms>O computador trava ou reinicia sozinho em qualquer momento, durante a utilização de qualquer programa e às vezes trava mesmo antes do boot.</symptoms>
+			<aditional_information>- O travamento ocorre com mais frequência depois que o computador está ligado por algum tempo.</aditional_information>
+			<def_apparent_problem_monitor>Nenhum problema aparente. Nenhuma mensagem de erro é exibida.</def_apparent_problem_monitor>
+			<id_image_monitor>monitor9</id_image_monitor>
+			<def_apparent_problem_cabinet>Aparentemente o cooler do processador não está funcionando.</def_apparent_problem_cabinet>
+			<id_image_cabinet>cabinet1</id_image_cabinet>
+			<!--/////////-->
+			<procedure>
+			    <proc_id>H1</proc_id>
+				<proc_label>Processador</proc_label>
+				<proc_text>Substituir o Processador por outro compatível.</proc_text>
+				<proc_feedback>Boa tentativa! Um processador defeituoso poderia realmente causar esse tipo de problema. Mas você trocou o processador e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H2</proc_id>
+				<proc_label>Placa-Mãe</proc_label>
+				<proc_text>Substituir a placa-mãe por outra compatível</proc_text>
+				<proc_feedback>Boa tentativa! Uma placa-mãe defeituosa poderia realmente causar esse tipo de problema. Mas você trocou a placa-mãe e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H3</proc_id>
+				<proc_label>Cooler do Processador</proc_label>
+				<proc_text>Substituir o Cooler do Processador.</proc_text>
+				<proc_feedback>Muito bem! Vocë descobriu o defeito. A ventoinha do cooler estava parada e não estava refrigerando corretamente o processador. Quando o processador superaquece, podem ocorrer travamentos além de outros defeitos.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H4</proc_id>
+				<proc_label>Memória Ram</proc_label>
+				<proc_text>Substituir pentes de memória RAM por outros compatíveis.</proc_text>
+				<proc_feedback>Boa tentativa! Um pente de memória RAM defeituoso poderia realmente causar esse tipo de problema. Mas você trocou os pentes de memória e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H5</proc_id>
+				<proc_label>Placa de Vídeo</proc_label>
+				<proc_text>Substituir a Placa de vídeo por outra off-board compatível.</proc_text>
+				<proc_feedback>É muito difícil um problema na placa de vídeo causar travamentos, mas às vezes pode acontecer. Neste caso, você trocou a placa de vídeo, mas o problema continua.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H6</proc_id>
+				<proc_label>Monitor</proc_label>
+				<proc_text>Substituir o monitor de vídeo por outro.</proc_text>
+				<proc_feedback>É impossível um problema no monitor causar qualquer tipo de travamento ou atrapalhar o funcionamento correto do computador. Afinal, o monitor é um dispositivo que apenas recebe dados do computador.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H7</proc_id>
+				<proc_label>Fonte de Alimentação</proc_label>
+				<proc_text>Substituir a fonte de alimentação por outra compatível.</proc_text>
+				<proc_feedback>É muito difícil um problema na fonte causar travamentos, mas às vezes pode acontecer. Neste caso, você trocou a fonte, mas o problema continua.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H8</proc_id>
+				<proc_label>Pincel</proc_label>
+				<proc_text>Fazer uma limpeza em todos os componentes internos para eliminar mau-contatos</proc_text>
+				<proc_feedback>Boa tentativa. É muito comum mau contatos em processadores e pentes de memória causarem travamentos. No entanto, você limpou os contatos e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H9</proc_id>
+				<proc_label>Disco Rídigo</proc_label>
+				<proc_text>Susbstituir o Disco Rígido por outro.</proc_text>
+				<proc_feedback>Não é muito comum um problema no HD causar travamentos e reiniciar o computador, mas pode acontecer. Neste caso, você trocou o HD, mas o problema continua.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H10</proc_id>
+				<proc_label>Drive de CD-Rom</proc_label>
+				<proc_text>Susbstituir o Drive de CD-ROM por outro.</proc_text>
+				<proc_feedback>É quase impossível um problema no drive de CD-ROM causar travamentos e reiniciar o computador, principalmente se esses travamentos ocorrem quando você não está acessando o drive, como neste caso.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H11</proc_id>
+				<proc_label>Drive de Disquete</proc_label>
+				<proc_text>Susbstituir o Drive de Disquete por outro.</proc_text>
+				<proc_feedback>É quase impossível um problema no drive de disquetes causar travamentos e reiniciar o computador, principalmente se esses travamentos ocorrem quando você não está acessando o drive, como neste caso.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S1</proc_id>
+				<proc_label>Reinstalação do Sistema Operacional</proc_label>
+				<proc_text>Reinstalar o Sistema Operacional.</proc_text>
+				<proc_feedback>Um problema no SO pode realmente causar travamentos no computador, mas neste caso o computador também está travando antes do boot. E é impossível o SO causar qualquer problema antes do boot.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S2</proc_id>
+				<proc_label>Reinstalação dos drivers dos dispositivos</proc_label>
+				<proc_text>Reinstalar drivers dos dispositivos.</proc_text>
+				<proc_feedback>Um problema em algum driver de algum dispositivo pode realmente causar travamentos no computador, mas neste caso o computador também está travando antes do boot. E é impossível um driver causar qualquer problema antes do boot.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S3</proc_id>
+				<proc_label>Verificação de Vírus</proc_label>
+				<proc_text>Verificar e remover vírus de computador.</proc_text>
+				<proc_feedback>Realmente, um vírus de computador pode causar problemas de travamento. Mas o computador também está travando antes do boot e um vírus nunca começa a agir antes do boot.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S4</proc_id>
+				<proc_label>Configuração do SETUP</proc_label>
+				<proc_text>Verificar configurações no Setup.</proc_text>
+				<proc_feedback>Boa tentativa. Uma configuração errada no Setup, como a frequência de operação do processador ou das memórias pode realmente causar travamentos no computador. Mas neste caso está tudo correto no Setup</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S5</proc_id>
+				<proc_label>Reinstalação do Programa Aplicativo</proc_label>
+				<proc_text>Reinstalar Programas Aplicativos.</proc_text>
+				<proc_feedback>É muito difícil, mas um defeito em algum programa aplicativo pode realmente travar ou reiniciar o computador. Mas neste caso, o computador trava em qualquer programa e até mesmo antes do boot. E é impossível um programa aplicativo causar algum problema antes do boot.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>			
+		</defect8>
+		<!--///////////////////////////////////////////////-->
+		<defect9>
+			<right_procedure_id>H9</right_procedure_id>
+			<symptoms>Logo ao ligar o computador o autoteste (POST) exibe a mensagem "HDD Failure" ( Falha no HD). Após a mensagem o computador suspende suas atividades, não chegando nem mesmo a iniciar o boot.</symptoms>
+			<aditional_information></aditional_information>
+			<def_apparent_problem_monitor>Mensagem de erro: "HDD Failure"</def_apparent_problem_monitor>
+			<id_image_monitor>monitor6</id_image_monitor>
+			<def_apparent_problem_cabinet>Nenhum problema aparente encontrado nos componentes internos do gabinete.  Aparentemente todos os cabos e conexões estão perfeitas.</def_apparent_problem_cabinet>
+			<id_image_cabinet>cabinet1</id_image_cabinet>
+			<!--/////////-->
+			<procedure>
+			    <proc_id>H1</proc_id>
+				<proc_label>Processador</proc_label>
+				<proc_text>Substituir o Processador por outro compatível.</proc_text>
+				<proc_feedback>É impossível um problema no processador causar um erro de falha de acesso ao HD.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H2</proc_id>
+				<proc_label>Placa-Mãe</proc_label>
+				<proc_text>Substituir a placa-mãe por outra compatível</proc_text>
+				<proc_feedback>Boa tentativa! Um problema na interface IDE da placa-mãe poderia causar uma perda de conexão com o HD, fazendo o POST não encontrar o HD e exibir a falha. Mas você trocou a placa-mãe e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H3</proc_id>
+				<proc_label>Cooler do Processador</proc_label>
+				<proc_text>Substituir o Cooler do Processador.</proc_text>
+				<proc_feedback>É impossível um cooler de processador queimado provocar uma falha de acesso ao HD.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H4</proc_id>
+				<proc_label>Memória Ram</proc_label>
+				<proc_text>Substituir pentes de memória RAM por outros compatíveis.</proc_text>
+				<proc_feedback>É impossível um defeito na memória RAM provocar uma falha de acesso ao HD.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H5</proc_id>
+				<proc_label>Placa de Vídeo</proc_label>
+				<proc_text>Substituir a Placa de vídeo por outra off-board compatível.</proc_text>
+				<proc_feedback>É impossível um defeito na placa de vídeo provocar uma falha de acesso ao HD.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H6</proc_id>
+				<proc_label>Monitor</proc_label>
+				<proc_text>Substituir o monitor de vídeo por outro.</proc_text>
+				<proc_feedback>É impossível um defeito no monitor de vídeo provocar uma falha de acesso ao HD.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H7</proc_id>
+				<proc_label>Fonte de Alimentação</proc_label>
+				<proc_text>Substituir a fonte de alimentação por outra compatível.</proc_text>
+				<proc_feedback>Boa tentativa! Uma fonte de alimentação com defeito poderia não estar fornecendo energia corretamente ao HD e provocando a falha. Mas infelizmente esse não é o problema. </proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H8</proc_id>
+				<proc_label>Pincel</proc_label>
+				<proc_text>Fazer uma limpeza e conectar novamente os cabos de dados e de energia do HD e da placa-mãe.</proc_text>
+				<proc_feedback>Boa tentativa. Um mau contato causado por acúmulo de poeria nos contatos entre o HD e a placa-mãe poderia causar uma falha de acesso ao HD. Mas infelizmente, esse não é o problema.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H9</proc_id>
+				<proc_label>Disco Rídigo</proc_label>
+				<proc_text>Susbstituir o Disco Rígido por outro.</proc_text>
+				<proc_feedback>Parabéns! Você descobriu o defeito. Um HD com um grande dano na superfície do seu disco, no motor ou na cabeça de leitura, ou ainda com a placa de circuitos queimada geralmente ocasiona essa mensagem de erro no autoteste, logo que o computador é ligado.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H10</proc_id>
+				<proc_label>Drive de CD-Rom</proc_label>
+				<proc_text>Susbstituir o Drive de CD-ROM por outro.</proc_text>
+				<proc_feedback>É quase impossível um defeito no drive de CD-ROM provocar falha de acesso ao HD. Mas se os dois estiverem conectados no mesmo cabo e o CD-ROM estiver queimado, pode até ocorrer essa falha.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H11</proc_id>
+				<proc_label>Drive de Disquete</proc_label>
+				<proc_text>Susbstituir o Drive de Disquete por outro.</proc_text>
+				<proc_feedback>É impossível um defeito no drive de disquete provocar falha de acesso ao HD.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S1</proc_id>
+				<proc_label>Reinstalação do Sistema Operacional</proc_label>
+				<proc_text>Reinstalar o Sistema Operacional.</proc_text>
+				<proc_feedback>Não é possível reinstalar o SO, pois com a falha de acesso ao HD você não consegue nem mesmo chegar ao boot.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S2</proc_id>
+				<proc_label>Reinstalação dos drivers dos dispositivos</proc_label>
+				<proc_text>Reinstalar drivers do drive de HD.</proc_text>
+				<proc_feedback>Não é possível reinstalar o Driver do HD, pois com a falha de acesso ao HD você não consegue nem mesmo chegar ao boot.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S3</proc_id>
+				<proc_label>Verificação de Vírus</proc_label>
+				<proc_text>Verificar e remover vírus de computador.</proc_text>
+				<proc_feedback>Não é possível executar o programa antivírus, pois com a falha de acesso ao HD você não consegue nem mesmo chegar ao boot.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S4</proc_id>
+				<proc_label>Configuração do SETUP</proc_label>
+				<proc_text>Verificar configurações do HD no Setup.</proc_text>
+				<proc_feedback>Boa tentativa! Uma configuração errada do HD no setup poderia causar problemas de acesso ao HD. Mas geralmente, quando o HD está mau configurado ele até funciona e consegue carregar o SO, apresentando problemas de arquivos corrompidos e na capacidade de armazenamento do disco.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S5</proc_id>
+				<proc_label>Reinstalação do Programa Aplicativo</proc_label>
+				<proc_text>Reinstalar Programas Aplicativos.</proc_text>
+				<proc_feedback>Não é possível reinstalar os programas aplicativos, pois com a falha de acesso ao HD você não consegue nem mesmo chegar ao boot.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>			
+		</defect9>
+		<!--///////////////////////////////////////////////-->
+		<defect10>
+			<right_procedure_id>H8</right_procedure_id>
+			<symptoms>Logo ao ligar o computador o autoteste (POST) exibe a mensagem "HDD Failure" ( Falha no HD). Após a mensagem o computador suspende suas atividades, não chegando nem mesmo a iniciar o boot.</symptoms>
+			<aditional_information></aditional_information>
+			<def_apparent_problem_monitor>Mensagem de erro: "HDD Failure"</def_apparent_problem_monitor>
+			<id_image_monitor>monitor6</id_image_monitor>
+			<def_apparent_problem_cabinet>Aparentemente o cabo de dados que liga o HD à placa mãe não está conectado perfeitamente.</def_apparent_problem_cabinet>
+			<id_image_cabinet>cabinet2</id_image_cabinet>
+			<!--/////////-->
+			<procedure>
+			    <proc_id>H1</proc_id>
+				<proc_label>Processador</proc_label>
+				<proc_text>Substituir o Processador por outro compatível.</proc_text>
+				<proc_feedback>É impossível um problema no processador causar um erro de falha de acesso ao HD.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H2</proc_id>
+				<proc_label>Placa-Mãe</proc_label>
+				<proc_text>Substituir a placa-mãe por outra compatível</proc_text>
+				<proc_feedback>Boa tentativa! Um problema na interface IDE da placa-mãe poderia causar uma perda de conexão com o HD, fazendo o POST não encontrar o HD e exibir a falha. Mas você trocou a placa-mãe e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H3</proc_id>
+				<proc_label>Cooler do Processador</proc_label>
+				<proc_text>Substituir o Cooler do Processador.</proc_text>
+				<proc_feedback>É impossível um cooler de processador queimado provocar uma falha de acesso ao HD.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H4</proc_id>
+				<proc_label>Memória Ram</proc_label>
+				<proc_text>Substituir pentes de memória RAM por outros compatíveis.</proc_text>
+				<proc_feedback>É impossível um defeito na memória RAM provocar uma falha de acesso ao HD.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H5</proc_id>
+				<proc_label>Placa de Vídeo</proc_label>
+				<proc_text>Substituir a Placa de vídeo por outra off-board compatível.</proc_text>
+				<proc_feedback>É impossível um defeito na placa de vídeo provocar uma falha de acesso ao HD.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H6</proc_id>
+				<proc_label>Monitor</proc_label>
+				<proc_text>Substituir o monitor de vídeo por outro.</proc_text>
+				<proc_feedback>É impossível um defeito no monitor de vídeo provocar uma falha de acesso ao HD.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H7</proc_id>
+				<proc_label>Fonte de Alimentação</proc_label>
+				<proc_text>Substituir a fonte de alimentação por outra compatível.</proc_text>
+				<proc_feedback>Boa tentativa! Uma fonte de alimentação com defeito poderia não estar fornecendo energia corretamente ao HD e provocando a falha. Mas infelizmente esse não é o problema. </proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H8</proc_id>
+				<proc_label>Pincel</proc_label>
+				<proc_text>Fazer uma limpeza e conectar novamente os cabos de dados e de energia do HD e da placa-mãe.</proc_text>
+				<proc_feedback>Parabéns! Você descobriu o defeito. O cabo de dados que liga o HD a placa-mãe estava com um mau contato, ocasionando a perda de conexão com o HD.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H9</proc_id>
+				<proc_label>Disco Rídigo</proc_label>
+				<proc_text>Susbstituir o Disco Rígido por outro.</proc_text>
+				<proc_feedback>Boa tentativa. Um HD com um grande dano na superfície do seu disco, no motor ou na cabeça de leitura, ou ainda com a placa de circuitos queimada geralmente ocasiona essa mensagem de erro no autoteste, logo que o computador é ligado. Mas infelizmente, esse não é o problema.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H10</proc_id>
+				<proc_label>Drive de CD-Rom</proc_label>
+				<proc_text>Susbstituir o Drive de CD-ROM por outro.</proc_text>
+				<proc_feedback>É quase impossível um defeito no drive de CD-ROM provocar falha de acesso ao HD. Mas se os dois estiverem conectados no mesmo cabo e o CD-ROM estiver queimado, pode até ocorrer essa falha.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H11</proc_id>
+				<proc_label>Drive de Disquete</proc_label>
+				<proc_text>Susbstituir o Drive de Disquete por outro.</proc_text>
+				<proc_feedback>É impossível um defeito no drive de disquete provocar falha de acesso ao HD.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S1</proc_id>
+				<proc_label>Reinstalação do Sistema Operacional</proc_label>
+				<proc_text>Reinstalar o Sistema Operacional.</proc_text>
+				<proc_feedback>Não é possível reinstalar o SO, pois com a falha de acesso ao HD você não consegue nem mesmo chegar ao boot.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S2</proc_id>
+				<proc_label>Reinstalação dos drivers dos dispositivos</proc_label>
+				<proc_text>Reinstalar drivers do drive de HD.</proc_text>
+				<proc_feedback>Não é possível reinstalar o Driver do HD, pois com a falha de acesso ao HD você não consegue nem mesmo chegar ao boot.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S3</proc_id>
+				<proc_label>Verificação de Vírus</proc_label>
+				<proc_text>Verificar e remover vírus de computador.</proc_text>
+				<proc_feedback>Não é possível executar o programa antivírus, pois com a falha de acesso ao HD você não consegue nem mesmo chegar ao boot.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S4</proc_id>
+				<proc_label>Configuração do SETUP</proc_label>
+				<proc_text>Verificar configurações do HD no Setup.</proc_text>
+				<proc_feedback>Boa tentativa! Uma configuração errada do HD no setup poderia causar problemas de acesso ao HD. Mas geralmente, quando o HD está mau configurado ele até funciona e consegue carregar o SO, apresentando problemas de arquivos corrompidos e na capacidade de armazenamento do disco.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S5</proc_id>
+				<proc_label>Reinstalação do Programa Aplicativo</proc_label>
+				<proc_text>Reinstalar Programas Aplicativos.</proc_text>
+				<proc_feedback>Não é possível reinstalar os programas aplicativos, pois com a falha de acesso ao HD você não consegue nem mesmo chegar ao boot.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>			
+		</defect10>
+		<!--//////////////////////////////////////////////-->
+		<defect11>
+			<right_procedure_id>S1</right_procedure_id>
+			<symptoms>O computador trava ou reinicia sozinho em qualquer momento, durante a utilização de qualquer programa, mas sempre depois do boot.</symptoms>
+			<aditional_information>- Defeito começou a acontecer depois de uma queda repentina de energia enquanto usuário utilizava o computador.</aditional_information>
+			<def_apparent_problem_monitor>Nenhum problema aparente. Nenhuma mensagem de erro é exibida.</def_apparent_problem_monitor>
+			<id_image_monitor>monitor9</id_image_monitor>
+			<def_apparent_problem_cabinet>Nenhum problema aparente encontrado nos componentes internos do gabinete.  Aparentemente todos os cabos e conexões estão perfeitas.</def_apparent_problem_cabinet>
+			<id_image_cabinet>cabinet1</id_image_cabinet>
+			<!--/////////-->
+			<procedure>
+			    <proc_id>H1</proc_id>
+				<proc_label>Processador</proc_label>
+				<proc_text>Substituir o Processador por outro compatível.</proc_text>
+				<proc_feedback>Boa tentativa! Um processador defeituoso poderia realmente causar esse tipo de problema. Mas você trocou o processador e o problema continua. </proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H2</proc_id>
+				<proc_label>Placa-Mãe</proc_label>
+				<proc_text>Substituir a placa-mãe por outra compatível</proc_text>
+				<proc_feedback>Boa tentativa! Uma placa-mãe defeituosa poderia realmente causar esse tipo de problema. Mas você trocou a placa-mãe e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H3</proc_id>
+				<proc_label>Cooler do Processador</proc_label>
+				<proc_text>Substituir o Cooler do Processador.</proc_text>
+				<proc_feedback>Boa tentativa! Um cooler de processador queimado poderia estar causando super aquecimento no processador e ocasinando travamentos. Mas o cooler está funcionando perfeitamente.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H4</proc_id>
+				<proc_label>Memória Ram</proc_label>
+				<proc_text>Substituir pentes de memória RAM por outros compatíveis.</proc_text>
+				<proc_feedback>Boa tentativa! Um pente de memória com defeito poderia realmente causar esse tipo de problema. Mas você trocou a memória e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H5</proc_id>
+				<proc_label>Placa de Vídeo</proc_label>
+				<proc_text>Substituir a Placa de vídeo por outra off-board compatível.</proc_text>
+				<proc_feedback>É muito difícil um problema na placa de vídeo causar travamentos, mas às vezes pode acontecer. Neste caso, você trocou a placa de vídeo, mas o problema continua.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H6</proc_id>
+				<proc_label>Monitor</proc_label>
+				<proc_text>Substituir o monitor de vídeo por outro.</proc_text>
+				<proc_feedback>É impossível um problema no monitor causar qualquer tipo de travamento ou atrapalhar o funcionamento correto do computador. Afinal, o monitor é um dispositivo que apenas recebe dados do computador.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H7</proc_id>
+				<proc_label>Fonte de Alimentação</proc_label>
+				<proc_text>Substituir a fonte de alimentação por outra compatível.</proc_text>
+				<proc_feedback>É muito difícil um problema na fonte causar travamentos, mas às vezes pode acontecer. Neste caso, você trocou a fonte, mas o problema continua.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H8</proc_id>
+				<proc_label>Pincel</proc_label>
+				<proc_text>Fazer uma limpeza em todos os componentes internos para eliminar mau-contatos.</proc_text>
+				<proc_feedback>Boa tentativa. É muito comum mau contatos em processadores e pentes de memória causarem travamentos. No entanto, você limpou os contatos e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H9</proc_id>
+				<proc_label>Disco Rídigo</proc_label>
+				<proc_text>Susbstituir o Disco Rígido por outro.</proc_text>
+				<proc_feedback>Não é muito comum um problema no HD causar travamentos e reiniciar o computador, mas pode acontecer. Neste caso, você trocou o HD, mas o problema continua.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H10</proc_id>
+				<proc_label>Drive de CD-Rom</proc_label>
+				<proc_text>Susbstituir o Drive de CD-ROM por outro.</proc_text>
+				<proc_feedback>É quase impossível um problema no drive de CD-ROM causar travamentos e reiniciar o computador, principalmente se esses travamentos ocorrem quando você não está acessando o drive, como neste caso.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H11</proc_id>
+				<proc_label>Drive de Disquete</proc_label>
+				<proc_text>Susbstituir o Drive de Disquete por outro.</proc_text>
+				<proc_feedback>É quase impossível um problema no drive de disquetes causar travamentos e reiniciar o computador, principalmente se esses travamentos ocorrem quando você não está acessando o drive, como neste caso.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S1</proc_id>
+				<proc_label>Reinstalação do Sistema Operacional</proc_label>
+				<proc_text>Reinstalar o Sistema Operacional.</proc_text>
+				<proc_feedback>Muito Bem! Você descobriu o problema! Quando houve a queda de energia durante a utilização do computador, alguns arquivos importantes do SO foram danificados. Ao reinstalar o SO, novos arquivos foram gravados po cima dos velhos que estavam com defeito e o problema foi resolvido. Porém, algumàs vezes é preciso apagar o SO antigo completamente e instalar um novo, salvando os dados do usuário em um outro local e formatando o HD.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S2</proc_id>
+				<proc_label>Reinstalação dos drivers dos dispositivos</proc_label>
+				<proc_text>Reinstalar drivers dos dispositivos.</proc_text>
+				<proc_feedback>Um problema em algum driver de algum dispositivo pode realmente causar travamentos no computador, mas neste caso todos os drives estão corretamente instalados.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S3</proc_id>
+				<proc_label>Verificação de Vírus</proc_label>
+				<proc_text>Verificar e remover vírus de computador.</proc_text>
+				<proc_feedback>Realmente, um vírus de computador pode causar problemas de travamento. Mas você utilizou um programa  antivírus atualizado e não encontro nenhum vírus.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S4</proc_id>
+				<proc_label>Configuração do SETUP</proc_label>
+				<proc_text>Verificar configurações no Setup.</proc_text>
+				<proc_feedback>Boa tentativa. Uma configuração errada no Setup, como a frequência de operação do processador ou das memórias pode realmente causar travamentos no computador. Mas neste caso está tudo correto no Setup.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S5</proc_id>
+				<proc_label>Reinstalação do Programa Aplicativo</proc_label>
+				<proc_text>Reinstalar Programas Aplicativos.</proc_text>
+				<proc_feedback>É muito difícil, mas um defeito em algum programa aplicativo pode realmente travar ou reiniciar o computador. Mas neste caso, o computador trava em qualquer programa e não em um programa específico.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>			
+		</defect11>
+		<!--//////////////////////////////////////////////-->
+		<defect12>
+			<right_procedure_id>S3</right_procedure_id>
+			<symptoms>O computador está muito lento, tanto para ler ou gravar arquivos quanto para executar programas, digitar textos, acessar a Internet, etc. Alguns arquivos do usuário sumiram. Às vezes trava.</symptoms>
+			<aditional_information>- Defeito apareceu depois que o usuário abriu um arquivo executável que um amigo lhe enviou por email.</aditional_information>
+			<def_apparent_problem_monitor>Nenhum problema aparente. Nenhuma mensagem de erro é exibida.</def_apparent_problem_monitor>
+			<id_image_monitor>monitor9</id_image_monitor>
+			<def_apparent_problem_cabinet>Nenhum problema aparente encontrado nos componentes internos do gabinete.  Aparentemente todos os cabos e conexões estão perfeitas.</def_apparent_problem_cabinet>
+			<id_image_cabinet>cabinet1</id_image_cabinet>
+			<!--/////////-->
+			<procedure>
+			    <proc_id>H1</proc_id>
+				<proc_label>Processador</proc_label>
+				<proc_text>Substituir o Processador por outro compatível.</proc_text>
+				<proc_feedback>Apesar de um processador defeituoso poder travar o computador, dificilmente causaria lentidão e jamais apagaria arquivos do usuário. Você trocou o processador e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H2</proc_id>
+				<proc_label>Placa-Mãe</proc_label>
+				<proc_text>Substituir a placa-mãe por outra compatível</proc_text>
+				<proc_feedback>Apesar de uma placa-mãe defeituosa poder travar o computador, dificilmente causaria lentidão e apagaria arquivos do usuário. Você trocou a placa-mãe e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H3</proc_id>
+				<proc_label>Cooler do Processador</proc_label>
+				<proc_text>Substituir o Cooler do Processador.</proc_text>
+				<proc_feedback>Apesar de um cooler queimado provocar superaquecimento no processador e poder travar o computador, dificilmente causaria lentidão e jamais apagaria arquivos do usuário. Você trocou o cooler e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H4</proc_id>
+				<proc_label>Memória Ram</proc_label>
+				<proc_text>Substituir pentes de memória RAM por outros compatíveis.</proc_text>
+				<proc_feedback>Apesar de um pente de memória defeituoso poder travar o computador, dificilmente causaria lentidão e apagaria arquivos do usuário. Você trocou a memória RAM, mas o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H5</proc_id>
+				<proc_label>Placa de Vídeo</proc_label>
+				<proc_text>Substituir a Placa de vídeo por outra off-board compatível.</proc_text>
+				<proc_feedback>É praticamente impossível uma placa de vídeo defeituosa causar travamentos e deixar o computador lento. Além disso, jamais apagaria arquivos do usuário. Você trocou a placa de vídeo, mas o problema continua.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H6</proc_id>
+				<proc_label>Monitor</proc_label>
+				<proc_text>Substituir o monitor de vídeo por outro.</proc_text>
+				<proc_feedback>É impossível um problema no monitor causar qualquer tipo de travamento ou atrapalhar o funcionamento correto do computador. Afinal, o monitor é um dispositivo que apenas recebe dados do computador.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H7</proc_id>
+				<proc_label>Fonte de Alimentação</proc_label>
+				<proc_text>Substituir a fonte de alimentação por outra compatível.</proc_text>
+				<proc_feedback>Apesar de uma fonte defeituosa poder travar o computador, dificilmente causaria lentidão e jamais apagaria arquivos do usuário. Você trocou a fonte, mas o problema continua.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H8</proc_id>
+				<proc_label>Pincel</proc_label>
+				<proc_text>Fazer uma limpeza em todos os componentes internos para eliminar mau-contatos.</proc_text>
+				<proc_feedback>Apesar de um mau contato poder travar o computador, dificilmente causaria lentidão e jamais apagaria arquivos do usuário. </proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H9</proc_id>
+				<proc_label>Disco Rídigo</proc_label>
+				<proc_text>Susbstituir o Disco Rígido por outro.</proc_text>
+				<proc_feedback>Boa tentativa. Um HD defeituoso pode deixar o computador lento, causar travamentos e problemas com arquivos. Mas o computador também está lento para realizar tarefas que não dependem do HD, como digitação de texto e acessar a Internet.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H10</proc_id>
+				<proc_label>Drive de CD-Rom</proc_label>
+				<proc_text>Susbstituir o Drive de CD-ROM por outro.</proc_text>
+				<proc_feedback>É  impossível um problema no drive de CD-ROM causar travamentos, deixar o computador lento e apagar arquivos do usuário que estão no HD.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H11</proc_id>
+				<proc_label>Drive de Disquete</proc_label>
+				<proc_text>Susbstituir o Drive de Disquete por outro.</proc_text>
+				<proc_feedback>É  impossível um problema no drive de disquete causar travamentos, deixar o computador lento e apagar arquivos do usuário que estão no HD.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S1</proc_id>
+				<proc_label>Reinstalação do Sistema Operacional</proc_label>
+				<proc_text>Reinstalar o Sistema Operacional.</proc_text>
+				<proc_feedback>É muito difícil, mas um defeito em arquivos do SO poderia até causar travamentos, lentidão e até perda de arquivos do usuário. Mas você reinstalou o SO e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S2</proc_id>
+				<proc_label>Reinstalação dos drivers dos dispositivos</proc_label>
+				<proc_text>Reinstalar drivers dos dispositivos.</proc_text>
+				<proc_feedback>É muito difícil, mas um defeito em arquivos do SO poderia até causar travamentos e lentidão, mas jamais causaria a perda de arquivos do usuário.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S3</proc_id>
+				<proc_label>Verificação de Vírus</proc_label>
+				<proc_text>Verificar e remover vírus de computador.</proc_text>
+				<proc_feedback>Parabéns! Você descobriu o problema! Um vírus de computador pode causar sintomas estranhos, travar o computador, deixá-lo lento e apagar arquivos do usuário. Quando o usuário descuidado executou um arquivo que recebeu por email sem passar um antivírus atualizado, o vírus que estava infectando o arquivo se instalou no computador e começou a causar problemas.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S4</proc_id>
+				<proc_label>Configuração do SETUP</proc_label>
+				<proc_text>Verificar configurações no Setup.</proc_text>
+				<proc_feedback>Realmente, uma configuração errada no Setup, como a frequência de operação do processador ou das memórias pode realmente causar travamentos e lentidão, mas jamais apagaria arquivos do usuário.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S5</proc_id>
+				<proc_label>Reinstalação do Programa Aplicativo</proc_label>
+				<proc_text>Reinstalar Programas Aplicativos.</proc_text>
+				<proc_feedback>Pode até acontecer de um programa com problemas causar travamentos e lentidão, mas o problema está acontecendo em vários programas e não em um específico.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>			
+		</defect12>
+		<!--/////////////////////////////////////////////-->
+		<defect13>
+			<right_procedure_id>H6</right_procedure_id>
+			<symptoms>Nenhum sinal de vídeo aparece no monitor.</symptoms>
+			<aditional_information>- O computador liga normalmente e você consegue ouvir o bip que indica sucesso no autoteste. Além disso, parece que o computador está carregando o SO normalmente, porque você consegue ouvir o som inicial de entrada do Windows.</aditional_information>
+			<def_apparent_problem_monitor>Nada aparece no monitor.</def_apparent_problem_monitor>
+			<id_image_monitor>monitor11</id_image_monitor>
+			<def_apparent_problem_cabinet>Nenhum problema aparente encontrado nos componentes internos do gabinete.  Aparentemente todos os cabos e conexões estão perfeitas.</def_apparent_problem_cabinet>
+			<id_image_cabinet>cabinet1</id_image_cabinet>
+			<!--/////////-->
+			<procedure>
+			    <proc_id>H1</proc_id>
+				<proc_label>Processador</proc_label>
+				<proc_text>Substituir o Processador por outro compatível.</proc_text>
+				<proc_feedback>Se o computador não estivesse ligando, talvez o problema estivesse no processador, mas neste caso o computador parece estar funcionando normalmente e apenas não exibindo imagens. Você trocou o processador, mas o problema continua.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H2</proc_id>
+				<proc_label>Placa-Mãe</proc_label>
+				<proc_text>Substituir a placa-mãe por outra compatível</proc_text>
+				<proc_feedback>Se o computador não estivesse ligando, talvez o problema estivesse na placa-mãe, mas neste caso o computador parece estar funcionando normalmente e apenas não exibindo imagens. Você trocou a placa-mãe, mas o problema continua.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H3</proc_id>
+				<proc_label>Cooler do Processador</proc_label>
+				<proc_text>Substituir o Cooler do Processador.</proc_text>
+				<proc_feedback>É impossível um problema no cooler do processador causar problemas na exibição de imagens.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H4</proc_id>
+				<proc_label>Memória Ram</proc_label>
+				<proc_text>Substituir pentes de memória RAM por outros compatíveis.</proc_text>
+				<proc_feedback>Se o computador não estivesse ligando, talvez o problema estivesse na memória RAM, mas neste caso o computador parece estar funcionando normalmente e apenas não exibindo imagens. Você trocou os pentes de memória, mas o problema continua.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H5</proc_id>
+				<proc_label>Placa de Vídeo</proc_label>
+				<proc_text>Substituir a Placa de vídeo por outra off-board compatível.</proc_text>
+				<proc_feedback>Boa tentativa! Um defeito na placa de vídeo poderia fazer o computador funcionar normalmente, mas não exibir nenhuma imagem no monitor. Mas você trocou a placa de vídeo e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H6</proc_id>
+				<proc_label>Monitor</proc_label>
+				<proc_text>Substituir o monitor de vídeo por outro.</proc_text>
+				<proc_feedback>Muito Bem! Você descobriu qual era o problema. O Monitor está com defeito e não está exibindo imagens. Como é um dispositivo de saída, ele não influencia no funcionamento do computador. Por isso o computador continua funcionando normalmente, mesmo com monitor defeituoso.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H7</proc_id>
+				<proc_label>Fonte de Alimentação</proc_label>
+				<proc_text>Substituir a fonte de alimentação por outra compatível.</proc_text>
+				<proc_feedback>É quase impossível a fonte de alimentação causar um problema na imagem. Além disso, se o computador está funcionando normalmente, significa que a fonte também está.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H8</proc_id>
+				<proc_label>Pincel</proc_label>
+				<proc_text>Fazer uma limpeza em todos os componentes internos para eliminar mau-contatos.</proc_text>
+				<proc_feedback>Realmente, um mau contato e acúmulo de poeria nos contatos da placa de vídeo off-board causarem um defeito com os mesmos sintomas. Mas você limpou os contatos e encaixou novamente os conectores e placas e o defeito continua.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H9</proc_id>
+				<proc_label>Disco Rídigo</proc_label>
+				<proc_text>Susbstituir o Disco Rígido por outro.</proc_text>
+				<proc_feedback>É  impossível um problema no HD causar defeito na geração de imagens, pois sua função não está relacionada diretamente à geração de imagens.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H10</proc_id>
+				<proc_label>Drive de CD-Rom</proc_label>
+				<proc_text>Susbstituir o Drive de CD-ROM por outro.</proc_text>
+				<proc_feedback>É  impossível um problema no drive de CD-ROM causar defeito na geração de imagens, pois sua função não está relacionada diretamente à geração de imagens.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H11</proc_id>
+				<proc_label>Drive de Disquete</proc_label>
+				<proc_text>Susbstituir o Drive de Disquete por outro.</proc_text>
+				<proc_feedback>É  impossível um problema no drive de disquete causar defeito na geração de imagens, pois sua função não está relacionada diretamente à geração de imagens.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S1</proc_id>
+				<proc_label>Reinstalação do Sistema Operacional</proc_label>
+				<proc_text>Reinstalar o Sistema Operacional.</proc_text>
+				<proc_feedback>Um problema no SO como uma configuração errada na resolução ou frequência de vídeo pode causar problemas na exibição de imagens, mas geralmente quando isso acontece a imagem fica distorcida, mas alguma imagem aparece. Neste caso, nenhuma imagem aparece. Além disso, quando há um erro na configuração de vídeo, basta configurar na resolução correta para o monitor e não reinstalar o Sistema Operacional.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S2</proc_id>
+				<proc_label>Reinstalação dos drivers dos dispositivos</proc_label>
+				<proc_text>Reinstalar drivers dos dispositivos.</proc_text>
+				<proc_feedback>Um driver errado da placa de vídeo ou um problema no driver da placa de vídeo podem até causar um problemas na exibição da imagem, mas nunca causaria um problema no qual nenhuma imagem aparece. Além disso, a imagem já não aparece quando o computador é ligado, antes mesmo do boot. E um driver não começa a funcionar antes do boot.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S3</proc_id>
+				<proc_label>Verificação de Vírus</proc_label>
+				<proc_text>Verificar e remover vírus de computador.</proc_text>
+				<proc_feedback>Um vírus de computador poderia causar um problema de distorção das imagens, mas não um defeito no qual nenhuma imagem aparece. Além disso, a imagem já não aparece quando o computador é ligado, antes mesmo do boot. E um vírus não pode agir antes do boot.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S4</proc_id>
+				<proc_label>Configuração do SETUP</proc_label>
+				<proc_text>Verificar configurações no Setup.</proc_text>
+				<proc_feedback>É quase impossível uma configuração errada do Setup relacionada a placa de vídeo causar um problema no qual nenhuma imagem aparece.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S5</proc_id>
+				<proc_label>Reinstalação do Programa Aplicativo</proc_label>
+				<proc_text>Reinstalar Programas Aplicativos.</proc_text>
+				<proc_feedback>É quase impossível um programa de computador causar problemas um problema no qual nenhuma imagem aparece. Além disso, a imagem já não aparece quando o computador é ligado, antes mesmo do boot. E um programa não pode agir antes do boot.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>			
+		</defect13>
+		<!--//////////////////////////////////////////////-->
+		<defect14>
+			<right_procedure_id>H1</right_procedure_id>
+			<symptoms>O computador trava ou reinicia sozinho em qualquer momento, durante a utilização de qualquer programa e às vezes trava mesmo antes do boot.</symptoms>
+			<aditional_information></aditional_information>
+			<def_apparent_problem_monitor>Nenhum problema aparente. Nenhuma mensagem de erro é exibida.</def_apparent_problem_monitor>
+			<id_image_monitor>monitor9</id_image_monitor>
+			<def_apparent_problem_cabinet>Nenhum problema aparente encontrado nos componentes internos do gabinete.  Aparentemente todos os cabos e conexões estão perfeitas.</def_apparent_problem_cabinet>
+			<id_image_cabinet>cabinet1</id_image_cabinet>
+			<!--/////////-->
+			<procedure>
+			    <proc_id>H1</proc_id>
+				<proc_label>Processador</proc_label>
+				<proc_text>Substituir o Processador por outro compatível.</proc_text>
+				<proc_feedback>Parabéns! Você acertou! Um processador defeituoso é causa frequente de travamentos do computador.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H2</proc_id>
+				<proc_label>Placa-Mãe</proc_label>
+				<proc_text>Substituir a placa-mãe por outra compatível</proc_text>
+				<proc_feedback>Boa tentativa! Uma placa-mãe defeituosa poderia realmente causar esse tipo de problema. Mas você trocou a placa-mãe e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H3</proc_id>
+				<proc_label>Cooler do Processador</proc_label>
+				<proc_text>Substituir o Cooler do Processador.</proc_text>
+				<proc_feedback>Boa tentativa! Um cooler defeituoso poderia causar superaquecimento do processador e provocar travamentos. Mas o cooler está funcionando perfeitamente.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H4</proc_id>
+				<proc_label>Memória Ram</proc_label>
+				<proc_text>Substituir pentes de memória RAM por outros compatíveis.</proc_text>
+				<proc_feedback>Boa tentativa! Um pente de memória RAM defeituoso poderia realmente causar esse tipo de problema. Mas você trocou os pentes de memória e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H5</proc_id>
+				<proc_label>Placa de Vídeo</proc_label>
+				<proc_text>Substituir a Placa de vídeo por outra off-board compatível.</proc_text>
+				<proc_feedback>É muito difícil um problema na placa de vídeo causar travamentos, mas às vezes pode acontecer. Neste caso, você trocou a placa de vídeo, mas o problema continua.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H6</proc_id>
+				<proc_label>Monitor</proc_label>
+				<proc_text>Substituir o monitor de vídeo por outro.</proc_text>
+				<proc_feedback>É impossível um problema no monitor causar qualquer tipo de travamento ou atrapalhar o funcionamento correto do computador. Afinal, o monitor é um dispositivo que apenas recebe dados do computador.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H7</proc_id>
+				<proc_label>Fonte de Alimentação</proc_label>
+				<proc_text>Substituir a fonte de alimentação por outra compatível.</proc_text>
+				<proc_feedback>É muito difícil um problema na fonte causar travamentos, mas às vezes pode acontecer. Neste caso, você trocou a fonte, mas o problema continua.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H8</proc_id>
+				<proc_label>Pincel</proc_label>
+				<proc_text>Fazer uma limpeza em todos os componentes internos para eliminar mau-contatos.</proc_text>
+				<proc_feedback>Boa tentativa. É muito comum mau contatos em processadores e pentes de memória causarem travamentos. No entanto, você limpou os contatos e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H9</proc_id>
+				<proc_label>Disco Rídigo</proc_label>
+				<proc_text>Susbstituir o Disco Rígido por outro.</proc_text>
+				<proc_feedback>Não é muito comum um problema no HD causar travamentos e reiniciar o computador, mas pode acontecer. Neste caso, você trocou o HD, mas o problema continua.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H10</proc_id>
+				<proc_label>Drive de CD-Rom</proc_label>
+				<proc_text>Susbstituir o Drive de CD-ROM por outro.</proc_text>
+				<proc_feedback>É quase impossível um problema no drive de CD-ROM causar travamentos e reiniciar o computador, principalmente se esses travamentos ocorrem quando você não está acessando o drive, como neste caso.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H11</proc_id>
+				<proc_label>Drive de Disquete</proc_label>
+				<proc_text>Susbstituir o Drive de Disquete por outro.</proc_text>
+				<proc_feedback>É quase impossível um problema no drive de disquetes causar travamentos e reiniciar o computador, principalmente se esses travamentos ocorrem quando você não está acessando o drive, como neste caso.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S1</proc_id>
+				<proc_label>Reinstalação do Sistema Operacional</proc_label>
+				<proc_text>Reinstalar o Sistema Operacional.</proc_text>
+				<proc_feedback>Um problema no SO pode realmente causar travamentos no computador, mas neste caso o computador também está travando antes do boot. E é impossível o SO causar qualquer problema antes do boot.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S2</proc_id>
+				<proc_label>Reinstalação dos drivers dos dispositivos</proc_label>
+				<proc_text>Reinstalar drivers dos dispositivos.</proc_text>
+				<proc_feedback>Um problema em algum driver de algum dispositivo pode realmente causar travamentos no computador, mas neste caso o computador também está travando antes do boot. E é impossível um driver causar qualquer problema antes do boot.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S3</proc_id>
+				<proc_label>Verificação de Vírus</proc_label>
+				<proc_text>Verificar e remover vírus de computador.</proc_text>
+				<proc_feedback>Realmente, um vírus de computador pode causar problemas de travamento. Mas o computador também está travando antes do boot e um vírus nunca começa a agir antes do boot.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S4</proc_id>
+				<proc_label>Configuração do SETUP</proc_label>
+				<proc_text>Verificar configurações no Setup.</proc_text>
+				<proc_feedback>Boa tentativa. Uma configuração errada no Setup, como a frequência de operação do processador ou das memórias pode realmente causar travamentos no computador. Mas neste caso está tudo correto no Setup.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S5</proc_id>
+				<proc_label>Reinstalação do Programa Aplicativo</proc_label>
+				<proc_text>Reinstalar Programas Aplicativos.</proc_text>
+				<proc_feedback>É muito difícil, mas um defeito em algum programa aplicativo pode realmente travar ou reiniciar o computador. Mas neste caso, o computador trava em qualquer programa e até mesmo antes do boot. E é impossível um programa aplicativo causar algum problema antes do boot.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>			
+		</defect14>
+		<!--/////////////////////////////////////////////-->
+		<defect15>
+			<right_procedure_id>S2</right_procedure_id>
+			<symptoms>Apesar de não haver distorções nas imagens, elas aparecem dentro do Windows com uma definição muito pobre e poucas cores.</symptoms>
+			<aditional_information>- Ao entrar na configuração da resolução de tela do Windows, não é possível configurar para um número  maior de cores, nem para uma resolução maior de tela.  Apenas aparece a opção de utilizar a resolução 640x480 com 16 cores (4 bit).</aditional_information>
+			<def_apparent_problem_monitor>Nenhuma mensagem de erro é exibida. Apenas a tela está com uma definição muito pobre.</def_apparent_problem_monitor>
+			<id_image_monitor>monitor8</id_image_monitor>
+			<def_apparent_problem_cabinet>Nenhum problema aparente encontrado nos componentes internos do gabinete.  Aparentemente todos os cabos e conexões estão perfeitas.</def_apparent_problem_cabinet>
+			<id_image_cabinet>cabinet1</id_image_cabinet>
+			<!--/////////-->
+			<procedure>
+			    <proc_id>H1</proc_id>
+				<proc_label>Processador</proc_label>
+				<proc_text>Substituir o Processador por outro compatível.</proc_text>
+				<proc_feedback>É impossível um processador com defeito causar problemas de definição pobre de tela.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H2</proc_id>
+				<proc_label>Placa-Mãe</proc_label>
+				<proc_text>Substituir a placa-mãe por outra compatível</proc_text>
+				<proc_feedback>É impossível uma placa-mãe com defeito  causar problemas de definição pobre de tela.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H3</proc_id>
+				<proc_label>Cooler do Processador</proc_label>
+				<proc_text>Substituir o Cooler do Processador.</proc_text>
+				<proc_feedback>É impossível um cooler com defeito  causar problemas de definição pobre de tela.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H4</proc_id>
+				<proc_label>Memória Ram</proc_label>
+				<proc_text>Substituir pentes de memória RAM por outros compatíveis.</proc_text>
+				<proc_feedback>É impossível um pente de memória com defeito causar problemas de definição pobre de tela.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H5</proc_id>
+				<proc_label>Placa de Vídeo</proc_label>
+				<proc_text>Substituir a Placa de vídeo por outra off-board compatível.</proc_text>
+				<proc_feedback>Boa tentativa! Uma placa de vídeo defeituosa pode causar problemas na imagem. Mas geralmente, os problemas que ela ocasiona são de distorções graves na imagem e não de resolução pobre de tela.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H6</proc_id>
+				<proc_label>Monitor</proc_label>
+				<proc_text>Substituir o monitor de vídeo por outro.</proc_text>
+				<proc_feedback>Um monitor de vídeo defeituoso pode causar problemas na imagem, mas não impedir que o Sistema Operacional apresente opções de resolução maiores, como neste caso.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H7</proc_id>
+				<proc_label>Fonte de Alimentação</proc_label>
+				<proc_text>Substituir a fonte de alimentação por outra compatível.</proc_text>
+				<proc_feedback>É impossível uma fonte de alimentação com defeito causar problemas de definição pobre de tela.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H8</proc_id>
+				<proc_label>Pincel</proc_label>
+				<proc_text>Fazer uma limpeza em todos os componentes internos para eliminar mau-contatos.</proc_text>
+				<proc_feedback>Boa tentativa! Um mau contato na placa de vídeo pode causar problemas na imagem. Mas geralmente, os problemas que ela ocasiona são de distorções graves na imagem e não de resolução pobre de tela.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H9</proc_id>
+				<proc_label>Disco Rídigo</proc_label>
+				<proc_text>Susbstituir o Disco Rígido por outro.</proc_text>
+				<proc_feedback>É impossível um HD defeituoso causar problemas de definição pobre de tela.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H10</proc_id>
+				<proc_label>Drive de CD-Rom</proc_label>
+				<proc_text>Susbstituir o Drive de CD-ROM por outro.</proc_text>
+				<proc_feedback>É impossível um drive de CD-ROM defeituoso causar problemas de definição pobre de tela.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H11</proc_id>
+				<proc_label>Drive de Disquete</proc_label>
+				<proc_text>Susbstituir o Drive de Disquete por outro.</proc_text>
+				<proc_feedback>É impossível um drive de disquete defeituoso causar problemas de definição pobre de tela.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S1</proc_id>
+				<proc_label>Reinstalação do Sistema Operacional</proc_label>
+				<proc_text>Reinstalar o Sistema Operacional.</proc_text>
+				<proc_feedback>Um problema no SO como uma configuração errada na resolução ou frequencia de vídeo pode causar problemas de definição pobre de tela. Mas neste caso, você não está conseguindo configurar para uma resolução melhor porque as opções de melhor resolução não está  disponíveis.Você reinstalouo SO, mas o problema continua.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S2</proc_id>
+				<proc_label>Reinstalação dos drivers dos dispositivos</proc_label>
+				<proc_text>Reinstalar drivers da placa de vídeo.</proc_text>
+				<proc_feedback>Muito bem! Você descobriu o defeito! O driver correto para a placa de vídeo não estava instalado. Dessa forma, o SO utilizou um driver genérico que só tem as opções mais básicas de resolução de tela e de cor. Ao instalar o driver correto, todas as opções de número de cor e resolução de tela ficaram disponíveis.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S3</proc_id>
+				<proc_label>Verificação de Vírus</proc_label>
+				<proc_text>Verificar e remover vírus de computador.</proc_text>
+				<proc_feedback>Muito dificilmente um vírus de computador causaria um problema de resolução de tela, mas pode acontecer. Neste caso, o computador não tinha nenhum vírus.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S4</proc_id>
+				<proc_label>Configuração do SETUP</proc_label>
+				<proc_text>Configurar opcões de vídeo do Setup.</proc_text>
+				<proc_feedback>É muito difícil uma configuração no Setup relacionada a placa de vídeo ocasionar problemas de definição de tela.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S5</proc_id>
+				<proc_label>Reinstalação do Programa Aplicativo</proc_label>
+				<proc_text>Reinstalar Programas Aplicativos.</proc_text>
+				<proc_feedback>É muito difícil um programa aplicativo causar problemas de resolução de tela. Além disso, o problema está acontecendo durante a utilização de todos os programas e não em um programa específico.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>			
+		</defect15>
+		<!--////////////////////////////////////////////////-->
+		<defect16>
+			<right_procedure_id>H2</right_procedure_id>
+			<symptoms>O computador trava ou reinicia sozinho em qualquer momento, durante a utilização de qualquer programa e às vezes trava mesmo antes do boot.</symptoms>
+			<aditional_information></aditional_information>
+			<def_apparent_problem_monitor>Nenhum problema aparente. Nenhuma mensagem de erro é exibida.</def_apparent_problem_monitor>
+			<id_image_monitor>monitor9</id_image_monitor>
+			<def_apparent_problem_cabinet>Nenhum problema aparente encontrado nos componentes internos do gabinete.  Aparentemente todos os cabos e conexões estão perfeitas.</def_apparent_problem_cabinet>
+			<id_image_cabinet>cabinet1</id_image_cabinet>
+			<!--/////////-->
+			<procedure>
+			    <proc_id>H1</proc_id>
+				<proc_label>Processador</proc_label>
+				<proc_text>Substituir o Processador por outro compatível.</proc_text>
+				<proc_feedback>Boa tentativa! Um processador defeituoso poderia realmente causar esse tipo de problema. Mas você trocou o processador e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H2</proc_id>
+				<proc_label>Placa-Mãe</proc_label>
+				<proc_text>Substituir a placa-mãe por outra compatível</proc_text>
+				<proc_feedback>Parabéns! Você acertou! Uma placa-mãe defeituosa é causa frequente de travamentos do computador.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H3</proc_id>
+				<proc_label>Cooler do Processador</proc_label>
+				<proc_text>Substituir o Cooler do Processador.</proc_text>
+				<proc_feedback>Boa tentativa! Um cooler defeituoso poderia causar superaquecimento do processador e provocar travamentos. Mas o cooler está funcionando perfeitamente.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H4</proc_id>
+				<proc_label>Memória Ram</proc_label>
+				<proc_text>Substituir pentes de memória RAM por outros compatíveis.</proc_text>
+				<proc_feedback>Boa tentativa! Um pente de memória RAM defeituoso poderia realmente causar esse tipo de problema. Mas você trocou os pentes de memória e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H5</proc_id>
+				<proc_label>Placa de Vídeo</proc_label>
+				<proc_text>Substituir a Placa de vídeo por outra off-board compatível.</proc_text>
+				<proc_feedback>É muito difícil um problema na placa de vídeo causar travamentos, mas às vezes pode acontecer. Neste caso, você trocou a placa de vídeo, mas o problema continua.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H6</proc_id>
+				<proc_label>Monitor</proc_label>
+				<proc_text>Substituir o monitor de vídeo por outro.</proc_text>
+				<proc_feedback>É impossível um problema no monitor causar qualquer tipo de travamento ou atrapalhar o funcionamento correto do computador. Afinal, o monitor é um dispositivo que apenas recebe dados do computador.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H7</proc_id>
+				<proc_label>Fonte de Alimentação</proc_label>
+				<proc_text>Substituir a fonte de alimentação por outra compatível.</proc_text>
+				<proc_feedback>É muito difícil um problema na fonte causar travamentos, mas às vezes pode acontecer. Neste caso, você trocou a fonte, mas o problema continua.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H8</proc_id>
+				<proc_label>Pincel</proc_label>
+				<proc_text>Fazer uma limpeza em todos os componentes internos para eliminar mau-contatos.</proc_text>
+				<proc_feedback>Boa tentativa. É muito comum mau contatos em processadores e pentes de memória causarem travamentos. No entanto, você limpou os contatos e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H9</proc_id>
+				<proc_label>Disco Rídigo</proc_label>
+				<proc_text>Susbstituir o Disco Rígido por outro.</proc_text>
+				<proc_feedback>Não é muito comum um problema no HD causar travamentos e reiniciar o computador, mas pode acontecer. Neste caso, você trocou o HD, mas o problema continua.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H10</proc_id>
+				<proc_label>Drive de CD-Rom</proc_label>
+				<proc_text>Susbstituir o Drive de CD-ROM por outro.</proc_text>
+				<proc_feedback>É quase impossível um problema no drive de CD-ROM causar travamentos e reiniciar o computador, principalmente se esses travamentos ocorrem quando você não está acessando o drive, como neste caso.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H11</proc_id>
+				<proc_label>Drive de Disquete</proc_label>
+				<proc_text>Susbstituir o Drive de Disquete por outro.</proc_text>
+				<proc_feedback>É quase impossível um problema no drive de disquetes causar travamentos e reiniciar o computador, principalmente se esses travamentos ocorrem quando você não está acessando o drive, como neste caso.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S1</proc_id>
+				<proc_label>Reinstalação do Sistema Operacional</proc_label>
+				<proc_text>Reinstalar o Sistema Operacional.</proc_text>
+				<proc_feedback>Um problema no SO pode realmente causar travamentos no computador, mas neste caso o computador também está travando antes do boot. E é impossível o SO causar qualquer problema antes do boot.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S2</proc_id>
+				<proc_label>Reinstalação dos drivers dos dispositivos</proc_label>
+				<proc_text>Reinstalar drivers dos dispositivos.</proc_text>
+				<proc_feedback>Um problema em algum driver de algum dispositivo pode realmente causar travamentos no computador, mas neste caso o computador também está travando antes do boot. E é impossível um driver causar qualquer problema antes do boot.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S3</proc_id>
+				<proc_label>Verificação de Vírus</proc_label>
+				<proc_text>Verificar e remover vírus de computador.</proc_text>
+				<proc_feedback>Realmente, um vírus de computador pode causar problemas de travamento. Mas o computador também está travando antes do boot e um vírus nunca começa a agir antes do boot.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S4</proc_id>
+				<proc_label>Configuração do SETUP</proc_label>
+				<proc_text>Verificar configurações no Setup.</proc_text>
+				<proc_feedback>Boa tentativa. Uma configuração errada no Setup, como a frequência de operação do processador ou das memórias pode realmente causar travamentos no computador. Mas neste caso está tudo correto no Setup.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S5</proc_id>
+				<proc_label>Reinstalação do Programa Aplicativo</proc_label>
+				<proc_text>Reinstalar Programas Aplicativos.</proc_text>
+				<proc_feedback>É muito difícil, mas um defeito em algum programa aplicativo pode realmente travar ou reiniciar o computador. Mas neste caso, o computador trava em qualquer programa e até mesmo antes do boot. E é impossível um programa aplicativo causar algum problema antes do boot.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>			
+		</defect16>
+		<!--//////////////////////////////////////////////-->
+		<defect17>
+			<right_procedure_id>S4</right_procedure_id>
+			<symptoms>O computador tem um drive de disquete, mas o SO não reconhece o drive. O drive A: não aparece dentro do SO.</symptoms>
+			<aditional_information></aditional_information>
+			<def_apparent_problem_monitor>Nenhum problema aparente. Nenhuma mensagem de erro é exibida.</def_apparent_problem_monitor>
+			<id_image_monitor>monitor7</id_image_monitor>
+			<def_apparent_problem_cabinet>Nenhum problema aparente encontrado nos componentes internos do gabinete. Aparentemente todos os cabos e conexões estão perfeitas.</def_apparent_problem_cabinet>
+			<id_image_cabinet>cabinet1</id_image_cabinet>
+			<!--/////////-->
+			<procedure>
+			    <proc_id>H1</proc_id>
+				<proc_label>Processador</proc_label>
+				<proc_text>Substituir o Processador por outro compatível.</proc_text>
+				<proc_feedback>É impossível um processador com defeito causar problemas de detecção de um dispositivo de armazenamento.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H2</proc_id>
+				<proc_label>Placa-Mãe</proc_label>
+				<proc_text>Substituir a placa-mãe por outra compatível</proc_text>
+				<proc_feedback>Boa tentativa! Um defeito na interface IDE da placa-mãe pode fazer com que não haja conexão entre a placa-mãe e o drive de disquete, fazendo com que o SO não consiga encontrar o drive.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H3</proc_id>
+				<proc_label>Cooler do Processador</proc_label>
+				<proc_text>Substituir o Cooler do Processador.</proc_text>
+				<proc_feedback>É impossível um cooler de processador com defeito causar problemas de detecção de um dispositivo de armazenamento.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H4</proc_id>
+				<proc_label>Memória Ram</proc_label>
+				<proc_text>Substituir pentes de memória RAM por outros compatíveis.</proc_text>
+				<proc_feedback>É impossível um pente de memória RAM com defeito causar problemas de detecção de um dispositivo de armazenamento.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H5</proc_id>
+				<proc_label>Placa de Vídeo</proc_label>
+				<proc_text>Substituir a Placa de vídeo por outra off-board compatível.</proc_text>
+				<proc_feedback>É impossível um defeito na placa de vídeo causar problemas de detecção de um dispositivo de armazenamento.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H6</proc_id>
+				<proc_label>Monitor</proc_label>
+				<proc_text>Substituir o monitor de vídeo por outro.</proc_text>
+				<proc_feedback>É impossível um defeito no monitor de vídeo causar problemas de detecção de um dispositivo de armazenamento.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H7</proc_id>
+				<proc_label>Fonte de Alimentação</proc_label>
+				<proc_text>Substituir a fonte de alimentação por outra compatível.</proc_text>
+				<proc_feedback>Realmente, um problema na fonte poderia estar causando falta de energia para o drive de disquete, fazendo com que ele não funcione e não seja detectado pelo SO. Mas geralmente, quando há um defeito na fonte, todos os dispositivos apresentam problemas e não só o drive de disquete.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H8</proc_id>
+				<proc_label>Pincel</proc_label>
+				<proc_text>Fazer uma limpeza em todos os componentes internos para eliminar mau-contatos.</proc_text>
+				<proc_feedback>Boa tentativa. É muito comum mau contatos nos cabos de energia e de dados do drive de disquete, causarem uma perda de conexão entre o drive e a placa-mãe. No entanto, você limpou os contatos e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H9</proc_id>
+				<proc_label>Disco Rídigo</proc_label>
+				<proc_text>Susbstituir o Disco Rígido por outro.</proc_text>
+				<proc_feedback>É impossível um defeito no HD causar problemas de detecção no drive de disquete.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H10</proc_id>
+				<proc_label>Drive de CD-Rom</proc_label>
+				<proc_text>Susbstituir o Drive de CD-ROM por outro.</proc_text>
+				<proc_feedback>É impossível um defeito no drive de CD-ROM causar problemas de detecção no drive de disquete.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H11</proc_id>
+				<proc_label>Drive de Disquete</proc_label>
+				<proc_text>Susbstituir o Drive de Disquete por outro.</proc_text>
+				<proc_feedback>Boa tentativa! Um defeito no drive de disquete poderia fazer com que ele não fosse detectado pelo SO. Mas você trocou o drive e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S1</proc_id>
+				<proc_label>Reinstalação do Sistema Operacional</proc_label>
+				<proc_text>Reinstalar o Sistema Operacional.</proc_text>
+				<proc_feedback>É muito difícil, mas um problema no SO pode realmente fazer com que ele não encontre o drive de disquete. Mas você reinstalou o SO e o problema continua.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S2</proc_id>
+				<proc_label>Reinstalação dos drivers dos dispositivos</proc_label>
+				<proc_text>Reinstalar drivers dos dispositivos.</proc_text>
+				<proc_feedback>Realmente, um problema no driver do drive de disquete poderia fazer com que o SO não o detectasse. Mas, você não consegue nem reisntalar o driver porque o drive de disquete nem aparece na lista de hardwares instalado do SO.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S3</proc_id>
+				<proc_label>Verificação de Vírus</proc_label>
+				<proc_text>Verificar e remover vírus de computador.</proc_text>
+				<proc_feedback>Realmente, um vírus de computador pode causar problemas como esse. Mas seu programa antivírus não detectou nenhum vírus.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S4</proc_id>
+				<proc_label>Configuração do SETUP</proc_label>
+				<proc_text>Verificar configurações do drive de disquete no Setup.</proc_text>
+				<proc_feedback>Parabéns! Você acertou! Apesar do drive de disquete estar fisicamente instalado, ele não estava configurado no Setup e por isso era como se ele não existisse para a placa-mãe e consequentemente para o SO.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S5</proc_id>
+				<proc_label>Reinstalação do Programa Aplicativo</proc_label>
+				<proc_text>Reinstalar Programas Aplicativos.</proc_text>
+				<proc_feedback>É quase impossível um defeito em um programa aplicativo causar problemas de conexão com um dispositivo de armazenamento.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>			
+		</defect17>
+		<!--/////////////////////////////////////////////-->
+		<defect18>
+			<right_procedure_id>H8</right_procedure_id>
+			<symptoms>Às vezes o computador não liga e apresenta bips longos e espaçados. Quando liga às vezes trava na execução de qualquer programa e até mesmo antes do boot.</symptoms>
+			<aditional_information>- Problema começou a acontecer depois que o computador foi transportado de uma casa para outra no porta-malas de um carro.</aditional_information>
+			<def_apparent_problem_monitor>Nenhum problema aparente. Nenhuma mensagem de erro é exibida.</def_apparent_problem_monitor>
+			<id_image_monitor>monitor9</id_image_monitor>
+			<def_apparent_problem_cabinet>Nenhum problema aparente encontrado nos componentes internos do gabinete.  Aparentemente todos os cabos e conexões estão perfeitas.</def_apparent_problem_cabinet>
+			<id_image_cabinet>cabinet1</id_image_cabinet>
+			<!--/////////-->
+			<procedure>
+			    <proc_id>H1</proc_id>
+				<proc_label>Processador</proc_label>
+				<proc_text>Substituir o Processador por outro compatível.</proc_text>
+				<proc_feedback>Boa tentativa! Um processador defeituoso poderia realmente causar esse tipo de problema. Porém, quando um computador não liga devido a um defeito no processador, ele não apresenta bips. Você trocou o processador e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H2</proc_id>
+				<proc_label>Placa-Mãe</proc_label>
+				<proc_text>Substituir a placa-mãe por outra compatível</proc_text>
+				<proc_feedback>Boa tentativa! Uma placa-mãe defeituosa poderia realmente causar esse tipo de problema. Mas você trocou a placa-mãe e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H3</proc_id>
+				<proc_label>Cooler do Processador</proc_label>
+				<proc_text>Substituir o Cooler do Processador.</proc_text>
+				<proc_feedback>Um cooler de processador defeituoso poderia causar travamentos, porém dificilmente causar o defeito de o computador não ligar. Você trocou o cooler e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H4</proc_id>
+				<proc_label>Memória Ram</proc_label>
+				<proc_text>Substituir pentes de memória RAM por outros compatíveis.</proc_text>
+				<proc_feedback>Boa tentativa! Um pente de memória defeituoso poderia estar causando travamentos e impedindo o computador de ligar.  Os bips longos e espaçados que o computador apresenta quando não liga são característicos de problemas em memórias, mas seus pentes de memória estão em perfeito estado.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H5</proc_id>
+				<proc_label>Placa de Vídeo</proc_label>
+				<proc_text>Substituir a Placa de vídeo por outra off-board compatível.</proc_text>
+				<proc_feedback>Às vezes um problema na placa de vídeo pode causar travamentos e impedir o computador de ligar. Mas lembre-se que quando o computador não liga devido a um problema na placa de vídeo, ele geralmente apresenta um bip longo seguido de três bips curtos.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H6</proc_id>
+				<proc_label>Monitor</proc_label>
+				<proc_text>Substituir o monitor de vídeo por outro.</proc_text>
+				<proc_feedback>É impossível um problema no monitor causar qualquer tipo de travamento ou atrapalhar o funcionamento correto do computador. Afinal, o monitor é um dispositivo que apenas recebe dados do computador.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H7</proc_id>
+				<proc_label>Fonte de Alimentação</proc_label>
+				<proc_text>Substituir a fonte de alimentação por outra compatível.</proc_text>
+				<proc_feedback>É muito comum um problema na fonte impedir o computador de ligar, mas quando isso acontece, geralmente o computador não faz nada e nem apresenta bips.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H8</proc_id>
+				<proc_label>Pincel</proc_label>
+				<proc_text>Fazer uma limpeza em todos os componentes internos para eliminar mau-contatos.</proc_text>
+				<proc_feedback>Muito bem! Você conseguiu! Apesar de não estar aparente, havia um mau contato dos pentes de memória com os conectores da placa-mãe que estava causando o problema.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H9</proc_id>
+				<proc_label>Disco Rídigo</proc_label>
+				<proc_text>Susbstituir o Disco Rígido por outro.</proc_text>
+				<proc_feedback>Um defeito no HD pode travar o computador e evitar que ele ligue. Mas quando o computador não liga devido a um defeito no HD, não apresenta nenhum sinal sonoro.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H10</proc_id>
+				<proc_label>Drive de CD-Rom</proc_label>
+				<proc_text>Susbstituir o Drive de CD-ROM por outro.</proc_text>
+				<proc_feedback>Um defeito no drive de CD-ROM pode  até travar o computador e evitar que ele ligue. Mas quando o computador não liga devido a um defeito no drive não apresenta nenhum sinal sonoro.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H11</proc_id>
+				<proc_label>Drive de Disquete</proc_label>
+				<proc_text>Susbstituir o Drive de Disquete por outro.</proc_text>
+				<proc_feedback>Um defeito no drive de disquete pode até travar o computador e evitar que ele ligue. Mas quando o computador não liga devido a um defeito no dirve não apresenta nenhum sinal sonoro.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S1</proc_id>
+				<proc_label>Reinstalação do Sistema Operacional</proc_label>
+				<proc_text>Reinstalar o Sistema Operacional.</proc_text>
+				<proc_feedback>Um defeito no SO nunca poderia impedir que o computador ligasse. Lembre-se: O SO só começa a funcionar depois durante o processo de boot.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S2</proc_id>
+				<proc_label>Reinstalação dos drivers dos dispositivos</proc_label>
+				<proc_text>Reinstalar drivers dos dispositivos.</proc_text>
+				<proc_feedback>Um defeito em algum driver de algum dispositivo  nunca poderia impedir que o computador ligasse. Lembre-se: Os drivers só começam a funcionar durante o processo de boot.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S3</proc_id>
+				<proc_label>Verificação de Vírus</proc_label>
+				<proc_text>Verificar e remover vírus de computador.</proc_text>
+				<proc_feedback>Um vírus de computador jamais poderia impedir que o computador ligasse. Lembre-se: O vírus é um software e um software só começa a funcionar depois do processo de boot.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S4</proc_id>
+				<proc_label>Configuração do SETUP</proc_label>
+				<proc_text>Verificar configurações no Setup.</proc_text>
+				<proc_feedback>Uma configuração errada no setup muito dificilmente provocaria um defeito intermitente, que às vezes impede o computador de ligar e às vezes não.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S5</proc_id>
+				<proc_label>Reinstalação do Programa Aplicativo</proc_label>
+				<proc_text>Reinstalar Programas Aplicativos.</proc_text>
+				<proc_feedback>Um programa aplicativo jamais poderia impedir que o computador ligasse. Lembre-se: Um programa aplicativo só começa a funcionar depois do processo de boot.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>			
+		</defect18>
+		<!--//////////////////////////////////////////////-->
+		<defect19>
+			<right_procedure_id>H8</right_procedure_id>
+			<symptoms>Às vezes o computador não liga e apresenta um bip longo seguido de três bips curtos. Às vezes ele funciona normalmente.</symptoms>
+			<aditional_information></aditional_information>
+			<def_apparent_problem_monitor>Nenhum problema aparente. Nenhuma mensagem de erro é exibida.</def_apparent_problem_monitor>
+			<id_image_monitor>monitor11</id_image_monitor>
+			<def_apparent_problem_cabinet>Nenhum problema aparente encontrado nos componentes internos do gabinete.  Aparentemente todos os cabos e conexões estão perfeitas.</def_apparent_problem_cabinet>
+			<id_image_cabinet>cabinet1</id_image_cabinet>
+			<!--/////////-->
+			<procedure>
+			    <proc_id>H1</proc_id>
+				<proc_label>Processador</proc_label>
+				<proc_text>Substituir o Processador por outro compatível.</proc_text>
+				<proc_feedback>Boa tentativa! Um processador defeituoso poderia realmente causar esse tipo de problema. Porém, quando um computador não liga devido a um defeito no processador, ele não apresenta bips. Você trocou o processador e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H2</proc_id>
+				<proc_label>Placa-Mãe</proc_label>
+				<proc_text>Substituir a placa-mãe por outra compatível</proc_text>
+				<proc_feedback>Boa tentativa! Uma placa-mãe defeituosa poderia realmente causar esse tipo de problema. Mas você trocou a placa-mãe e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H3</proc_id>
+				<proc_label>Cooler do Processador</proc_label>
+				<proc_text>Substituir o Cooler do Processador.</proc_text>
+				<proc_feedback>Um cooler de processador defeituoso poderia causar travamentos, porém dificilmente causar o defeito de o computador não ligar. Você trocou o cooler e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H4</proc_id>
+				<proc_label>Memória Ram</proc_label>
+				<proc_text>Substituir pentes de memória RAM por outros compatíveis.</proc_text>
+				<proc_feedback>Um pente de memória defeituoso poderia estar causando travamentos e impedindo o computador de ligar.  Mas quando o computador não liga devido a um problema nas memórias, ele apresenta bips longos e espaçados, e não um bip longo seguido de três bips curtos.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H5</proc_id>
+				<proc_label>Placa de Vídeo</proc_label>
+				<proc_text>Substituir a Placa de vídeo por outra off-board compatível.</proc_text>
+				<proc_feedback>Boa tentativa! Uma placa de vídeo defeituosa poderia estar impedindo o computador de ligar. O bip longo seguido dos três bips curtos são característicos de problemas na placa de vídeo, porém a placa está em perfeito estado.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H6</proc_id>
+				<proc_label>Monitor</proc_label>
+				<proc_text>Substituir o monitor de vídeo por outro.</proc_text>
+				<proc_feedback>É impossível um problema no monitor causar qualquer tipo de travamento ou atrapalhar o funcionamento correto do computador. Afinal, o monitor é um dispositivo que apenas recebe dados do computador.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H7</proc_id>
+				<proc_label>Fonte de Alimentação</proc_label>
+				<proc_text>Substituir a fonte de alimentação por outra compatível.</proc_text>
+				<proc_feedback>É muito comum um problema na fonte impedir o computador de ligar, mas quando isso acontece, geralmente o computador não faz nada e nem apresenta bips.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H8</proc_id>
+				<proc_label>Pincel</proc_label>
+				<proc_text>Fazer uma limpeza em todos os componentes internos para eliminar mau-contatos.</proc_text>
+				<proc_feedback>Muito bem! Você conseguiu! Um mau contato na conexão da placa de vídeo com o slot da placa-mãe estava causando o problema.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H9</proc_id>
+				<proc_label>Disco Rídigo</proc_label>
+				<proc_text>Susbstituir o Disco Rígido por outro.</proc_text>
+				<proc_feedback>Um defeito no HD pode travar o computador e evitar que ele ligue. Mas quando o computador não liga devido a um defeito no HD, não apresenta nenhum sinal sonoro.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H10</proc_id>
+				<proc_label>Drive de CD-Rom</proc_label>
+				<proc_text>Susbstituir o Drive de CD-ROM por outro.</proc_text>
+				<proc_feedback>Um defeito no drive de CD-ROM pode  até travar o computador e evitar que ele ligue. Mas quando o computador não liga devido a um defeito no drive não apresenta nenhum sinal sonoro.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H11</proc_id>
+				<proc_label>Drive de Disquete</proc_label>
+				<proc_text>Susbstituir o Drive de Disquete por outro.</proc_text>
+				<proc_feedback>Um defeito no drive de disquete pode até travar o computador e evitar que ele ligue. Mas quando o computador não liga devido a um defeito no dirve não apresenta nenhum sinal sonoro.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S1</proc_id>
+				<proc_label>Reinstalação do Sistema Operacional</proc_label>
+				<proc_text>Reinstalar o Sistema Operacional.</proc_text>
+				<proc_feedback>Um defeito no SO nunca poderia impedir que o computador ligasse. Lembre-se: O SO só começa a funcionar depois durante o processo de boot.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S2</proc_id>
+				<proc_label>Reinstalação dos drivers dos dispositivos</proc_label>
+				<proc_text>Reinstalar drivers dos dispositivos.</proc_text>
+				<proc_feedback>Um defeito em algum driver de algum dispositivo  nunca poderia impedir que o computador ligasse. Lembre-se: Os drivers só começam a funcionar durante o processo de boot.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S3</proc_id>
+				<proc_label>Verificação de Vírus</proc_label>
+				<proc_text>Verificar e remover vírus de computador.</proc_text>
+				<proc_feedback>Um vírus de computador jamais poderia impedir que o computador ligasse. Lembre-se: O vírus é um software e um software só começa a funcionar depois do processo de boot.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S4</proc_id>
+				<proc_label>Configuração do SETUP</proc_label>
+				<proc_text>Verificar configurações no Setup.</proc_text>
+				<proc_feedback>Uma configuração errada no setup muito dificilmente provocaria um defeito intermitente, que às vezes impede o computador de ligar e às vezes não.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S5</proc_id>
+				<proc_label>Reinstalação do Programa Aplicativo</proc_label>
+				<proc_text>Reinstalar Programas Aplicativos.</proc_text>
+				<proc_feedback>Um programa aplicativo jamais poderia impedir que o computador ligasse. Lembre-se: Um programa aplicativo só começa a funcionar depois do processo de boot.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>			
+		</defect19>
+		<!--//////////////////////////////////////////////-->
+		<defect20>
+			<right_procedure_id>S5</right_procedure_id>
+			<symptoms>O computador trava sempre durante a execução de um determinado programa aplicativo.</symptoms>
+			<aditional_information></aditional_information>
+			<def_apparent_problem_monitor>Nenhum problema aparente. Nenhuma mensagem de erro é exibida.</def_apparent_problem_monitor>
+			<id_image_monitor>monitor10</id_image_monitor>
+			<def_apparent_problem_cabinet>Nenhum problema aparente encontrado nos componentes internos do gabinete.  Aparentemente todos os cabos e conexões estão perfeitas.</def_apparent_problem_cabinet>
+			<id_image_cabinet>cabinet1</id_image_cabinet>
+			<!--/////////-->
+			<procedure>
+			    <proc_id>H1</proc_id>
+				<proc_label>Processador</proc_label>
+				<proc_text>Substituir o Processador por outro compatível.</proc_text>
+				<proc_feedback>Boa tentativa! Um processador defeituoso poderia realmente causar esse tipo de problema. Mas você trocou o processador e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H2</proc_id>
+				<proc_label>Placa-Mãe</proc_label>
+				<proc_text>Substituir a placa-mãe por outra compatível</proc_text>
+				<proc_feedback>Boa tentativa! Uma placa-mãe defeituosa poderia realmente causar esse tipo de problema. Mas você trocou a placa-mãe e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H3</proc_id>
+				<proc_label>Cooler do Processador</proc_label>
+				<proc_text>Substituir o Cooler do Processador.</proc_text>
+				<proc_feedback>Boa tentativa! Um cooler de processador queimado poderia estar causando super aquecimento no processador e ocasinando travamentos. Mas o cooler está funcionando perfeitamente.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H4</proc_id>
+				<proc_label>Memória Ram</proc_label>
+				<proc_text>Substituir pentes de memória RAM por outros compatíveis.</proc_text>
+				<proc_feedback>Boa tentativa! Um pente de memória com defeito poderia realmente causar esse tipo de problema. Mas você trocou a memória e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H5</proc_id>
+				<proc_label>Placa de Vídeo</proc_label>
+				<proc_text>Substituir a Placa de vídeo por outra off-board compatível.</proc_text>
+				<proc_feedback>É muito difícil um problema na placa de vídeo causar travamentos, mas às vezes pode acontecer. Neste caso, você trocou a placa de vídeo, mas o problema continua.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H6</proc_id>
+				<proc_label>Monitor</proc_label>
+				<proc_text>Substituir o monitor de vídeo por outro.</proc_text>
+				<proc_feedback>É impossível um problema no monitor causar qualquer tipo de travamento ou atrapalhar o funcionamento correto do computador. Afinal, o monitor é um dispositivo que apenas recebe dados do computador.</proc_feedback>
+				<proc_loss_score>30</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H7</proc_id>
+				<proc_label>Fonte de Alimentação</proc_label>
+				<proc_text>Substituir a fonte de alimentação por outra compatível.</proc_text>
+				<proc_feedback>É muito difícil um problema na fonte causar travamentos, mas às vezes pode acontecer. Neste caso, você trocou a fonte, mas o problema continua.</proc_feedback>
+				<proc_loss_score>5</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H8</proc_id>
+				<proc_label>Pincel</proc_label>
+				<proc_text>Fazer uma limpeza em todos os componentes internos para eliminar mau-contatos.</proc_text>
+				<proc_feedback>Boa tentativa. É muito comum mau contatos em processadores e pentes de memória causarem travamentos. No entanto, você limpou os contatos e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H9</proc_id>
+				<proc_label>Disco Rídigo</proc_label>
+				<proc_text>Susbstituir o Disco Rígido por outro.</proc_text>
+				<proc_feedback>Não é muito comum um problema no HD causar travamentos e reiniciar o computador, mas pode acontecer. Neste caso, você trocou o HD, mas o problema continua.</proc_feedback>
+				<proc_loss_score>10</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H10</proc_id>
+				<proc_label>Drive de CD-Rom</proc_label>
+				<proc_text>Susbstituir o Drive de CD-ROM por outro.</proc_text>
+				<proc_feedback>É quase impossível um problema no drive de CD-ROM causar travamentos e reiniciar o computador, principalmente se esses travamentos ocorrem quando você não está acessando o drive, como neste caso.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>H11</proc_id>
+				<proc_label>Drive de Disquete</proc_label>
+				<proc_text>Susbstituir o Drive de Disquete por outro.</proc_text>
+				<proc_feedback>É quase impossível um problema no drive de disquetes causar travamentos e reiniciar o computador, principalmente se esses travamentos ocorrem quando você não está acessando o drive, como neste caso.</proc_feedback>
+				<proc_loss_score>20</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S1</proc_id>
+				<proc_label>Reinstalação do Sistema Operacional</proc_label>
+				<proc_text>Reinstalar o Sistema Operacional.</proc_text>
+				<proc_feedback>Um problema no SO pode realmente causar travamentos no computador, mas você reinstalou o SO e o problema continua.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S2</proc_id>
+				<proc_label>Reinstalação dos drivers dos dispositivos</proc_label>
+				<proc_text>Reinstalar drivers dos dispositivos.</proc_text>
+				<proc_feedback>Um problema em algum driver de algum dispositivo pode realmente causar travamentos no computador, mas neste caso todos os drives estão corretamente instalados.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S3</proc_id>
+				<proc_label>Verificação de Vírus</proc_label>
+				<proc_text>Verificar e remover vírus de computador.</proc_text>
+				<proc_feedback>Realmente, um vírus de computador pode causar problemas de travamento. Mas você utilizou um programa  antivírus atualizado e não encontro nenhum vírus.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S4</proc_id>
+				<proc_label>Configuração do SETUP</proc_label>
+				<proc_text>Verificar configurações no Setup.</proc_text>
+				<proc_feedback>Boa tentativa. Uma configuração errada no Setup, como a frequência de operação do processador ou das memórias pode realmente causar travamentos no computador. Mas neste caso está tudo correto no Setup.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>
+			<procedure>
+			    <proc_id>S5</proc_id>
+				<proc_label>Reinstalação do Programa Aplicativo</proc_label>
+				<proc_text>Reinstalar Programas Aplicativos.</proc_text>
+				<proc_feedback>Muito bem! Você acertou. O problema estava mesmo no programa aplicativo. Ao reinstalar o programa, o problema foi solucionado. Porém, às vezes um programa não funciona ou trava o computador por que o computador não possui memória RAM ou velocidade suficiente para suportar o programa. Às vezes também é possível que haja uma incompatibilidade do programa com o hardware ou com o SO.</proc_feedback>
+				<proc_loss_score>0</proc_loss_score>
+			</procedure>			
+		</defect20>
+	</defects>
+	
+	<!--//////////////////////////////////////////////////-->
+</Portuguese>

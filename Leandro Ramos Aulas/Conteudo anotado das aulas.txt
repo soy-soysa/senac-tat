@@ -1,0 +1,6 @@
+configurando o ping no win 10
+
+1 - mudar o nome do pc
+2 - mudar o ipv4 do pc no painel de controle
+3 - nas regras de entrada em configurações avançadas do Firewall, habilitar o 'Diagnóstico do Sistema de Rede Básico - Solicitação de Eco ICMP'
+4 - pingar

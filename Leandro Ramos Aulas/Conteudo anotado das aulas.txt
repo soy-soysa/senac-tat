@@ -4,3 +4,17 @@ configurando o ping no win 10
 2 - mudar o ipv4 do pc no painel de controle
 3 - nas regras de entrada em configurações avançadas do Firewall, habilitar o 'Diagnóstico do Sistema de Rede Básico - Solicitação de Eco ICMP'
 4 - pingar
+
+----------------------------------------------------------------------------------
+
+Compartilhando pastas localmente no Win 10:
+
+1 - criar a pasta
+2 - click direito na pasta > conceder acesso à > pessoas especificas > todos > adicionar > compartilhar
+3 - no painel de controle: Rede e Internet > Central de Rede e Compartilhamento > Conf. de compart. avançadas
+4 - em Particular: 'Ativar Compart. de arquivo e impressora' em Todas as redes: 'Desativar compartilhamento protegido por senha'
+
+Fazendo mapeamento
+
+1 - botao direito na pasta da rede (não pode ser a original) 'mapear unidade de rede'
+2 - selecionar uma letra não usada e concluir

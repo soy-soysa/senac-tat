@@ -18,3 +18,15 @@ Fazendo mapeamento
 
 1 - botao direito na pasta da rede (não pode ser a original) 'mapear unidade de rede'
 2 - selecionar uma letra não usada e concluir
+
+Fazer um compartilhamento secreto
+
+1 - click direito na pasta
+2 - propriedades
+3 - compartilhamento
+4 - compartilhamento avançado
+5 - compartilhar a pasta
+6 - (nome da pasta)$
+7 - permissões
+8 - aplicar, aplicar e fechar
+9 - fazer compartilhamento comum

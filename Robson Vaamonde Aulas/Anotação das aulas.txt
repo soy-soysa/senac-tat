@@ -1,0 +1,10 @@
+config. de rede doméstica básica
+
+1: (lin.) ifconfig (win.) ipconfig
+2: localizar: enp... > inet
+3: (lin.) route -n (win.) route print
+4: localizar: 0.0.0.0 UG
+5: ping (gateway padrao) a informação TTL deve aparecer
+
+no site do router
+1: configurar senha e ssid(nome)

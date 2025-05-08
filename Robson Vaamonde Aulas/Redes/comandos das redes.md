@@ -58,3 +58,13 @@ Switch(config)# ip ssh time-out 60
 Switch(config)# ip ssh authentication-retries 2
 Switch(config)# end OU write
 Switch# write
+
+(quinto passo) (Interface de LAN)
+
+Router> enable
+Router# configure terminal
+Router(config)# interface tipodeinternet 0/0
+Router(config-int) description Interface de Gateway da LAN
+Router(config-int) ip address 192.168.1.254 255.255.255.0
+Router(config-int)# no shutdown
+Router(config)#end OU write 

@@ -68,3 +68,8 @@ Router(config-int) description Interface de Gateway da LAN
 Router(config-int) ip address 192.168.1.254 255.255.255.0
 Router(config-int)# no shutdown
 Router(config)#end OU write 
+
+(sexto passo) (Backups)   (confirmar: ENTER) (cancelar: CTRL C)
+
+copy origem destino  (running-config, startup-config, flash: , tftp: )
+

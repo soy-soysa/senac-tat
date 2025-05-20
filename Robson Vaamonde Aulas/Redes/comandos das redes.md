@@ -42,7 +42,7 @@ Switch# configure terminal
 Switch(config)# ip default-gateway gateway.padrao
 Switch(config)# interface vlan 1
 Switch(config-if)# description Interface de SVI
-Switch(config-if)# ip address IPv4 MáscadaDeSubrede
+Switch(config-if)# ip address IPv4 MáscaraDeSubrede
 Switch(config-if)# no shutdown
 Switch(config-if)# end OU do write
 Switch# write
@@ -63,7 +63,7 @@ Switch# write
 
 Router> enable
 Router# configure terminal
-Router(config)# interface tipodeinternet 0/0
+Router(config)# interface tipodeconexao ?/?
 Router(config-int) description Interface de Gateway da LAN
 Router(config-int) ip address 192.168.1.254 255.255.255.0
 Router(config-int)# no shutdown
@@ -73,3 +73,21 @@ Router(config)#end OU write
 
 copy origem destino  (running-config, startup-config, flash: , tftp: )
 
+(sétimo passo) (config roteador)
+
+Switch> enable
+Switch# configure terminal
+Switch(config)# hostname nome_do_roteador
+Switch(config)# interface tipodeconexao ?/?
+Switch(config-if)# ip address IPv4 MascaraDeSubrede
+Switch(config-if)# no shutdown
+Switch(config-if)# description qualquer frase ou palavra
+Switch(config-if)# exit
+Switch(config)# interface serial ?/?
+Switch(config-if)# clock rate numero
+Switch(config-if)# bandwidth numero
+Switch(config-if)# exit
+Switch(config)# router rip
+Switch(config-router)# network ?.?.?.0 (adicionar todas as conexões com 0 no final)
+Switch(config-router)# end
+Switch# write

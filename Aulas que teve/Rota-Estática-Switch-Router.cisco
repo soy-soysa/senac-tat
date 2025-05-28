@@ -1,0 +1,33 @@
+!Configuração da Interface de WAN Router 4321
+enable
+    configure terminal
+        interface GigabitEthernet 0/0/0
+            media-type sfp
+            description Interface WAN com Router 1941
+            ip address 10.0.0.2 255.255.255.252
+            no shutdown
+            end
+write
+--------------------------------------------------------
+!Configuração da Rota Estatica do Router 1941
+enable
+    configure terminal
+        !Rota padrão
+        ip route 0.0.0.0 0.0.0.0 10.0.0.2
+        end
+write
+---------------------------------------------------------
+!Configuração do Switch Multilayer 3650
+enable
+    configure terminal
+        ip route 0.0.0.0 0.0.0.0 172.16.0.30
+        end
+write
+
+!Configuração do Router 4321
+enable
+    configure terminal
+        ip route 0.0.0.0 0.0.0.0 172.16.0.29
+        ip route 192.168.1.0 255.255.255.0 10.0.0.1
+        end
+write

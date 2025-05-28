@@ -1,0 +1,15 @@
+!Configurando os trunks (troncos) no switch 3650
+enable
+    configure terminal 
+        interface range GigabitEthernet 1/0/1 - 9
+            description Interface de Trunk
+            switchport mode trunk
+            switchport nonegotiate
+            end
+write
+show running-config
+show interfaces status
+show interfaces trunk
+
+----------------------------------------------------
+

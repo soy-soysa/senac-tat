@@ -1,0 +1,24 @@
+Objetivo da aula de hoje: 12/03/2025
+
+#01_ Início do Projeto Residencial de Rede Sem-Fio (Wi-Fi | Wireless).
+
+#02_ Utilização do Cisco Packet Tracer para entender melhor a Rede Sem-Fio.
+OBSERVAÇÃO IMPORTANTE: UTILIZAR A CONTA QUE VOCÊ CRIOU NO NETACAD: https://www.netacad.com/
+
+#03_ Utilização do Site Unifi para dimensionar Redes Sem-Fio.
+OBSERVAÇÃO IMPORTANTE: PRIMEIRO CRIAR UMA CONTA NO SITE: https://account.ui.com
+
+a) Unifi Design Center: https://design.ui.com/
+b) Unifi Calculator...: https://wifi.ui.com/
+
+#04_ Testes de Desempenho de Rede Sem-Fio (Navegador).
+
+a) SIMET OnLine: https://beta.simet.nic.br/
+b) FAST Netflix: https://fast.com/pt/
+c) SpeedTest...: https://www.speedtest.net/pt
+d) nPerf.......: https://www.nperf.com/pt/
+
+#05_ Teste de Desempenho de Rede Sem-Fio via Smartphone (Celular).
+
+a) Pesquisar no Google Play ou no Apple Store por: WiFiMan (Unifi - Ubiquiti)
+b) Pesquisar no Google Play ou no Apple Store por: SIMET Mobile (Nic.br)

@@ -1,0 +1,43 @@
+!Configurar o SSH
+enable
+    configure terminal
+        !Configurar o Domínio
+        ip domain-name senac.br
+        !Habilitar o SSH
+        crypto key generate rsa general-keys modulus 1024
+        !Habilitar a versão 2
+        ip ssh version 2
+        !Tempo de conexão
+        ip ssh time-out 60
+        !Número de sessão
+        ip ssh authentication-retries 2
+        !Sair de tudo
+        end
+        !Salvar tudo
+        write
+        ---------------------------------------------------------
+        show running-config
+        show running-config | section include line vty
+        show running-config | include ip ssh
+        show running-config | section include interface Vlan1
+        show ip ssh
+        show crypto key mypubkey rsa
+        show ssh
+        show users
+        ---------------------------------------------------------
+        
+----------------------------------------------------------
+(cmd)
+ssh -l admin 192.168.1.?
+
+
+enable
+    configure terminal
+        !configurar a interface de rede LAN
+        interface gigabitethernet 0/0
+            !descricao
+            description Interface de Gateway da LAN
+            !configurar o endereço IPv4
+            ip address 192.168.1.254 255.255.255.0
+            !habilitar a interface
+            no shutdown

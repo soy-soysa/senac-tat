@@ -1,0 +1,7 @@
+1: documento O.S
+2: vai pra fila/bancada
+3: fazer uma "checklist" (pensar no que pode ter acontecido)
+4: testar as possibilidades da "checklist" (em 1º o mais provável e fácil, e em último o menos provável e mais difícil) (T.E tentativa e erro)
+5: orçamento
+6: nota fiscal
+7: devolucao

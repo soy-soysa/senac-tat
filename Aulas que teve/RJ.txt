@@ -1,0 +1,157 @@
+System Bootstrap, Version 12.1(3r)T2, RELEASE SOFTWARE (fc1)
+Copyright (c) 2000 by cisco Systems, Inc.
+Cisco 2621 (MPC860) processor (revision 0x200) with 253952K/8192K bytes of memory
+
+Readonly ROMMON initialized
+
+Self decompressing the image :
+########################################################################## [OK]
+
+              Restricted Rights Legend
+
+Use, duplication, or disclosure by the Government is
+subject to restrictions as set forth in subparagraph
+(c) of the Commercial Computer Software - Restricted
+Rights clause at FAR sec. 52.227-19 and subparagraph
+(c) (1) (ii) of the Rights in Technical Data and Computer
+Software clause at DFARS sec. 252.227-7013.
+
+           cisco Systems, Inc.
+           170 West Tasman Drive
+           San Jose, California 95134-1706
+
+
+
+Cisco Internetwork Operating System Software
+IOS (tm) C2600 Software (C2600-I-M), Version 12.2(28), RELEASE SOFTWARE (fc5)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2005 by cisco Systems, Inc.
+Compiled Wed 27-Apr-04 19:01 by miwang
+
+Cisco 2621 (MPC860) processor (revision 0x200) with 253952K/8192K bytes of memory
+.
+Processor board ID JAD05190MTZ (4292891495)
+M860 processor: part number 0, mask 49
+Bridging software.
+X.25 software, Version 3.0.0.
+2 FastEthernet/IEEE 802.3 interface(s)
+32K bytes of non-volatile configuration memory.
+63488K bytes of ATA CompactFlash (Read/Write)
+
+
+         --- System Configuration Dialog ---
+
+Would you like to enter the initial configuration dialog? [yes/no]: System Bootstrap, Version 12.1(3r)T2, RELEASE SOFTWARE (fc1)
+Copyright (c) 2000 by cisco Systems, Inc.
+Initializing memory for ECC
+..
+C2600 processor with 524288 Kbytes of main memory
+Main memory is configured to 64 bit mode with ECC enabled
+
+Readonly ROMMON initialized
+
+Self decompressing the image :
+########################################################################## [OK]
+
+              Restricted Rights Legend
+
+Use, duplication, or disclosure by the Government is
+subject to restrictions as set forth in subparagraph
+(c) of the Commercial Computer Software - Restricted
+Rights clause at FAR sec. 52.227-19 and subparagraph
+(c) (1) (ii) of the Rights in Technical Data and Computer
+Software clause at DFARS sec. 252.227-7013.
+
+           cisco Systems, Inc.
+           170 West Tasman Drive
+           San Jose, California 95134-1706
+
+
+
+Cisco Internetwork Operating System Software
+IOS (tm) C2600 Software (C2600-I-M), Version 12.2(28), RELEASE SOFTWARE (fc5)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2005 by cisco Systems, Inc.
+Compiled Wed 27-Apr-04 19:01 by miwang
+
+Cisco 2621 (MPC860) processor (revision 0x200) with 253952K/8192K bytes of memory
+.
+Processor board ID JAD05190MTZ (4292891495)
+M860 processor: part number 0, mask 49
+Bridging software.
+X.25 software, Version 3.0.0.
+2 FastEthernet/IEEE 802.3 interface(s)
+2 Low-speed serial(sync/async) network interface(s)
+32K bytes of non-volatile configuration memory.
+63488K bytes of ATA CompactFlash (Read/Write)
+
+
+         --- System Configuration Dialog ---
+
+Would you like to enter the initial configuration dialog? [yes/no]: no
+
+
+Press RETURN to get started!
+
+
+
+Router>
+Router>ena
+Router#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#host
+Router(config)#hostname RJ
+RJ(config)#int
+RJ(config)#interface f
+RJ(config)#interface fastEthernet 0/1
+RJ(config-if)#ip add
+RJ(config-if)#ip address 192.168.20.1 255.255.255.0
+RJ(config-if)#ip address 192.168.20.1 255.255.255.1
+Bad mask 0xFFFFFF01 for address 192.168.20.1
+RJ(config-if)#ip address 192.168.20.1 255.255.255.0
+RJ(config-if)#no shu
+RJ(config-if)#no shutdown 
+
+RJ(config-if)#
+%LINK-5-CHANGED: Interface FastEthernet0/1, changed state to up
+
+%LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to up
+
+RJ(config-if)#desc
+RJ(config-if)#description PORTA LAN do RJ
+RJ(config-if)#
+RJ(config-if)#exit
+RJ(config)#int s0/1
+RJ(config-if)#no shut
+
+RJ(config-if)#
+%LINK-5-CHANGED: Interface Serial0/1, changed state to up
+
+RJ(config-if)#
+%LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/1, changed state to up
+
+RJ(config-if)#
+RJ(config-if)#ip add 10.0.0.2 255.0.0.0
+RJ(config-if)#desc
+RJ(config-if)#description PORTA WAN QUE LIGA RJ em SP
+RJ(config-if)#clock rate 128000
+This command applies only to DCE interfaces
+RJ(config-if)#ban
+RJ(config-if)#bandwidth 128
+RJ(config-if)#exit
+RJ(config)#rou
+RJ(config)#router rip
+RJ(config-router)#net
+RJ(config-router)#network 192.168.20.0
+RJ(config-router)#net 10.0.0.0
+RJ(config-router)#^Z
+RJ#
+%SYS-5-CONFIG_I: Configured from console by console
+
+RJ#
+RJ#copy run star
+Destination filename [startup-config]? 
+Building configuration...
+[OK]
+RJ#
+RJ#

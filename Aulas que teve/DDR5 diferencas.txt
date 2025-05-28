@@ -1,0 +1,13 @@
+As memórias RAM DDR5 vieram para dar mais velocidade aos componentes mais novos da área de T.I, fornecendo mais desempenho comparado ao DDR4, porém com um preço mais elevado. Dentre as principais diferenças estão:
+
+.Velocidade: O principal foco da nova geração de memórias RAM é sua velocidade, principalmente em frequência. Enquanto a DDR4 usa uma frêquencia entre 2133Mhz à 3200Mhz, a DDR5 pode usar de 4800Mhz até 8400Mhz, já que os recursos dos componentes em que ela vai trabalhar são mais modernos e precisam de mais velocidade para trabalhar com mais performance
+
+.Capacidade: Para operar com mais capacidade, as memórias vao precisar ser mais espaçosas. Enquanto as memórias DDR4 usam até 32GB p/módulo, as DDR5 podem chegar ate 64GB, permitindo maior capacidade no sistema
+
+.Eficiência energética: Enquanto as DDR4 usam 1.2V de energia, as DDR5 usam 1.1V. Por mais que sejam diferenças pequenas, se forem usadas em um longo período de tempo, pode-se notar uma diferença potencial no consumo de energia
+
+.Arquitetura interna: DDR4 usam um unico módulo de 64bits enquanto DDR5 se dividem em 2 módulos em 32bits, permitindo melhora na transferencia de dados e uma redução nos gargalos
+
+.Suporte a Error Correcting Code/Correção de erro de código(ECC): Algumas memórias DDR4 possuem esse recurso que, como o próprio nome diz, serve para detectar e corrigir erros que acontecem na memória RAM, evitando corromper os arquivos, ja que sistemas não são a prova de falhas. Mas nas memórias DDR5, todas possuem esse recurso, reduzindo a quantidade de erros que podem ocorrer em um arquivo
+
+.Latência: Uma desvantagem da memória DDR5 é sua latência, já que possuem diversos recursos, elas tendem a ter um certo atraso nas aplicações, mas esse atraso não é comumente notado pelos usuários e geralmente não causam um impacto negativo, já que possuem uma largura de banda maior

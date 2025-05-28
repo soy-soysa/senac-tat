@@ -1,0 +1,10 @@
+enable
+    configure terminal
+        !Habilitar o serviço de DNS
+        ip domain-lookup
+        !Configurar o Domínio
+        !ip domain-name senac.br
+        !Configurar o servidor de DNS
+        ip name-server 192.168.1.1
+        !Configurar hosts locais
+        ip host google 192.168.1.1

@@ -1,0 +1,13 @@
+!Configuração do Etherchannel Switch 3650 (LACP E PAGP)
+enable
+    configure terminal
+        interface range GigabitEthernet 1/0/1 - 2
+            channel-group 1 mode active
+            exit
+        interface port-channel1
+            switchport
+            switchport mode trunk
+            spanning-tree portfast trunk
+            no shutdown
+            end
+write

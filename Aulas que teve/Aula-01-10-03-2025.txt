@@ -1,0 +1,20 @@
+Objetivo da aula de hoje: 10/03/2025
+
+#01_ Criação de 06 (seis) Grupos no Máximo com 04 Integrantes (vou negociar dois que pode ter 5 integrantes).	ok
+
+#02_ Configuração da Rede Sem-Fio
+
+#03_ Conexão dos Notebooks e Smartphone
+    Linux       Windows
+-------------|-----------
+ifconfig       ipconfig
+	enp*
+	inet:
+route -n       route print
+	0.0.
+	UG 192.168.0.1	Roteador
+
+#04_ Documentação da Rede
+https://github.com/vaamonde/infra-cisco/blob/main/03-rackcisco/14-ConfguracaoDoAccessPoint-Switch-3560.md
+
+#05_ Testes e Desafios do Routers Wi-Fi

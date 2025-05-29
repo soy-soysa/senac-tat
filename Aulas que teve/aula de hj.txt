@@ -1,0 +1,52 @@
+11/0100/1110 = 846 = 34E
+
+BDA = 1011/1101/1010 = 3034
+
+7294 = 0001/1100/0111/1110 = 1C7E
+
+127 = Loopback (se pingar)
+
+10.26.40.12 255.0.0.0
+200.100.10.2 255.255.255.0
+130.44.55.6 255.255.0.0
+180.254.55.254 255.255.0.0
+90.0.0.2 255.0.0.0
+222.22.2.2 255.255.255.0
+
+(Y)10.26.40.0
+(N)10.0.0.0 Para end. rede todos os hosts devem ser 0
+(N)192.168.0.255 Para broadcast todos os hosts devem ser 255
+(Y)127.0.0.1
+(N)130.5.255.255 Para broadcast todos os hosts devem ser 255
+(N)24.255.255.255 Para broadcast todos os hosts devem ser 255
+(Y)22.255.0.255
+(Y)148.0.0.1
+
+
+
+
+
+
+
+
+
+1ª classe IP (0.X.X.X)
+
+1 > 126 = Classe A (255.0.0.0)
+128 > 191 = Classe B = (255.255.0.0)
+192 > 223 = Classe C = (255.255.255.0)
+224 > 239 = Classe D = (Multicast)
+240 > 255 = Classe E = (Testes futuros)
+
+65.024
+
+2^x - 2 (x = quantidade de Bits na máscara 0 (host))
+
+
+Máscará:
+
+255 = Rede / Network
+0 = Hospedeiro / host
+
+
+ip da net = ip do provedor

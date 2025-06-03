@@ -1,0 +1,54 @@
+1 - resetar o sw
+
+segurar o botao de reset ate ficar laranja e aparecer mensagem no terminal (Deu certo? Aparecerá: Switch> )
+
+
+
+
+
+2 - resetar o router (NÃO ERRE OS COMANDOS!!!!!)
+
+.(console cable) desligar o router e ligar apos 15s, e dar "break" (ctrl c no Cisco) no momento que aparece ##################### (Deu certo? vai aparecer: rommon 1> )
+
+.digitar o comando: rommon 1> confreg 0x2142
+.digitar o comando: rommon 2> reset (Deu certo? Aparecerá: Router> )
+.digitar o comando: Router> enable
+.digitar o comando: Router# erase startup-config
+.digitar o comando: Router# dir flash:
+.digitar o comando: Router# delete flash:startup-config (se houver o arquivo 'startup-config')
+.digitar o comando: Router# configure terminal
+.digitar o comando: Router (config)# config-register 0x2102
+.digitar o comando: Router (config)# end
+.digitar o comando: Router# copy running-config startup-config
+.digitar o comando: Router# reload (Deu certo? digite o comando Router# show version (Deve aparecer o registro 0x2102 na ultima linha))
+
+
+
+
+
+3 - configuração do sw (básica)
+
+.digitar o comando: Switch> enable
+.digitar o comando: Switch# clock set 00:00:00 DIA MÊS(por extenso e em inglês) ANO
+.digitar o comando: Switch# configure terminal
+.digitar o comando: Switch (config)# hostname sw-g04
+.digitar o comando: Switch (config)# service password-encryption
+.digitar o comando: Switch (config)# service timestamps log datetime msec
+.digitar o comando: Switch (config)# service timestamps debug datetime msec
+.digitar o comando: Switch (config)# login block-for 120 attempts 4 within 60
+.digitar o comando: Switch (config)# no ip domain-lookup
+.digitar o comando: Switch (config)# banner motd #LITERALMENTE QUALQUER MENSAGEM#
+.digitar o comando: Switch (config)# enable secret SENHA
+.digitar o comando: Switch (config)# username NOME_DE_USUARIO privilege 15 secret SENHA
+.digitar o comando: Switch (config)# no cdp run
+.digitar o comando: Switch (config)# no lldp run
+.digitar o comando: Switch (config)# line console 0
+.digitar o comando: Switch (config)# password SENHA
+.digitar o comando: Switch (config)# login local
+.digitar o comando: Switch (config)# logging synchronous
+.digitar o comando: Switch (config)# exec-timeout 5 30
+.digitar o comando: Switch (config)# end
+.digitar o comando: Switch# copy running-config startup-config
+.digitar o comando: Switch# show running-config (apenas para informações)
+.digitar o comando: Switch# disable
+.digitar o comando: Switch> exit

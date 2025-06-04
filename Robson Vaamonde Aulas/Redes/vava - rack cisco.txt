@@ -1,9 +1,18 @@
+IPS:
+Router & Gateway: 172.16.40.254
+Switch: 172.16.40.253
+Vlan users: 172.16.41-43.254
+
+
+--------------------------------------------------------------------------------------------
+
+
 1 - resetar o sw
 
 segurar o botao de reset ate ficar laranja e aparecer mensagem no terminal (Deu certo? Aparecerá: Switch> )
 
 
-
+--------------------------------------------------------------------------------------------
 
 
 2 - resetar o router (NÃO ERRE OS COMANDOS!!!!!)
@@ -23,7 +32,7 @@ segurar o botao de reset ate ficar laranja e aparecer mensagem no terminal (Deu 
 .digitar o comando: Router# reload (Deu certo? digite o comando Router# show version (Deve aparecer o registro 0x2102 na ultima linha))
 
 
-
+--------------------------------------------------------------------------------------------
 
 
 3 - configuração do sw (básica)
@@ -43,12 +52,240 @@ segurar o botao de reset ate ficar laranja e aparecer mensagem no terminal (Deu 
 .digitar o comando: Switch (config)# no cdp run
 .digitar o comando: Switch (config)# no lldp run
 .digitar o comando: Switch (config)# line console 0
-.digitar o comando: Switch (config)# password SENHA
-.digitar o comando: Switch (config)# login local
-.digitar o comando: Switch (config)# logging synchronous
-.digitar o comando: Switch (config)# exec-timeout 5 30
-.digitar o comando: Switch (config)# end
+.digitar o comando: Switch (config-line)# password SENHA
+.digitar o comando: Switch (config-line)# login local
+.digitar o comando: Switch (config-line)# logging synchronous
+.digitar o comando: Switch (config-line)# exec-timeout 5 30
+.digitar o comando: Switch (config-line)# end
 .digitar o comando: Switch# copy running-config startup-config
 .digitar o comando: Switch# show running-config (apenas para informações)
 .digitar o comando: Switch# disable
 .digitar o comando: Switch> exit
+
+
+--------------------------------------------------------------------------------------------
+
+
+4 - configuração do rt (básica)
+
+. digitar o comando: Router> enable
+. digitar o comando: Router# clock set 00:00:00 DIA MÊS ANO
+. digitar o comando: Router# configure terminal
+. digitar o comando: Router (config)# hostname rt-g04
+. digitar o comando: Router (config)# service password-encryption
+. digitar o comando: Router (config)# service timestamps log datetime msec
+. digitar o comando: Router (config)# service timestamps debug datetime msec
+. digitar o comando: Router (config)# security passwords min-length 8
+. digitar o comando: Router (config)# login block-for 120 attempts 4 within 60
+. digitar o comando: Router (config)# no ip domain-lookup
+. digitar o comando: Router (config)# banner motd #LITERALMENTE QUALQUER MENSAGEM#
+. digitar o comando: Router (config)# enable secret SENHA
+. digitar o comando: Router (config)# username NOME_DE_USUARIO privilege 15 secret SENHA
+. digitar o comando: Router (config)# no cdp run
+. digitar o comando: Router (config)# no lldp run
+. digitar o comando: Router (config)# line console 0
+. digitar o comando: Router (config-line)# password SENHA
+. digitar o comando: Router (config-line)# login local
+. digitar o comando: Router (config-line)# logging synchronous
+. digitar o comando: Router (config-line)# exec-timeout 5 30
+. digitar o comando: Router (config-line)# end
+. digitar o comando: Router# copy running-config startup-config
+. digitar o comando: Router# show running-config
+. digitar o comando: Router# disable
+. digitar o comando: Router> exit
+
+
+--------------------------------------------------------------------------------------------
+
+
+5 - configuração do sw (VTY)
+. digitar o comando: Switch> enable
+. digitar o comando: Switch# configure terminal
+. digitar o comando: Switch (config)# line vty 0 4
+. digitar o comando: Switch (config-line)# password SENHA
+. digitar o comando: Switch (config-line)# login local
+. digitar o comando: Switch (config-line)# logging synchronous
+. digitar o comando: Switch (config-line)# exec-timeout 5 30
+. digitar o comando: Switch (config-line)# transport input ssh
+. digitar o comando: Switch (config-line)# end
+. digitar o comando: Switch# copy running-config startup-config
+. digitar o comando: Switch# show running-config
+
+
+--------------------------------------------------------------------------------------------
+
+
+6 - configuração do rt (VTY)
+. digitar o comando: Router> enable
+. digitar o comando: Router# configure terminal
+. digitar o comando: Router (config)# line vty 0 4
+. digitar o comando: Router (config-line)# password SENHA
+. digitar o comando: Router (config-line)# login local
+. digitar o comando: Router (config-line)# logging synchronous
+. digitar o comando: Router (config-line)# exec-timeout 5 30
+. digitar o comando: Router (config-line)# transport input ssh
+. digitar o comando: Router (config-line)# end
+. digitar o comando: Router# copy running-config startup-config
+. digitar o comando: Router# show running-config
+
+
+--------------------------------------------------------------------------------------------
+
+
+7 - configuração do sw (SSH)
+. digitar o comando: Switch> enable
+. digitar o comando: Switch# configure terminal
+. digitar o comando: Switch (config)# ip domain-name DOMINIO.INFRA (senac.br)
+. digitar o comando: Switch (config)# crypto key generate rsa general-keys modulus 1024
+. digitar o comando: Switch (config)# ip ssh version 2
+. digitar o comando: Switch (config)# ip ssh time-out 60
+. digitar o comando: Switch (config)# ip ssh authentication-retries 2
+. digitar o comando: Switch (config)# end
+. digitar o comando: Switch# copy running-config startup-config
+. digitar o comando: Switch# show running-config
+. digitar o comando: Switch# show ip ssh
+. digitar o comando: Switch# show crypto key mypubkey rsa
+. digitar o comando: Switch# show ssh
+. digitar o comando: Switch# show users
+
+
+--------------------------------------------------------------------------------------------
+
+
+8 - configuração do rt (SSH)
+. digitar o comando: Router> enable
+. digitar o comando: Router# configure terminal
+. digitar o comando: Router (config)# ip domain-name DOMINIO.INFRA (senac.br)
+. digitar o comando: Router (config)# crypto key generate rsa general-keys modulus 1024
+. digitar o comando: Router (config)# ip ssh version 2
+. digitar o comando: Router (config)# ip ssh time-out 60
+. digitar o comando: Router (config)# ip ssh authentication-retries 2
+. digitar o comando: Router (config)# end
+. digitar o comando: Router# copy running-config startup-config
+. digitar o comando: Router# show running-config
+. digitar o comando: Router# show ip ssh
+. digitar o comando: Router# show crypto key mupubkey rsa
+. digitar o comando: Router# show ssh
+. digitar o comando: Router# show users
+
+
+--------------------------------------------------------------------------------------------
+
+
+9 - Conectar o cabo de rede (portfast 24 > gig 0/0)
+
+
+--------------------------------------------------------------------------------------------
+
+
+10 - configuração do sw (TIP)
+. digitar o comando: Switch> enable
+. digitar o comando: Switch# configure terminal
+. digitar o comando: Switch (config)# ip default-gateway 172.16.40.254
+
+. digitar o comando: Switch (config)# interface vlan 40
+. digitar o comando: Switch (config-if)# description Interface SVI de Gerenciamento do Grupo-04
+. digitar o comando: Switch (config-if)# ip address 172.16.40.253 255.255.255.0
+. digitar o comando: Switch (config-if)# no shutdown
+. digitar o comando: Switch (config-if)# end
+. digitar o comando: Switch# copy running-config startup-config
+. digitar o comando: Switch# show running-config
+. digitar o comando: Switch# show ip interface brief
+. digitar o comando: Switch# show vlan brief
+. digitar o comando: Switch# show vlan id NUMERO DA VLAN
+
+
+--------------------------------------------------------------------------------------------
+
+
+11 - configuração do rt (LAN)
+. digitar o comando: Router> enable
+. digitar o comando: Router# configure terminal
+. digitar o comando: Router (config)# interface gigabitEthernet 0/0
+. digitar o comando: Router (config-if)# no shutdown
+. digitar o comando: Router (config-if)# exit
+
+. digitar o comando: Router (config)# interface gigabitEthernet 0/0.40
+. digitar o comando: Router (config-if)# description Subinterface da VLAN de SVI do Switch Layer 3 3560 do Grupo-04
+. digitar o comando: Router (config-if)# encapsulation dot1Q VLANSVI
+. digitar o comando: Router (config-if)# ip address 172.16.40.254 255.255.255.0
+. digitar o comando: Router (config-if)# exit
+
+(repetir esse passo para todos os usuarios)
+. digitar o comando: Router (config)# interface gigabitEthernet 0/0.VLANUSER
+. digitar o comando: Router (config-if)# description Subinterface da VLAN do NOME_DO_USER
+. digitar o comando: Router (config-if)# encapsulation dot1Q VLANUSER
+. digitar o comando: Router (config-if)# ip address 172.16.VLANUSER.254 255.255.255.0
+. digitar o comando: Router (config-if)# exit
+
+. digitar o comando: Router (config)# interface gigabitEthernet 0/0.45
+. digitar o comando: Router (config-if)# description Subinterface da VLAN Wireless
+. digitar o comando: Router (config-if)# encapsulation dot1Q VLANWIRE
+. digitar o comando: Router (config-if)# ip address 172.16.45.254 255.255.255.0
+. digitar o comando: Router (config-if)# end
+. digitar o comando: Router# copy running-config startup-config
+. digitar o comando: Router# show running-config
+. digitar o comando: Router# show ip interface brief
+. digitar o comando: Router# show ip route
+. digitar o comando: Router# show ip route connected
+
+
+--------------------------------------------------------------------------------------------
+
+
+12 - configuração do sw (VLAN E TRUNK)
+. digitar o comando: Switch> enable
+. digitar o comando: Switch# configure terminal
+. digitar o comando: Switch (config)# vlan 40
+. digitar o comando: Switch (config-vlan)# name svig04
+
+(repetir esse passo para todos os usuarios)
+. digitar o comando: Switch (config)# vlan VLANUSER
+. digitar o comando: Switch (config-vlan)# name NOME_DO_USER
+
+. digitar o comando: Switch (config)# vlan 45
+. digitar o comando: Switch (config-vlan)# name wifi
+. digitar o comando: Switch (config-vlan)# exit
+
+. digitar o comando: Switch (config)# interface fastEthernet 0/2
+. digitar o comando: Switch (config-if)# description Interface de Acesso da VLAN 41 do NOME_DO_USER
+. digitar o comando: Switch (config-if)# switchport mode access
+. digitar o comando: Switch (config-if)# switchport access vlan 41
+. digitar o comando: Switch (config-if)# exit
+. digitar o comando: Switch (config)# interface fastEthernet 0/3
+. digitar o comando: Switch (config-if)# description Interface de Acesso da VLAN 42 do NOME_DO_USER
+. digitar o comando: Switch (config-if)# switchport mode access
+. digitar o comando: Switch (config-if)# switchport access vlan 42
+. digitar o comando: Switch (config-if)# exit
+. digitar o comando: Switch (config)# interface fastEthernet 0/4
+. digitar o comando: Switch (config-if)# description Interface de Acesso da VLAN 43 do NOME_DO_USER
+. digitar o comando: Switch (config-if)# switchport mode access
+. digitar o comando: Switch (config-if)# switchport access vlan 43
+. digitar o comando: Switch (config-if)# exit
+. digitar o comando: Switch (config)# interface fastEthernet 0/6
+. digitar o comando: Switch (config-if)# description Interface de Acesso da VLAN 45 Wireless do Grupo-04
+. digitar o comando: Switch (config-if)# switchport mode access
+. digitar o comando: Switch (config-if)# switchport access vlan 45
+. digitar o comando: Switch (config-if)# exit
+. digitar o comando: Switch (config)# interface range fastEthernet 0/7 - 23
+. digitar o comando: Switch (config-if)# shutdown
+. digitar o comando: Switch (config-if)# exit
+. digitar o comando: Switch (config)# interface fastEthernet 0/24
+. digitar o comando: Switch (config-if)# description Interface de Trunk com o Router 2911 do Grupo-04
+. digitar o comando: Switch (config-if)# switchport trunk encapsulation dot1q
+. digitar o comando: Switch (config-if)# switchport mode trunk
+. digitar o comando: Switch (config-if)# end
+. digitar o comando: Switch# copy running-config startup-config
+. digitar o comando: Switch# show running-config
+. digitar o comando: Switch# show ip interface brief
+. digitar o comando: Switch# show vlan brief
+. digitar o comando: Switch# show vlan id VLAN
+. digitar o comando: Switch# show vlan name NAME
+. digitar o comando: Switch# show interface status
+. digitar o comando: Switch# show interface trunk
+. digitar o comando: Switch# show interfaces fastEthernet 0/24 status
+. digitar o comando: Switch# show interfaces fastEthernet 0/24 switchport
+(testes)
+. digitar o comando: Switch# ping 172.16.40.253
+. digitar o comando: Switch# ping 172.16.40.254
+. digitar o comando: Switch# ssh -l USER 172.16.40.254

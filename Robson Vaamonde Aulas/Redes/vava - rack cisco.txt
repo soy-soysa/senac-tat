@@ -343,4 +343,40 @@ ping:
 
 
 
-15 - 
+15 - Cabos Seriais DCE/DTE
+. DCE(f)(GP5) = Serial 0/0/0 = Dita velocidade
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+. DTE(m)(GP4) = Serial 0/0/1 = Recebe velocidade
+
+
+
+
+
+16 - configuração do rt (serial)
+. digitar o comando: Router> enable
+. digitar o comando: Router# configure terminal
+. digitar o comando: Router (config)# interface serial 0/0/0
+. digitar o comando: Router (config-if)# description Interface Serial do Grupo-4 para o Grupo-5
+. digitar o comando: Router (config-if)# ip address 192.168.1.13 255.255.255.252
+. digitar o comando: Router (config-if)# clock rate 2000000
+. digitar o comando: Router (config-if)# bandwidth 2000
+. digitar o comando: Router (config-if)# no shutdown
+. digitar o comando: Router (config-if)# exit
+. digitar o comando: Router (config)# interface serial 0/0/1
+. digitar o comando: Router (config-if)# description Interface Serial do Grupo-3 para Grupo-4
+. digitar o comando: Router (config-if)# ip address 192.168.1.10 255.255.255.252
+. digitar o comando: Router (config-if)# bandwidth 2000
+. digitar o comando: Router (config-if)# no shutdown
+. digitar o comando: Router (config-if)# end
+. digitar o comando: Router# copy running-config startup-config
+. digitar o comando: Router# show running-config
+. digitar o comando: Router# show ip interface brief
+. digitar o comando: Router# show ip route
+teste
+ping 192.168.1.?
+
+
+
+
+
+17 -

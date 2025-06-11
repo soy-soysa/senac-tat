@@ -2,6 +2,8 @@ IPS:
 Router & Gateway: 172.16.40.254
 Switch: 172.16.40.253
 Vlan users: 172.16.41-43.254
+mint: 172.16.43.102
+win: 172.16.43.103
 
 
 --------------------------------------------------------------------------------------------
@@ -379,4 +381,59 @@ ping 192.168.1.?
 
 
 
-17 -
+17 - conectar o GigabitEthernet 0/1 no router principal 0/4
+
+
+
+
+
+18 - configuração do rt (ospf) (apos essa etapa, todos se pingam)
+. digitar o comando: Router> enable
+. digitar o comando: Router# configure terminal
+. digitar o comando: Router (config)# interface loopback 0
+. digitar o comando: Router (config-if)# description Interface de Loopback para ID do OSPF do Grupo-04
+. digitar o comando: Router (config-if)# ip address 4.4.4.4 255.255.255.255
+. digitar o comando: Router (config-if)# no shutdown
+. digitar o comando: Router (config-if)# exit
+. digitar o comando: Router (config)# router ospf 4
+. digitar o comando: Router (config-router)# router-id 4.4.4.4
+. digitar o comando: Router (config-router)# passive-interface gigabitEthernet 0/0
+. digitar o comando: Router (config-router)# passive-interface gigabitEthernet 0/1
+. digitar o comando: Router (config-router)# auto-cost reference-bandwidth 10000
+. digitar o comando: Router (config-router)# log-adjacency-changes detail
+
+(repetir esse passo para todos os usuarios, SVI, WIRELESS
+. digitar o comando: Router (config-router)# 172.16.?.0 0.0.0.255 area 0
+
+. digitar o comando: Router (config-router)# network 192.168.1.13 0.0.0.3 area 0
+. digitar o comando: Router (config-router)# network 192.168.1.10 0.0.0.3 area 0
+. digitar o comando: Router (config-router)# end
+. digitar o comando: Router# copy running-config startup-config
+. digitar o comando: Router# show running-config
+. digitar o comando: Router# show ip protocols
+. digitar o comando: Router# show ip interface brief
+. digitar o comando: Router# show ip route
+. digitar o comando: Router# show ip route ospf
+. digitar o comando: Router# show ip route ospf ?.?.?.?
+. digitar o comando: Router# show ip ospf neighbor
+. digitar o comando: Router# show ip ospf database
+. digitar o comando: Router# show ip ospf database router
+. digitar o comando: Router# show ip ospf ?.?.?.?
+. digitar o comando: Router# show ip ospf interface
+
+
+
+
+
+19 - configuração do rt (internet) (apos essa etapa, internet liberada)
+. digitar o comando: Router> enable
+. digitar o comando: Router# configure terminal
+. digitar o comando: Router (config)# interface gigabitEthernet 0/1
+. digitar o comando: Router (config-if)# description Interface de acesso a Internet
+. digitar o comando: Router (config-if)# ip address dhcp
+. digitar o comando: Router (config-if)# no shutdown
+. digitar o comando: Router (config-if)# end
+. digitar o comando: Router# copy running-config startup-config
+. digitar o comando: Router# show running-config
+. digitar o comando: Router# show ip interface brief
+. digitar o comando: Router# show ip route

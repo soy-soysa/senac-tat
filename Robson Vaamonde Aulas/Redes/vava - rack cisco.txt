@@ -321,6 +321,7 @@ segurar o botao de reset ate ficar laranja e aparecer mensagem no terminal (Deu 
 . digitar o comando: Router# copy running-config startup-config
 . digitar o comando: Router# show ip dhcp pool
 . digitar o comando: Router# show ip dhcp binding
+
 (cabo console desnecessário a partir daqui)
 
 

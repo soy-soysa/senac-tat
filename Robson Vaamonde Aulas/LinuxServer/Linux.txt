@@ -1,0 +1,38 @@
+ip address show
+	
+ssh USUARIO@IP
+
+w
+
+1 - Atualização Linux
+
+.Digite o comando: sudo apt update
+.Digite o comando: sudo apt list --upgradable (opcional)
+.Digite o comando: sudo apt upgrade
+.Digite o comando: sudo apt dist-upgrade
+.Digite o comando: sudo apt full-upgrade
+.Digite o comando: sudo apt autoremove
+.Digite o comando: sudo apt autoclean
+.Digite o comando: sudo apt clean
+.Digite o comando: sudo apt list --installed (relatorio de atualizações)
+.Digite o comando: sudo cat -n /var/log/apt/history.log (opcional)
+.Digite o comando: sudo cat -n /var/log/apt/term.log (opcional)
+.Digite o comando: sudo reboot
+
+
+
+
+
+2 - Config Hostname e Netplan
+
+.Digite o comando: sudo vim /etc/hostname
+.Pressione a tecla: INSERT
+.Editar: wsuser.dominio.intra
+.Pressione a tecla: ESC SHIFT:
+.Digitar: x
+.Pressionar a tecla: ENTER
+.Digite o comando: sudo vim /etc/hosts
+.Pressionar a tecla: INSERT
+.Editar: <TAB>localhost.dominio.intra<TAB>wsuser
+         <TAB>wsuser.dominio.intra<TAB>wsuser
+IPESTATIC<TAB>wsuser.dominio.intra<TAB>wsuser 

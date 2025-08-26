@@ -16,12 +16,13 @@ Bin > Dec & Dec > Bin
 0101/0000 = 8OU (080)
 0100/0000 = PAK (064)
 0011/0000 = 8X6 (048)
-0000/1111 = MED (015)
+0010/0000 = MPA (032)
+0001/0000 = BAS (016)
 
-X X X X X X X 1 = 01 - 01
-X X X X X X 1 X = 02 - 03
-X X X X X 1 X X = 04 - 07
-X X X X 1 X X X = 08 - 15
+X X X X|X X X 1 = 01 - 01
+X X X X|X X 1 X = 02 - 03
+X X X X|X 1 X X = 04 - 07
+X X X X|1 X X X = 08 - 15
 ----------------------------------------------------------------------------
 Dec > Bin > Hexadecimal & Hexadecimal > Bin > Dec
 

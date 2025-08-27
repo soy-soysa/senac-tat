@@ -17,3 +17,6 @@ https://shields.io
 https://www.figma.com/
 https://linktr.ee
 https://www.iconfinder.com/ (downloads de icones para telefone devem ser obrigatoriamente em '32px.PNG')
+
+extensões VSC usadas:
+.liveserver
